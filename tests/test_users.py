@@ -1,13 +1,13 @@
 from http import HTTPStatus
+
 import pytest
 
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
-# Импортируем функцию для проверки ответа создания юзера
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
 
 
