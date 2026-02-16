@@ -8,7 +8,8 @@ from fixtures.files import FileFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.files import assert_create_file_response, assert_get_file_response, \
     assert_create_file_with_empty_filename_response, \
-    assert_create_file_with_empty_directory_response, assert_file_not_found_response
+    assert_create_file_with_empty_directory_response, assert_file_not_found_response, \
+    assert_get_file_with_incorrect_file_id_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -83,3 +84,15 @@ class TestFiles:
 
         # 6. Проверяем, что ответ соответствует схеме
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
+    def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
+        incorrect_file_id = "incorrect-file-id"
+
+        response = files_client.get_file_api(incorrect_file_id)
+        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_get_file_with_incorrect_file_id_response(response_data)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
