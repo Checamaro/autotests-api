@@ -6,13 +6,14 @@ from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
-    CreateExerciseResponseSchema, GetExerciseResponseSchema, UpdateExerciseResponseSchema, UpdateExerciseRequestSchema
+    CreateExerciseResponseSchema, GetExerciseResponseSchema, UpdateExerciseResponseSchema, UpdateExerciseRequestSchema,
+    GetExercisesQuerySchema, GetExercisesResponseSchema
 )
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
-    assert_update_exercise_response, assert_exercise_not_found_response
+    assert_update_exercise_response, assert_exercise_not_found_response, assert_get_exercises_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -183,5 +184,54 @@ class TestExercises:
 
         # Валидируем JSON-схему ответа с ошибкой
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
+    def test_get_exercises(
+            self,
+            exercises_client: ExercisesClient,
+            function_course: CourseFixture,
+            function_exercise: ExerciseFixture
+    ) -> None:
+        """
+        Тест проверяет получение списка заданий для конкретного курса.
+
+        Шаги:
+        1. Создаем несколько дополнительных заданий для того же курса
+        2. Формируем запрос на получение списка заданий с course_id
+        3. Отправляем GET-запрос к /api/v1/exercises
+        4. Проверяем статус код ответа (200 OK)
+        5. Проверяем, что список заданий соответствует созданным заданиям
+        6. Валидируем JSON-схему ответа
+
+        Args:
+            exercises_client: Фикстура клиента для работы с заданиями
+            function_course: Фикстура с данными созданного курса
+            function_exercise: Фикстура с данными первого созданного задания
+        """
+        # Получаем ID курса
+        course_id = function_course.response.course.id
+        print(f"\n📝 Курс ID: {course_id}")
+        # Создаем список для хранения ответов на создание заданий
+        create_responses = [function_exercise.response]
+        print(f"   Создано первое задание: ID={function_exercise.response.exercise.id}")
+        # Создаем еще 2 задания для этого же курса
+        for i in range(2):
+            request = CreateExerciseRequestSchema(course_id=course_id)
+            response = exercises_client.create_exercise(request)
+            create_responses.append(response)
+            print(f"   Создано дополнительное задание {i + 1}: ID={response.exercise.id}")
+        # Формируем параметры запроса с course_id
+        query = GetExercisesQuerySchema(course_id=course_id)
+        # Отправляем GET-запрос на получение списка заданий
+        response = exercises_client.get_exercises_api(query)
+        # Десериализуем JSON-ответ в Pydantic-модель
+        response_data = GetExercisesResponseSchema.model_validate_json(response.text)
+        # Проверяем статус код ответа
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        # Проверяем, что список заданий соответствует созданным
+        assert_get_exercises_response(response_data, create_responses)
+        # Валидируем JSON-схему ответа
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
+
 
 
