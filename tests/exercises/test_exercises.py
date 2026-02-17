@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import pytest
 
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
@@ -11,7 +12,7 @@ from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
-    assert_update_exercise_response
+    assert_update_exercise_response, assert_exercise_not_found_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -135,4 +136,52 @@ class TestExercises:
 
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_delete_exercise(
+            self,
+            exercises_client: ExercisesClient,
+            function_exercise: ExerciseFixture
+    ) -> None:
+        """
+        Тест проверяет удаление задания.
+
+        Шаги:
+        1. Получаем ID задания из фикстуры function_exercise
+        2. Отправляем DELETE-запрос к /api/v1/exercises/{exercise_id}
+        3. Проверяем статус код ответа на удаление (200 OK)
+        4. Пытаемся получить удаленное задание через GET-запрос
+        5. Проверяем статус код ответа (404 Not Found)
+        6. Проверяем, что в ответе содержится ошибка "Exercise not found"
+        7. Валидируем JSON-схему ответа с ошибкой
+
+        Args:
+            exercises_client: Фикстура клиента для работы с заданиями
+            function_exercise: Фикстура с данными созданного задания
+        """
+        # Получаем ID задания из фикстуры
+        exercise_id = function_exercise.response.exercise.id
+        print(f"\n📝 Исходное задание: ID={exercise_id}, название='{function_exercise.response.exercise.title}'")
+
+        # Отправляем DELETE-запрос на удаление задания
+        delete_response = exercises_client.delete_exercise_api(exercise_id)
+
+        # Проверяем статус код ответа на удаление
+        assert_status_code(delete_response.status_code, HTTPStatus.OK)
+        print(f"✅ Задание {exercise_id} успешно удалено")
+
+        # Пытаемся получить удаленное задание
+        get_response = exercises_client.get_exercise_api(exercise_id)
+
+        # Проверяем статус код ответа (ожидаем 404 Not Found)
+        assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
+
+        # Десериализуем JSON-ответ в модель InternalErrorResponseSchema
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+
+        # Проверяем, что в ответе содержится ошибка "Exercise not found"
+        assert_exercise_not_found_response(get_response_data)
+
+        # Валидируем JSON-схему ответа с ошибкой
+        validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
 
