@@ -5,12 +5,13 @@ import pytest
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
-    CreateExerciseResponseSchema, GetExerciseResponseSchema
+    CreateExerciseResponseSchema, GetExerciseResponseSchema, UpdateExerciseResponseSchema, UpdateExerciseRequestSchema
 )
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response
+from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
+    assert_update_exercise_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -92,3 +93,46 @@ class TestExercises:
 
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_update_exercise(
+            self,
+            exercises_client: ExercisesClient,
+            function_exercise: ExerciseFixture
+    ) -> None:
+        """
+        Тест проверяет обновление задания.
+
+        Шаги:
+        1. Получаем ID задания из фикстуры function_exercise
+        2. Формируем запрос на обновление с новыми значениями
+        3. Отправляем PATCH-запрос к /api/v1/exercises/{exercise_id}
+        4. Проверяем статус код ответа (200 OK)
+        5. Проверяем, что данные в ответе соответствуют запросу на обновление
+        6. Валидируем JSON-схему ответа
+        7. Проверяем, что задание действительно обновилось (опционально)
+
+        Args:
+            exercises_client: Фикстура клиента для работы с заданиями
+            function_exercise: Фикстура с данными созданного задания
+        """
+        # Получаем ID задания из фикстуры
+        exercise_id = function_exercise.response.exercise.id
+
+        # Формируем запрос на обновление с новыми значениями
+        request = UpdateExerciseRequestSchema()
+
+        # Отправляем PATCH-запрос на обновление задания
+        response = exercises_client.update_exercise_api(exercise_id, request)
+
+        # Десериализуем JSON-ответ в Pydantic-модель
+        response_data = UpdateExerciseResponseSchema.model_validate_json(response.text)
+
+        # Проверяем статус код ответа
+        assert_status_code(response.status_code, HTTPStatus.OK)
+
+        # Проверяем, что данные в ответе соответствуют запросу
+        assert_update_exercise_response(request, response_data)
+
+        # Валидируем JSON-схему ответа
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
