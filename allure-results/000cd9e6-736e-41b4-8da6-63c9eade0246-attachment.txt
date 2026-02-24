@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDA5OjIyOjUzLjE5MTU4MSIsInVzZXJfaWQiOiIzZTAzNzJjOC1hY2I3LTQyOTUtODEzOC04NjAwYzEyMjE2OTIifQ.kImaeKakLe89JziuSh6oVWB15YbUK-uAzeyuZMMtyHw' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand color situation mission organization strong.","maxScore":96,"minScore":25,"description":"Marriage analysis truth. Green increase form despite sort song mission. Ever start need nice health. Product voice two structure until difficult machine population.","estimatedTime":"2 weeks","previewFileId":"c08e4343-92cf-4ebd-8335-5a1d88ddf53b","createdByUserId":"3e0372c8-acb7-4295-8138-8600c1221692"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDA5OjIyOjU2LjE5MDIxMCIsInVzZXJfaWQiOiI5ZTNjMGVjOS05N2E3LTRiMzAtYjY5Zi00YjUwYzg2YTg1MmUifQ.sznjTj8VZSopUpvr7i0Y2KmgpxxCFYMz1HDBJTkzabM' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply suggest accept should appear.","maxScore":98,"minScore":10,"description":"Represent dream when. Parent difficult box raise or mean gas another.\nPopulation wind trial girl issue season must information.","estimatedTime":"9 weeks","previewFileId":"9612c8b8-27a1-414b-a8ed-49ee78d0b175","createdByUserId":"9e3c0ec9-97a7-4b30-b69f-4b50c86a852e"}'
