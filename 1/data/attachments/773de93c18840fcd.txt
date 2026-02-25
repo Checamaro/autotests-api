@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Newspaper future dream no.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 9aac7e68-adad-426a-9aae-063fd213789c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 25
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Increase black according brother successful process. Wall soon job church. Positive establish tend. Either audience future energy growth nature administration.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

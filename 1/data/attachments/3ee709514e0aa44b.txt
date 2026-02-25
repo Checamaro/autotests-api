@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjExOjAwLjc0MDEyMCIsInVzZXJfaWQiOiI5MjQ0YWNlNi01ODJiLTRhNTktODA4ZS0zOGYyYmY1NDgxNDYifQ.X2j973Eogpho7KNCe9VrGKPlOEoA1ErL6q3QNs5ylFk' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song personal cause writer machine.","maxScore":89,"minScore":28,"description":"Up avoid sport special attack son. We challenge away space floor fish decide. Might these seven heavy.","estimatedTime":"6 weeks","previewFileId":"cd16326a-627e-4e0c-ab54-bd45b3d9be3b","createdByUserId":"9244ace6-582b-4a59-808e-38f2bf548146"}'

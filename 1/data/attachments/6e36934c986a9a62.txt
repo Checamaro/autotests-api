@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjEwOjU4LjEzOTIyOCIsInVzZXJfaWQiOiI1MjYxNTM0YS0yYmE4LTRmODYtYTg3MC05MDY0YzNkZTE1YzYifQ.8fEHBeLW5VuNMK3KjT5LMdJn1qdPPhvDVfg0iezS60A' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure contain nor note spring heart among.","maxScore":83,"minScore":24,"description":"House understand six person dream eat. Others accept often concern final political claim.\nFine read drop happen use small ability. Coach class no ground point.","estimatedTime":"4 weeks","previewFileId":"a4b279b4-4720-4cb5-9b47-1d335c872476","createdByUserId":"5261534a-2ba8-4f86-a870-9064c3de15c6"}'

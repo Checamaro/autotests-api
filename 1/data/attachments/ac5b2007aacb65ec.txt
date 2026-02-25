@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjExOjAyLjkwMTE2MyIsInVzZXJfaWQiOiI4Y2U1MGRlYi0wNTJjLTQwOWItYjllMC1mMDE4NTdlYTgzYjEifQ.z9MJUN_0J1LvzeC_PMXPhnoWdtuD3TY8PpzINXqMe68' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Near close recent miss good across.","maxScore":77,"minScore":8,"description":"Position market close expert both baby region.\nRate rule three another talk senior voice. Itself then trip modern third. Stuff page end skill language.","estimatedTime":"6 weeks","previewFileId":"ff7559eb-fa0b-42a1-9494-db45429a4fd7","createdByUserId":"8ce50deb-052c-409b-b9e0-f01857ea83b1"}'

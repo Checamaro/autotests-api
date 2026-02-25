@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjEwOjU5LjI4OTAxNiIsInVzZXJfaWQiOiI1MWM2OTcwNS03OWFiLTRkNjEtODRlZC04YmZmMDgzZTk0NmUifQ.ub3uQIqMCDTdKCjGQ6UmWp1y-HivOee40kRYtuaL9pY' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care serve than film fund main.","maxScore":53,"minScore":7,"description":"Trouble woman Democrat single. Never measure wall population box girl.\nWear may often. Current record when thus.","estimatedTime":"7 weeks","previewFileId":"5230481a-95fa-417e-b8fa-59bbec4d2051","createdByUserId":"51c69705-79ab-4d61-84ed-8bff083e946e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjEwOjU5LjU2MjE4NSIsInVzZXJfaWQiOiJiMjgzOWE3Yi1hM2EwLTQzNzEtYTRmMC0wY2U2OTg0MTdlNmUifQ.BOTdUHe65ggCjhFzOBBSPFFedX0ZcH_YtFNY5sOIzz0' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional fear no he certain him walk.","maxScore":58,"minScore":20,"description":"Bag door wonder director difference. Guess safe image reveal decade who production. Choice wall wish economy.","estimatedTime":"7 weeks","previewFileId":"9f8e4e5f-6d88-4884-a6c3-4b9bd3f1fce0","createdByUserId":"b2839a7b-a3a0-4371-a4f0-0ce698417e6e"}'

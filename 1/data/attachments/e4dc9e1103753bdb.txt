@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/78ec40b1-980b-4f22-9474-e425f4da7cd8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjEwOjU5LjU2MjE4NSIsInVzZXJfaWQiOiJiMjgzOWE3Yi1hM2EwLTQzNzEtYTRmMC0wY2U2OTg0MTdlNmUifQ.BOTdUHe65ggCjhFzOBBSPFFedX0ZcH_YtFNY5sOIzz0' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Baby hour officer public election.","maxScore":54,"minScore":9,"description":"Forward hair likely follow. Mind use forward commercial role possible computer.\nWonder conference clearly. Another everybody bed price this focus activity behavior.","estimatedTime":"8 weeks"}'

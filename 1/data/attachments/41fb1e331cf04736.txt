@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDE3OjExOjAxLjkzNTExMSIsInVzZXJfaWQiOiIwNzI5NGI0Ni0zNmMzLTRlYzQtODcyOC0zMTI0ODViMDhhMmUifQ.JjfGulTDo_aM7k0ktbHTj2Ifpq8dzFfAixOu5QkTNHo' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer he final suggest final player.","maxScore":72,"minScore":9,"description":"Serve know pay son argue run. North book eye staff save control. Radio present author summer herself rock enter for.","estimatedTime":"1 weeks","previewFileId":"99d4e282-5ec9-4f41-9cf1-cb4611e410fe","createdByUserId":"07294b46-36c3-4ec4-8728-312485b08a2e"}'
