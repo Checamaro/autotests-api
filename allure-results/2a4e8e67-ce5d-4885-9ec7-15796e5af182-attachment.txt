@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDA5OjExOjM4Ljg3NTM4OSIsInVzZXJfaWQiOiIwOTJkYzhlOC1kOGM0LTQyNzgtODkxNy0yMmI5MDExYTYxNDUifQ.gahgCjGUpgqvdU2JFDea33dvj5CnQPGx2KuTLrpKE6U' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End form late people dark hold.","maxScore":55,"minScore":15,"description":"Detail west town anyone. Attorney likely they try.\nSerious move west industry feeling opportunity.","estimatedTime":"10 weeks","previewFileId":"97b5b884-6c5e-4e4c-b121-8c071c4f2811","createdByUserId":"092dc8e8-d8c4-4278-8917-22b9011a6145"}'

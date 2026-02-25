@@ -1,0 +1,22 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/exercises/7b8ebc32-62d6-479c-99a0-8b7be63c2504
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/7b8ebc32-62d6-479c-99a0-8b7be63c2504
+[32mINFO    [0m BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:49 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that "title" equals to Image reflect century until campaign.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 53
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 7
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 89
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that "description" equals to There much paper. Now site series including. Major force race.
+Turn no development option girl. Father so catch past history executive.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

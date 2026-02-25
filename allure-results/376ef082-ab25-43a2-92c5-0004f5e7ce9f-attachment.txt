@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDA5OjExOjQyLjc2NjcwOCIsInVzZXJfaWQiOiI5NTI5ZGIyZC1lOWEwLTRmMWEtYjhkNi04YzFmN2ZjNTJjYzUifQ.Wxh0ikIPzKd_a58D6QPEi5OxlPk5JugTJ5JkbQ-l1Q4' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Letter law place several eye least.","maxScore":62,"minScore":8,"description":"Summer color best just. Newspaper such call. Must star growth challenge.\nScene bank become break mind idea. Program realize certainly art friend war bag somebody.","estimatedTime":"10 weeks","previewFileId":"20c3c367-1960-43bb-b28d-96023a2de4e5","createdByUserId":"9529db2d-e9a0-4f1a-b8d6-8c1f7fc52cc5"}'

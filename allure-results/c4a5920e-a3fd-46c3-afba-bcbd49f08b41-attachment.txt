@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDA5OjExOjM5LjU5ODg1OSIsInVzZXJfaWQiOiI4ZGQwNWFiYi1mZDg5LTRjYTEtYmYyZi0wY2IyZmFkMGMwYzAifQ.u_OnCrpHYhfPDbqypcB3FoliJ7ghUfnQ0ZZZxlHgutQ' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Someone computer listen.","maxScore":98,"minScore":27,"description":"Pick too me authority responsibility learn cover. Shoulder character friend town natural throughout again available.\nRecord close key treat item food deal loss.","estimatedTime":"1 weeks","previewFileId":"0f0674ce-cf2e-48d9-a642-60691813e5f7","createdByUserId":"8dd05abb-fd89-4ca1-bf2f-0cb2fad0c0c0"}'
