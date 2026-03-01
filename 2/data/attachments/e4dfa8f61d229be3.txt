@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9b97fb92-8411-47ad-8438-d86adebd51cd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjM3Ljc3NDYwMSIsInVzZXJfaWQiOiJkYWVjYzcxZS02ZTYyLTRkMGYtYjdmZC0xMzEwMmE5ZDlhNWUifQ.VIaDf2V2C2NJhNJZGQ2EoPtKG7NZhzIBKpg02z7vt7A' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin TV analysis raise.","maxScore":78,"minScore":10,"description":"Civil land hope specific politics build involve car. Throughout bill television bit out former.\nGo daughter push heavy rock. Trial offer suggest at list. Last similar cut.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjM3Ljc3NDYwMSIsInVzZXJfaWQiOiJkYWVjYzcxZS02ZTYyLTRkMGYtYjdmZC0xMzEwMmE5ZDlhNWUifQ.VIaDf2V2C2NJhNJZGQ2EoPtKG7NZhzIBKpg02z7vt7A' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Experience history Democrat.","maxScore":73,"minScore":15,"description":"Case skin and conference add may. Imagine rule onto eight oil apply girl degree.\nScene end news. Oil since on still mother. Detail medical must Congress technology finally.","estimatedTime":"4 weeks","previewFileId":"1331a2e4-44c7-4220-9631-fa354d3bfe24","createdByUserId":"daecc71e-6e62-4d0f-b7fd-13102a9d9a5e"}'

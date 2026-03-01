@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjM3LjQ5OTYxNyIsInVzZXJfaWQiOiI2NWQ5ZjFlNS1kMGQ3LTQ5M2EtYmYwYS0wMWUyN2RlNDYxNjkifQ.KFttH0uC6_y4-t3WNWpYaqYi4dTQYK1tjBMl7Gz32dI' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difference treat beyond sport hot discuss.","maxScore":96,"minScore":18,"description":"Standard suddenly executive traditional for figure play. Impact if position without.\nStage particular lawyer executive. Both item head join. Management natural financial fund even.","estimatedTime":"8 weeks","previewFileId":"4bc486da-7aa6-4b62-a45f-f3e900dc263f","createdByUserId":"65d9f1e5-d0d7-493a-bf0a-01e27de46169"}'

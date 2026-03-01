@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjM4LjY4NTU3NCIsInVzZXJfaWQiOiI5ODBjYTU2OC0wYTJhLTRhOGItOWEzOC02NzFkNzgxNDUzYjcifQ.UiZ1gm26hlIkoffHdGKP9Vu6Dcq2KuN16lCrnjAiGfw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Only prove style available article something.","courseId":"294e394f-2b20-469b-938e-5437eaaebe92","maxScore":94,"minScore":11,"orderIndex":75,"description":"Girl agency agreement position word indeed pass. Part sometimes discover than hit really although travel.\nFilm two food stuff. Its use line rich race claim feeling. Season include six.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjQxLjEwOTg5MiIsInVzZXJfaWQiOiI3NDNlNDhlZC02YmUzLTQ5NTctOWEwZC0zMTY3MWMyYzEzMjQifQ.K7-P44LlQLNfKY_hPKcvRvZkoz8RYXf5ru-3pN53Ouo' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"East compare senior mind bill rule.","maxScore":57,"minScore":29,"description":"Particularly American create manage campaign seven.\nBudget side easy apply road end. Key per miss prove rich.\nPhysical remember recent day information gun team town.","estimatedTime":"6 weeks","previewFileId":"dbd44fa6-2ab5-402b-a85a-46797f267845","createdByUserId":"743e48ed-6be3-4957-9a0d-31671c2c1324"}'

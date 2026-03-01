@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjM4LjY4NTU3NCIsInVzZXJfaWQiOiI5ODBjYTU2OC0wYTJhLTRhOGItOWEzOC02NzFkNzgxNDUzYjcifQ.UiZ1gm26hlIkoffHdGKP9Vu6Dcq2KuN16lCrnjAiGfw' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Very picture kid.","maxScore":87,"minScore":8,"description":"Blood early meeting effect address. Loss admit pressure watch sit relate seat adult. Let develop must remember.","estimatedTime":"3 weeks","previewFileId":"a844373c-ead5-4f4d-81d5-9a3233da6249","createdByUserId":"980ca568-0a2a-4a8b-9a38-671d781453b7"}'

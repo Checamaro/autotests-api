@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Difference treat beyond sport hot discuss.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Standard suddenly executive traditional for figure play. Impact if position without.
+Stage particular lawyer executive. Both item head join. Management natural financial fund even.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 4bc486da-7aa6-4b62-a45f-f3e900dc263f
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 65d9f1e5-d0d7-493a-bf0a-01e27de46169
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

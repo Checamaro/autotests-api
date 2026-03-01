@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDA5OjQ5OjM5Ljg3MDY2MiIsInVzZXJfaWQiOiI4MTNlNGJkYi0wNmM5LTQyODQtOGI5Yy04ZjRkYzM5OGU2NGMifQ.Ep0NvrAqoxqKvdCpkUiw8yfhXA1OkWMCc_6YY0z5dmQ' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Will garden purpose political company project.","maxScore":70,"minScore":10,"description":"Tough security join deep nature.\nAgain general together. Person sure director knowledge plan.","estimatedTime":"4 weeks","previewFileId":"6f420674-5fe0-4dce-a8b1-c82751ceacb9","createdByUserId":"813e4bdb-06c9-4284-8b9c-8f4dc398e64c"}'
