@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ1Ljg5OTU0MyIsInVzZXJfaWQiOiJlOTEyZjBhMi0yNmU3LTQ1OWEtYTExZS0xZTE0MGZjODJmZTMifQ.gWtNFGZyzOgn4SjS3O5r6LvFJrIXZdvrxZwIkaQSEs4' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine campaign out laugh position.","maxScore":56,"minScore":17,"description":"Whatever top benefit my get cover describe dream.\nServe very training catch size event. Television book important marriage question.","estimatedTime":"6 weeks","previewFileId":"2728e86f-f45b-4398-be63-a7c89f97abf4","createdByUserId":"e912f0a2-26e7-459a-a11e-1e140fc82fe3"}'

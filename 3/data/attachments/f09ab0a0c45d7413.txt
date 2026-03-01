@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ3Ljk3MDQzMyIsInVzZXJfaWQiOiJmZWYzMDdmYS0xZDI2LTQ4NjYtOWNmMi03ZjM1MjQxN2QxYzMifQ.rcshkL5IFi5FO2N9aa3p_Ci9tZdC-EUgVbgjOSi934I' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win dog style budget successful current writer from.","maxScore":80,"minScore":20,"description":"Line move drug back account. Sing home computer return where federal. Past mother current hospital staff himself.\nMedia choose off ever important project manage. Back seek job say yet.","estimatedTime":"8 weeks","previewFileId":"55e19d06-dfc1-4f27-937e-91f97afee3d6","createdByUserId":"fef307fa-1d26-4866-9cf2-7f352417d1c3"}'

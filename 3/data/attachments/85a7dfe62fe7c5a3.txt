@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ5LjgyMjMwMSIsInVzZXJfaWQiOiJhOTU1ODcwZS00ZjljLTQyZWQtOTZkMy04OTZkMGRkMTA3NjAifQ.Uo87XyTktomggWcTZKRHVrOmpNsySucCvvuIR_8ribI' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept eight audience occur western president resource conference.","maxScore":56,"minScore":3,"description":"Gun player hotel order level economic hear. Five skin put us worker commercial point. Medical morning market American within season soon charge. Very movement book expect.","estimatedTime":"8 weeks","previewFileId":"de911b83-ee05-4beb-acfa-276898493c87","createdByUserId":"a955870e-4f9c-42ed-96d3-896d0dd10760"}'

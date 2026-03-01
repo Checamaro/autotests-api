@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b681e8a7-6fa1-4ea1-8116-1f49fb9e6e73' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ3LjM4NTA2OCIsInVzZXJfaWQiOiJmZTVjYjc1NC1hYTM2LTQ0YWYtOGFhMi00Y2UwZTYyMDRlOGYifQ.5UZVHSOy2YTqRqeEmQFpreHZKH0FpLQmuEg6Qm-P4-g' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature position store another more.","maxScore":84,"minScore":13,"description":"Yes hair blue sort. Quickly job decision culture both. Conference pick edge positive structure least true business. Crime thank team dog shake.","estimatedTime":"8 weeks"}'

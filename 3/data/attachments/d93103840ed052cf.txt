@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ2LjgwMzc3NCIsInVzZXJfaWQiOiI3Zjg5MmFiYS00ZDg0LTQxZjEtYjZkNy03NjQ2ZjZkYzY0ZDcifQ.YKIeXN9nf7-oZHbuLPBEzwUifeMEMKkxL5IEKRMJ-ng' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural amount suffer apply money no.","maxScore":89,"minScore":13,"description":"Throughout more ready energy campaign. Quite performance store. Service take four.\nAmong education color hold. Father radio let decade.","estimatedTime":"1 weeks","previewFileId":"a926f0d5-90ac-4e1a-b699-e99957cdd4e9","createdByUserId":"7f892aba-4d84-41f1-b6d7-7646f6dc64d7"}'

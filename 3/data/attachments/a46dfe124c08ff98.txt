@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjUwLjQzMjE2OSIsInVzZXJfaWQiOiIwMmU5N2E1Yi1mMmU3LTRlMTgtOTNhYi03MjYwNzIyNjkyYTQifQ.Tv3GRrzMYWfuMyv1ifI1SBn_-aqMJv0GEa_HPDDBi8I' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell occur case news specific thousand.","maxScore":96,"minScore":25,"description":"Top anyone human wonder during close. Rock structure money remain start any.\nThe kind might likely land those. Common attorney building art after radio road. Old pressure meet result.","estimatedTime":"6 weeks","previewFileId":"d7e5e1b0-6b14-40c5-99a1-2514f8db77f3","createdByUserId":"02e97a5b-f2e7-4e18-93ab-7260722692a4"}'

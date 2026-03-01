@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ4LjYwODI0NyIsInVzZXJfaWQiOiI0NDQ1YTBmMy0xYmUwLTQzYTgtODU3MC0xZWQ2ZjE3MzY5NDUifQ.XKIg_vmn7RwfsZqr_cR4PQlOmFUFOWpk_22datk906c' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice head better nor region rest.","maxScore":59,"minScore":20,"description":"Occur every do sit good nice. May hard mission senior like within product. Hotel policy third fast.","estimatedTime":"2 weeks","previewFileId":"c8ec5f07-53f7-4abe-beca-87b523074c69","createdByUserId":"4445a0f3-1be0-43a8-8570-1ed6f1736945"}'

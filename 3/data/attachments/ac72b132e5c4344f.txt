@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjMwOjQ5LjE4ODkwNiIsInVzZXJfaWQiOiJhNDRlMGNhNS0yMmRjLTRiYWMtYTRiMC04MDYwZGJmYWNkZWQifQ.xwZsBToHlT4cLL7icKMfgX4fUdCFEY2T3gfpDWGGVO8' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"To wrong hope quickly street brother.","maxScore":89,"minScore":20,"description":"Key partner story human.\nEasy news carry traditional threat morning. Then strategy free your. Case use two father interview in road.","estimatedTime":"6 weeks","previewFileId":"e480e2aa-cc6c-40b1-a0d8-1c6b0ee27ff4","createdByUserId":"a44e0ca5-22dc-4bac-a4b0-8060dbfacded"}'

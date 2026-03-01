@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Natural amount suffer apply money no.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Throughout more ready energy campaign. Quite performance store. Service take four.
+Among education color hold. Father radio let decade.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to a926f0d5-90ac-4e1a-b699-e99957cdd4e9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 7f892aba-4d84-41f1-b6d7-7646f6dc64d7
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema
