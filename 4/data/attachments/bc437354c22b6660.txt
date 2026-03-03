@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA1LjM3NjY5OCIsInVzZXJfaWQiOiI4MzcwZTljOC0wNTg5LTQ3YzEtYTIzMC1hMjYyOTU2MjhjMzcifQ.ZGwp-Uac1QCXkxJX6SbRH7z2YTECzDvLQDPX8C5F4fc' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Edge bag radio cold yet sell between course.","courseId":"a4790254-fa7b-4550-8762-a3ecb75cd30b","maxScore":70,"minScore":3,"orderIndex":1,"description":"Lawyer art nation state case various smile. Table what return significant entire. Plant majority eight ago.\nState ok somebody financial wear experience. Daughter whole recent where any put research.","estimatedTime":"7 weeks"}'

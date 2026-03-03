@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA3LjI1OTEwNiIsInVzZXJfaWQiOiIzYTYwMDRhNi00YjZmLTRiYzctOGQ1My0xNDYyYTUwMWQwY2UifQ.-xMN1rrgxQTCI_9NXBGM8QBOtBeKPldZIq3fltQwFMw' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certain life send hour.","maxScore":71,"minScore":23,"description":"Push company report hospital station. Rule travel future him tree mouth each. Small any allow probably attention and.","estimatedTime":"8 weeks","previewFileId":"502d85d8-204e-492b-9aa4-d06c0eaef70a","createdByUserId":"3a6004a6-4b6f-4bc7-8d53-1462a501d0ce"}'

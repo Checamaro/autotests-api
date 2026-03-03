@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/257de98a-e303-42a4-826d-a5eb9c617524' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA0Ljc3OTYyMCIsInVzZXJfaWQiOiIwMjI4OTk2NC0yNzQ5LTQ3YTktYjg5Mi05ZjYzYTkxMWM1ODQifQ.9AL2PuQAp-zWu6lAPdjbdN3PdMguhFt45jgqmLqOUL8' \
+  -H 'content-length: 244' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leg compare food down.","maxScore":87,"minScore":5,"description":"Drug point center deal on either. Final wife late growth.\nCourse daughter town run discuss song administration hear. Down see thus realize.","estimatedTime":"2 weeks"}'

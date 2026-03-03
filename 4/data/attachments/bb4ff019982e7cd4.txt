@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA0Ljc3OTYyMCIsInVzZXJfaWQiOiIwMjI4OTk2NC0yNzQ5LTQ3YTktYjg5Mi05ZjYzYTkxMWM1ODQifQ.9AL2PuQAp-zWu6lAPdjbdN3PdMguhFt45jgqmLqOUL8' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever claim mind really.","maxScore":52,"minScore":12,"description":"Radio federal water hear away. Red floor evening require throughout opportunity. Someone end really before reduce once clear your.","estimatedTime":"8 weeks","previewFileId":"6325f6a3-4481-4db4-b413-edaf86621033","createdByUserId":"02289964-2749-47a9-b892-9f63a911c584"}'

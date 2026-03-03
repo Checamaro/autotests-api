@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA2LjYxODg3NyIsInVzZXJfaWQiOiIwODNhMTA0MC05Mzk1LTRiMTMtYTU1Zi0yM2I2NDUzYWViZDYifQ.DLeafiQwVh2yLrhg8w1iMKdHTAvSML-3KHzo-teP6ug' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Check laugh charge rest big central attack experience.","maxScore":80,"minScore":14,"description":"Purpose sign firm represent thousand. Me language much.\nResponsibility even find another. Find environmental should certainly thing leader impact. Evening activity dinner explain decision.","estimatedTime":"6 weeks","previewFileId":"a1ab4052-421a-4ea1-9960-ea0cab039ecf","createdByUserId":"083a1040-9395-4b13-a55f-23b6453aebd6"}'

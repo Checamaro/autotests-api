@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cedaee61-f4b6-4350-a97e-cd0d2a452429' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA2LjAyNTgzOCIsInVzZXJfaWQiOiJhNTZiZTNjYS1hOTU2LTQ3OTUtOGZiYS1kYTE4NzBkOTU5NmMifQ.2iJbwAYSx5zo_3A3QZFx1gVrIAKEmFTO545vOHVD9Vk' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material home subject.","maxScore":91,"minScore":4,"orderIndex":85,"description":"Less image one child relate develop while. Police industry late include. Score article court technology can meet.\nHave federal serious everyone interest believe. Care newspaper town follow upon try.","estimatedTime":"10 weeks"}'

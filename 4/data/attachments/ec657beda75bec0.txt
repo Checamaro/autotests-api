@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA0LjE0NDk3MiIsInVzZXJfaWQiOiJkNDMyZTUwNi1iODZjLTQ1MTAtOGU5Mi1lMGQxYzZjMDAxMWIifQ.31oq5MGsg1jL77hm1ImSu1NlxhqkegJ88XOFdGGHBUQ' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"War like idea social many.","maxScore":73,"minScore":18,"description":"Century either decision likely education. Although information let small western town.","estimatedTime":"5 weeks","previewFileId":"9cbbf2e8-0fc2-4059-9ded-c4b1e159af49","createdByUserId":"d432e506-b86c-4510-8e92-e0d1c6c0011b"}'

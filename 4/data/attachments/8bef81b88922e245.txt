@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA3Ljg3OTcyOCIsInVzZXJfaWQiOiJkODNlNTE1Ny02ODQ1LTQzZWMtYTQzMC05YWFkYjVjYzM4MmYifQ.s-YtkieScEToyKwghmHmfFzHF7rcaQYQuHwN9by2bxo' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along present national.","maxScore":67,"minScore":21,"description":"Television get real training time finish. Perhaps hundred democratic tonight anyone. Skill particularly suddenly strong account sense. Market avoid win that skill thousand it in.","estimatedTime":"1 weeks","previewFileId":"0b4f1d3b-e2e6-423d-97c9-199b55d68200","createdByUserId":"d83e5157-6845-43ec-a430-9aadb5cc382f"}'

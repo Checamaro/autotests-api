@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA1LjM3NjY5OCIsInVzZXJfaWQiOiI4MzcwZTljOC0wNTg5LTQ3YzEtYTIzMC1hMjYyOTU2MjhjMzcifQ.ZGwp-Uac1QCXkxJX6SbRH7z2YTECzDvLQDPX8C5F4fc' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Something generation rock marriage.","maxScore":77,"minScore":13,"description":"Once everybody game ok. Industry improve population culture. Statement along method tax forget. Join open try prepare.\nGood support section second spend. Truth loss always such.","estimatedTime":"1 weeks","previewFileId":"1f68f650-d13c-4fab-9051-6254cf02ace2","createdByUserId":"8370e9c8-0589-47c1-a230-a26295628c37"}'

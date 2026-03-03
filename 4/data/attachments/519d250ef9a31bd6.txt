@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDA2OjMzOjA2LjAyNTgzOCIsInVzZXJfaWQiOiJhNTZiZTNjYS1hOTU2LTQ3OTUtOGZiYS1kYTE4NzBkOTU5NmMifQ.2iJbwAYSx5zo_3A3QZFx1gVrIAKEmFTO545vOHVD9Vk' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm stock peace conference know college people.","maxScore":70,"minScore":13,"description":"Choice appear see natural. Choose any hope hotel claim couple think.","estimatedTime":"10 weeks","previewFileId":"9dd652ac-2791-4c17-b974-13c079e6868d","createdByUserId":"a56be3ca-a956-4795-8fba-da1870d9596c"}'
