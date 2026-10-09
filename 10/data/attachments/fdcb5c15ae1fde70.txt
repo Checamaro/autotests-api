@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer fbe90475a63654160f819367bcf1910eecbcabaab2cace1e21244f1cb5c0b8eb' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself head that information measure who.","maxScore":60,"minScore":28,"description":"Paper music but minute. Good course school cup share so.\nFund successful allow. Parent at suffer country our build civil. Again inside strategy left somebody deep series.","estimatedTime":"4 weeks","previewFileId":"7d56f2f2-71e9-4e15-9572-6ed299cd22b7","createdByUserId":"f7b4d377-9cda-475e-9824-798b61e40902"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM0LjQ1NzgxNCIsInVzZXJfaWQiOiJhODdkMjY1Ny1hOGIxLTQ0MDktYTBmMy1jZjc5N2YzZWVmYWYifQ.EwoxXWjm-J2waMXzC0zJY9DfLFfBcNGtjYaNi77F_rE' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do country beat certain brother customer production.","maxScore":56,"minScore":20,"description":"Perhaps water fund. Election reality most. Price crime add late. Southern music purpose attorney.\nWear plant right interesting. Maybe car actually series.","estimatedTime":"7 weeks","previewFileId":"3d5a478f-262c-4910-b737-325ad050a369","createdByUserId":"a87d2657-a8b1-4409-a0f3-cf797f3eefaf"}'

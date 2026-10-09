@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU5LjczMzQ1MyIsInVzZXJfaWQiOiI2YmVhYzQ2MC0zOGE4LTQwMWUtOWNhMi03YTlhOTkzMzYwMmIifQ.DQnjWvOE5keGECZUxSY8cbqDqednPLZ3gqMo3F5SxH4' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer sound interest job.","maxScore":61,"minScore":19,"description":"Hundred beat could deep final network. Despite number owner organization general three.","estimatedTime":"10 weeks","previewFileId":"ee810422-77b3-4e7e-b368-089d21042f63","createdByUserId":"6beac460-38a8-401e-9ca2-7a9a9933602b"}'

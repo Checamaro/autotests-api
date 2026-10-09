@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ0Ljg0MjQ0MSIsInVzZXJfaWQiOiIyYjZmODQzNS00YzlmLTQxODctYmNkZS04YTRkNzk0Y2U3YzIifQ.phTzGoatocpV2YGgWspFQ49LvzhxvMZ0g2b3jIoDYk8' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"","maxScore":75,"minScore":12,"description":"Consider politics fly factor energy. Month pick which place attention agency ten.\nPay present picture above. Star food senior apply want less country. Low food wrong.","estimatedTime":"9 weeks","previewFileId":"c65df3de-aa02-4c52-8299-02991e5dacae","createdByUserId":"2b6f8435-4c9f-4187-bcde-8a4d794ce7c2"}'

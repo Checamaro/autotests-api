@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAzLjA2NjQ1OSIsInVzZXJfaWQiOiJjNDY2OTlkYi0zM2ZmLTRlODQtOTc3YS01NjJlYThhYjlhNWUifQ.72n56_2nKVYTEouAbB3L0u3mfD90N5BycVS5Qv9KmAk' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation bad subject product.","maxScore":94,"minScore":28,"description":"Program way rich reach laugh issue member today. Catch tonight resource total role political two. Society never American statement our month.","estimatedTime":"7 weeks","previewFileId":"2594a3df-158b-43c2-a690-8a0d47585c3a","createdByUserId":"c46699db-33ff-4e84-977a-562ea8ab9a5e"}'

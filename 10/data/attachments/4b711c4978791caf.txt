@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ2LjQ3NjMyMiIsInVzZXJfaWQiOiJlMTkzZTg2Ni01Y2RmLTRlYmUtYTAxZS04MGNlMTA0OTIyZDQifQ.yanONPbNjpy7XtrO-3T9_gZyYyIP08hMw1R1sEVJ61A' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Course provide piece family reason during ask nearly.","maxScore":96,"minScore":21,"description":"So sometimes yard red call whether magazine. Two child wrong skill and.\nFew until answer important country. Opportunity society west cell group act. East either see more.","estimatedTime":"6 weeks","previewFileId":"e87a6a56-729b-4c6c-8c8b-0277a8b201ae","createdByUserId":"e193e866-5cdf-4ebe-a01e-80ce104922d4"}'

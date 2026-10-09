@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/eRKAJNyBkW' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU4LjQwNjc4NiIsInVzZXJfaWQiOiIzMmUyMDk2Yy0yNTY5LTQzZjAtYjE5NS1lMzdmODg0ZWE0MDgifQ.7A3FNUrNEtsS7e7ien_pqbGpaPY-CM6eqE1foI0k9wk' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material you none.","maxScore":69,"minScore":3,"description":"Mr citizen by simply. Writer great science home they wait.\nSource most through begin administration summer. Also daughter teacher value.\nGirl reflect age see hope civil. Decide as few real hand.","estimatedTime":"7 weeks"}'

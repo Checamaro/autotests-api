@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMwLjA0MDYwNiIsInVzZXJfaWQiOiIwZGJkMzRkYy0wZDhhLTQ3NmEtYTViYy01MjhiYmU5ZTFlMzQifQ.SpQOx7gJfcuYyXTQG3ShxWWjym3WpKaZngzyc7p8plQ' \
+  -H 'content-length: 633' \
+  -H 'content-type: application/json' \
+  -d '{"title":"twZycGvODtOPXYDpdNVTlwzyaVJNVXHbyDGrPMTzZNhqpEFRhOyveHjePBcxuPGRtdLnbKgaXGhirbylELfAIIaqfBMRmuQrRFdrkmfNtTcHIsCPQVXYcMxwjQdBIXLXBBfBVzDHmnaQFAqVebroJEYcaqUEzxJsYTKARUkXoOxwTrCOaYvMTxhRcuvsegMYkIleuWsqDmxyjIsyNeIvRKzyXQBmIsjEYlYKLQKbUxNGTlDEvwAsRQduvT","maxScore":58,"minScore":30,"description":"Million collection center. Throughout join dream create religious. Member back management.\nBecome why along health school next cover important. Other unit newspaper picture imagine claim.","estimatedTime":"8 weeks","previewFileId":"d4615c54-83dc-4684-8b77-43e1769967f3","createdByUserId":"0dbd34dc-0d8a-476a-a5bc-528bbe9e1e34"}'

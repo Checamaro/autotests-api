@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMxLjE1NjE3MyIsInVzZXJfaWQiOiI2MWJlN2Q3OS0zODQ1LTRhMTQtOWE4Yy1iZDJmY2IwMjM2YjIifQ.uU4A0p312JqiYBnzf4oUgqfeHOwwVEfPCxM2xlkNkrI' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill those wish method relationship test community.","maxScore":69,"minScore":8,"description":"Decide meet student improve good quickly week fill. Recognize police there deep win suggest war buy. Improve go Mrs.\nDrug anyone suggest point sometimes risk. Leave factor kid economy sea town save.","estimatedTime":"6 weeks","previewFileId":"0a4b6a89-d84c-4723-8118-c8148c375104","createdByUserId":"61be7d79-3845-4a14-9a8c-bd2fcb0236b2"}'

@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make DELETE request to http://localhost:8000/api/v1/courses/0a5aaeff-fdb1-447b-9e3e-74626d1d87ae
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/0a5aaeff-fdb1-447b-9e3e-74626d1d87ae
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/courses/0a5aaeff-fdb1-447b-9e3e-74626d1d87ae
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 404 Not Found from http://localhost:8000/api/v1/courses/0a5aaeff-fdb1-447b-9e3e-74626d1d87ae
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 404

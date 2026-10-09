@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAyLjgxNzEzOCIsInVzZXJfaWQiOiIwOGNiMWM0Zi1jN2Y1LTRiOTgtOWQxNS03NGUwM2U0Y2JkNjQifQ.PQKzS2N4CpNXwqP1p05QWPmeenNDcKAPUCv76YbT_CI' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Again agree weight ever thank special all our.","maxScore":89,"minScore":3,"description":"Choose green loss name. Now issue admit where information citizen section lose.\nOnce son pattern thousand across. Trade mouth section seven force. Crime fight early its.","estimatedTime":"7 weeks","previewFileId":"05d3a282-b359-4dac-9ac3-95e84b1d5663","createdByUserId":"08cb1c4f-c7f5-4b98-9d15-74e03e4cbd64"}'

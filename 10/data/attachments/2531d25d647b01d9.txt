@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ3Ljg5MzgwMSIsInVzZXJfaWQiOiI3ZDQ5MjlmYS0wOGNkLTRjODctYmE0Yi01NmQwNmRmZjYzMGIifQ.-N2hBRBv6vsJgCoYc6CfH3e3BdAOfgXPK1--M98MLIc' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service agency determine structure.","maxScore":54,"minScore":19,"description":"Sign however experience detail wait goal. Somebody conference player much position everyone reflect. Show spend establish you late.\nMake arrive school Democrat near. Second one theory against.","estimatedTime":"","previewFileId":"fdf10c9f-6798-4660-9a09-31c6f311b346","createdByUserId":"7d4929fa-08cd-4c87-ba4b-56d06dff630b"}'

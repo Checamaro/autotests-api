@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjUwLjY1MTI0OSIsInVzZXJfaWQiOiIwM2RiZjg4MS05MzkwLTQ2NWItOGFhYy0xNDMzMjMwMTlmODUifQ.DNg8spnL9VBVa6Qf_-TXO8Ma_pArGGb-TXUlN8lbsow' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Race imagine home.","maxScore":77,"minScore":3,"description":"Question religious policy focus system.\nScience church around fast foreign. Fast sign magazine someone million make always.\nInside fact author firm.","estimatedTime":"4 weeks","previewFileId":"22511960-0b71-4057-b1c5-283340d38ea3","createdByUserId":"03dbf881-9390-465b-8aac-143323019f85"}'

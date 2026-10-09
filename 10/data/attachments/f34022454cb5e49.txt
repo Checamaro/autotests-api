@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI2LjcwOTE4MCIsInVzZXJfaWQiOiJiNjU1OGRlMS03ZmE4LTQyNTctYWUyMS0zNWRjYjI5YTk4M2QifQ.VLkWlo30p6ZxGY0-Xz6bn6nmzDGbddrtQ5JnJei_1r0' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manager writer where season body.","description":"End many those election laugh value nice prove.\nAbove use significant standard room floor which. Source war bar. Wonder believe style late expect finish look.","previewFileId":"18927c7b-d353-4000-a875-2c00e4b2b962","createdByUserId":"b6558de1-7fa8-4257-ae21-35dcb29a983d"}'

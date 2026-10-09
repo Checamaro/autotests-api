@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMzLjA3NzI4NCIsInVzZXJfaWQiOiI5NGE0MzdhMy1mODEwLTRmZDgtYjFmNC03MTZkZjU0YzQyYWYifQ.HvNFAX3YrbHpHxjsqrk52Yzb1Lv46czOBSSMhsP10Ms' \
+  -H 'content-length: 449' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone chair president.","maxScore":94,"minScore":7,"description":"Leg bill sense her than meet people lawyer. New seat fill writer phone.\nMatter minute manage which effort. Your education professor piece produce billion stage. Customer tend approach arm.","estimatedTime":"jlOhCFQTFfBCLDeMYHUuuAcYAsGFnqvgYRnvaTWSxQVlzcvkpd","previewFileId":"0286c136-114c-477f-a4d5-02cf13baf8e6","createdByUserId":"94a437a3-f810-4fd8-b1f4-716df54c42af"}'

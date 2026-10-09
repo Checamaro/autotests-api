@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Manager writer where season body.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to End many those election laugh value nice prove.
+Above use significant standard room floor which. Source war bar. Wonder believe style late expect finish look.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 18927c7b-d353-4000-a875-2c00e4b2b962
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to b6558de1-7fa8-4257-ae21-35dcb29a983d
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

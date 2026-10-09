@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAxLjcxNTY4NiIsInVzZXJfaWQiOiJkNTRjZmIzYS00YmRhLTQ2ZmUtODQ0ZC1iMDM4YWY5NDUyOTQifQ.SgO83F7f0zMqoxhNfFiXWYzg5-v5KjG9EekwHiOmgaw' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit including another exactly gas.","maxScore":93,"minScore":20,"description":"Remain enter when watch. Choice PM card agreement.\nAlong until identify hard situation range air. Why treat vote thank peace mission water.","estimatedTime":"5 weeks","previewFileId":"baee217f-3e3f-4534-87db-e17f98cf9b64","createdByUserId":"d54cfb3a-4bda-46fe-844d-b038af945294"}'

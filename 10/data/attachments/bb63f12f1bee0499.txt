@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI1LjYzNzgyNSIsInVzZXJfaWQiOiJiMWI0NTkwMC1hNmFhLTQ5YTYtYmFmNC1hMzVlOTUyOTMxMzYifQ.rlPDmsrYpyx1hrLsTuWV98kmdlBJcPxJ2I6s3r5PxL0' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure radio natural those address build.","maxScore":89,"minScore":15,"description":"Modern memory particular. Race affect PM wonder.\nApproach senior as threat training scene water. Cold house time accept clear movie less ok. Coach onto site easy far sing look.","estimatedTime":"6 weeks","previewFileId":"5d3821db-015e-47a0-acd9-6f6ef77f02ed","createdByUserId":"b1b45900-a6aa-49a6-baf4-a35e95293136"}'

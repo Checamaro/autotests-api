@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU1LjMxNTIxOCIsInVzZXJfaWQiOiI5MjljNWY0OS1mZmRkLTRmMjUtOTFjZC0wYjlmYmI0OGFmMTQifQ.cjQe8pTuXFDAwqBP-8ce-t6IUU9P25VH6DJxEHHXWEg' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whether role center compare half.","maxScore":92,"minScore":23,"description":"Community level or memory. Upon race ask any exist while many. Resource store quality especially against peace.","estimatedTime":"3 weeks","previewFileId":"b454d767-aabc-49fd-b677-2e6ce7aadb15","createdByUserId":"929c5f49-ffdd-4f25-91cd-0b9fbb48af14"}'

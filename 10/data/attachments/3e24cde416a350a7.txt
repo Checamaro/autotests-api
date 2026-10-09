@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjUzLjE1NDcyOCIsInVzZXJfaWQiOiI1YTE3ZmY2NC00ZmYyLTQ4YWItYWJmNi00ZWJjY2FiZTYxZWQifQ.-gF6pvLR42cID6KWSh8yYgwA1A6_LMDvpS-wZ6NCgl8' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Look figure matter.","maxScore":79,"minScore":20,"description":"Mission team record himself since. Relate prepare final place everything. Start speech think summer.","estimatedTime":"8 weeks","previewFileId":"dc3ff896-59dd-4a7c-8028-4935de5ea102","createdByUserId":"5a17ff64-4ff2-48ab-abf6-4ebccabe61ed"}'

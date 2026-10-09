@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAwLjU5NDgxOSIsInVzZXJfaWQiOiI4ZjZlYzE1Ny01YjNmLTQ5MjYtYmM5OC1kYTg4YzcxMTE2YWQifQ.mfvvKk-SmZ_fYrctnjdLfShS9luLXM32sw5X5mlMC-k' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole politics start student fish particularly subject.","maxScore":76,"minScore":19,"description":"Enter bank small according anyone. Choose reason same behavior top. Black dream our instead along already.","estimatedTime":"5 weeks","previewFileId":"5f1dadf5-e97e-40cd-9be5-e513304e71e8","createdByUserId":"8f6ec157-5b3f-4926-bc98-da88c71116ad"}'

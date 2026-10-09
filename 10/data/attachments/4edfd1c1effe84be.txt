@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQzLjc5MzI5OCIsInVzZXJfaWQiOiIzNjdkMGI5Yy05MjYyLTQ3YzEtYjJiYy1kZDQyYTY5NmUwOGMifQ.YpY1LvdLW-F_9Jf_B9DPPfUw32f8ad6OQlveoqyRuFA' \
+  -H 'content-length: 615' \
+  -H 'content-type: application/json' \
+  -d '{"title":"WNhVMIuUomWScvbtImCmzFHkinUrqqdSLxRRqbuAEiWVrpzAoKhDwBhRowhihLGkPdKZmVkJZYTORpCVqjWcJLPqHqaRiDCxwOVSCfOrKkXuOVNMuqgsuZhdxerlQCxXMEQOFqHUyiGYyoLxdrigaCLKxYfattDLCXHJuarjZpBOSufUJHYxwKCuGRKcvorEKRTxhlpCTssYWyalSFwURJGboIZjyprtvxURRbaVJwaNpiViBDfMMgHiWlT","maxScore":78,"minScore":25,"description":"Coach five unit wrong past simply her. Wonder yes body level course. Call affect mean clear deep.\nDraw growth moment type. Rock garden although. Very citizen task news.","estimatedTime":"4 weeks","previewFileId":"497e526f-4323-46fb-9bab-156f5b24e6b6","createdByUserId":"367d0b9c-9262-47c1-b2bc-dd42a696e08c"}'

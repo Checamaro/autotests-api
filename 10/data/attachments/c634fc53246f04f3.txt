@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ4LjcyNjcxNSIsInVzZXJfaWQiOiIyYzY2MDE3Zi1lNTBiLTRiYmUtOGRhNi0wMTliNjNkYzYxMjcifQ.wF_qeSgMDMLuQdTEKd9JpJAgAgJT5afBonhGYezdHVk' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"maxScore":66,"minScore":24,"description":"Scene matter ask certain probably letter. Offer brother ten sort weight network we always. Represent common generation.\nWhile live camera gun without. Really dream field road network bag trial.","estimatedTime":"2 weeks","previewFileId":"db43e134-2817-49b2-8fc1-7dabe3475b26","createdByUserId":"2c66017f-e50b-4bbe-8da6-019b63dc6127"}'

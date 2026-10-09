@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMxLjk5MzI3MiIsInVzZXJfaWQiOiIzMGM2YzE3Ni03ODUxLTRkZDgtYTNlZi0wNTRiMzNiMmVmMzIifQ.o8OHoo9ubNT_0xNTRdyS9wgvkuy2acOAQRGzxw-I51g' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group door let interesting doctor from natural individual.","maxScore":89,"minScore":2,"description":"Agreement may everything bed kind here crime bill.\nFear between and apply century state scientist. Without hit action. Free back customer care similar travel.","estimatedTime":"R","previewFileId":"fb88ff22-602d-4f8b-9683-267c5a06a285","createdByUserId":"30c6c176-7851-4dd8-a3ef-054b33b2ef32"}'

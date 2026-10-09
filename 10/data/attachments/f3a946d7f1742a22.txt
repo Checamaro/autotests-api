@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQyLjE5MzQ5NSIsInVzZXJfaWQiOiJlZTQxODgwYi01ZDk0LTRkOTAtOTUxYS1hZjQ2ZjI1Y2ZkYjUifQ.54UhUc1PmLI-cip4I0SaniBKFKzi_3TKrnAWR3PHhmE' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set per finish along into.","courseId":"55e25a03-7eec-47af-86e8-505916cecbc2","maxScore":64,"minScore":24,"orderIndex":7,"description":"Well last question public research discover simple. These better simple ready day young.\nStreet you main particular sign carry. Wonder why threat community program. Live enter cut agency animal.","estimatedTime":"5 weeks"}'

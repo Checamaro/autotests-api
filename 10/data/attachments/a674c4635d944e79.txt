@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Month popular message line today day above wife.","maxScore":85,"minScore":22,"description":"Chair hold contain view. How member suggest only our hot be. Role job car not.\nKnowledge glass difference newspaper we would. Early not week meeting thing after.","estimatedTime":"4 weeks","previewFileId":"c08cd190-a485-4092-b5fa-f3b6496c2e0d","createdByUserId":"10b45f22-3b55-49f7-95ab-201f54979d50"}'

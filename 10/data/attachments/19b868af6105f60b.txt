@@ -1,0 +1,8 @@
+curl -X 'DELETE' \
+  'http://localhost:8000/api/v1/courses/62f1b569-0e78-43df-a8b5-2450ac0dbcce' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM4LjM4NTg5MiIsInVzZXJfaWQiOiI1NWY2ZmUzYy1lNjg4LTQwNDgtYWI4Mi0wNDZhMWIyYzZiMzYifQ.B94fJBXGcLX_jUOVOQtz8J4kE_D916N8AHSTTGR5PI0'

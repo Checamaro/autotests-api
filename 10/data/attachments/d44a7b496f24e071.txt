@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Anyone chair president.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 94
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Leg bill sense her than meet people lawyer. New seat fill writer phone.
+Matter minute manage which effort. Your education professor piece produce billion stage. Customer tend approach arm.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to jlOhCFQTFfBCLDeMYHUuuAcYAsGFnqvgYRnvaTWSxQVlzcvkpd
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 0286c136-114c-477f-a4d5-02cf13baf8e6
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 94a437a3-f810-4fd8-b1f4-716df54c42af
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

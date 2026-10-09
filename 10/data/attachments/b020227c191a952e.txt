@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI4LjY2NjI2NSIsInVzZXJfaWQiOiI2MmZjYmRkNy1kNzJkLTQyZjItYWMzYS0zZDU1ZGYwNTdhNzMifQ.Q1zNZR2ibuC_Y9aPhEMeLxXXK9b-dvdsBKR0LYdH7s8' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into street surface.","maxScore":82,"minScore":28,"description":"None company easy crime. Full available reason sure feeling. There war officer worry floor.\nMoney include nearly many area. Apply city data. Suffer lay little occur.","estimatedTime":"1 weeks","previewFileId":"5a408e89-ff4b-4a2a-b9a8-36e98c367a51","createdByUserId":"62fcbdd7-d72d-42f2-ac3a-3d55df057a73"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Day space than.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Institution claim dark mission authority yard. Out threat back. Win feeling ground kitchen follow thing baby.
+Ten might speak prove sound stuff. Man certainly visit produce federal avoid here common.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to ea185836-bb63-4e98-b3f1-022b09c9780b
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to c489187c-b006-4a50-b1b9-d6923ec0f69b
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

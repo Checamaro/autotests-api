@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAxLjk2NDI3MyIsInVzZXJfaWQiOiI5YTExNjU1ZC1hYjI1LTQyMjEtODBmNS1iZmI2OTMwOTQxYzUifQ.nalS1elHz4n5qiQ4wKaJ3hBJJYki-XbPk6u9q02u6MI' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next easy bit enough make speech.","maxScore":63,"minScore":7,"description":"Bag although for about light himself remember create. Effort laugh instead thing only cost economy benefit.","estimatedTime":"2 weeks","previewFileId":"3973930a-1e67-4372-96b6-3a930b02ddba","createdByUserId":"9a11655d-ab25-4221-80f5-bfb6930941c5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM1LjA1NTAzOCIsInVzZXJfaWQiOiJlMzVmMGQxZS0zZWIyLTQ4ZjQtODI5MS0zZWRmYTNhOWEwNTMifQ.7H1P45pD3rHBB62qWsozOU7u8LimteQIVRcPsBMEsyc' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek answer voice.","maxScore":61,"minScore":null,"description":"Role edge themselves. Federal seat deal measure mean child dog. Guy magazine grow gas young order. Term memory do turn owner southern beat.","estimatedTime":"3 weeks","previewFileId":"06fa1163-6fd5-4c3a-aba5-fda843cbfe8f","createdByUserId":"e35f0d1e-3eb2-48f4-8291-3edfa3a9a053"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM2Ljc0Njk1NiIsInVzZXJfaWQiOiI4YjRlOWM3MS0zZDkyLTQ0NjktOWZmYS1lNGE4N2EwNjE2NGUifQ.melFnZq6jC4HJscwjuTwqMZNChig-xe9swxP_1yYQrc' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack buy more vote structure.","maxScore":94,"minScore":17,"description":"Range whose easy partner different anything. Break bag deal safe close.\nOn interesting identify unit. Actually political now candidate always.","estimatedTime":"2 weeks","previewFileId":"6ec307a8-9298-4c4f-8de2-caa1037d30bc","createdByUserId":"8b4e9c71-3d92-4469-9ffa-e4a87a06164e"}'

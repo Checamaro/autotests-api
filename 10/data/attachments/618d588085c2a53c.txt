@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMyLjI0ODA5NCIsInVzZXJfaWQiOiI4OWNkNThiOC0wMzFlLTQwMjktOTgxZi1lMTcyZDQwMWY1ZDYifQ.MfbmGVhC-SDTf8bQG8Wnchqx8areQwhG66PZ9L80M3E' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth listen where gas win.","maxScore":86,"minScore":29,"description":"Care certain them reason. Happen design any view want after. Today quite step outside.\nLater response perhaps movie against.","estimatedTime":"8 weeks","previewFileId":"57eb7798-8a50-4a87-894d-125b13a7beaa","createdByUserId":"89cd58b8-031e-4029-981f-e172d401f5d6"}'

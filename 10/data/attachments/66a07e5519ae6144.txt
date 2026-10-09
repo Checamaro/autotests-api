@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjUxLjc1MzgzMCIsInVzZXJfaWQiOiI4OTM0NjFjNy0wMTI1LTQxYmItYWVlOC0wNzk4MzgzYmQ3NTQifQ.VfML40iRHHgbhPU0yXPxr9_s4MWm2gAFIbd994iJGaQ' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right deal receive service health hear red.","maxScore":84,"minScore":5,"description":"Represent born shake. Success discover successful ahead information decision old. Music security security Democrat trial seek accept.","estimatedTime":"4 weeks","previewFileId":"22ec1457-44bb-4b94-a5db-6ad2ab5085b4","createdByUserId":"893461c7-0125-41bb-aee8-0798383bd754"}'

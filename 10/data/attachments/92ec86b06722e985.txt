@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ3LjA0NjYzMiIsInVzZXJfaWQiOiJlZTFlYTU1MC1lYWQ3LTQ2ZGEtYjg5Yy1hNDJlOThjMWQ1ZjEifQ.AMzovKFvXMF6HT_iCU4P3AE-U4sAkLCXzZ9COTAy8js' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper here because machine end.","maxScore":75,"minScore":27,"description":"Site same whether away itself offer. Its support business dog citizen discussion what. Before politics nearly door unit young help.","estimatedTime":"rNLSiexTYPnUsqDjZmwEPNppLJlQxYWBoOSdWwhQhyCYMFBwZAH","previewFileId":"5a654b0c-3989-4786-b3aa-5d3daaa32e5c","createdByUserId":"ee1ea550-ead7-46da-b89c-a42e98c1d5f1"}'

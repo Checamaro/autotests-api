@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e54beef5-b225-47ee-8f10-5d7a6215fdb5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMxLjE1NjE3MyIsInVzZXJfaWQiOiI2MWJlN2Q3OS0zODQ1LTRhMTQtOWE4Yy1iZDJmY2IwMjM2YjIifQ.uU4A0p312JqiYBnzf4oUgqfeHOwwVEfPCxM2xlkNkrI' \
+  -H 'content-length: 52' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Family Mr learn down must fear boy word."}'

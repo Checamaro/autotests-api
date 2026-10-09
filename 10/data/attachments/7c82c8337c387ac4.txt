@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI5Ljc5MTIyOSIsInVzZXJfaWQiOiIxZTA2MzFjMS0yMTNiLTQxODEtOWIxZi1iMjlhNzA1ZjRiZDcifQ.eaIvqmCGS5G_jn7t6eG-mMXftE2cHaZsrfhF-xC_gvM' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship beat whether although study discuss.","maxScore":79,"minScore":13,"description":"Every none home his occur hair family. Study according season near improve.\nFormer book hit stock voice. Building four be opportunity mean. Treat will probably eight leader represent how whole.","estimatedTime":"8 weeks","previewFileId":"1a1038c2-9c26-40e6-97b0-842c58d08b78","createdByUserId":"1e0631c1-213b-4181-9b1f-b29a705f4bd7"}'

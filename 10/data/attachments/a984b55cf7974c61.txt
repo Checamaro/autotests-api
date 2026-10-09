@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU3LjAwMDc4OSIsInVzZXJfaWQiOiIyMjI0ZGY3MS1mMTlmLTQzNWQtODFjZC01YmFjY2VhMDI3ZDYifQ.MpEOXi5ir7xQ5Wdeq_4XSCe1tlaGQUJSa0OKtHXXlu4' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give happy public situation.","maxScore":81,"minScore":12,"description":"About skin kitchen behavior guess hundred art soon. Address reflect individual store opportunity eat.","estimatedTime":"4 weeks","previewFileId":"05d5f035-ab2d-4026-9044-4ad98333b8ab","createdByUserId":"2224df71-f19f-435d-81cd-5baccea027d6"}'

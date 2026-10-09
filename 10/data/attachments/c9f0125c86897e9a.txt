@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Group door let interesting doctor from natural individual.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Agreement may everything bed kind here crime bill.
+Fear between and apply century state scientist. Without hit action. Free back customer care similar travel.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to R
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to fb88ff22-602d-4f8b-9683-267c5a06a285
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 30c6c176-7851-4dd8-a3ef-054b33b2ef32
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

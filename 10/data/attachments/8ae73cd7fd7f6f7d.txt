@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQxLjY2ODI4NCIsInVzZXJfaWQiOiI0ODA0N2M5My0wOWRiLTQzNzItYjdkYS1iOWZmZTk1NmM5OTIifQ.CZX1U_tHXzUXsNWqFtT6F7aQjnLPFbZyH4jQb2UG-aY' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Focus career down center hope.","maxScore":3,"minScore":88,"description":"Ask ground set study. Mouth box leader sign. Condition magazine news behavior control.\nTonight space hope its throughout take. Itself bank community east. Bed attack trial first purpose nice officer.","estimatedTime":"6 weeks","previewFileId":"f2508922-1ca8-475f-ac75-ca0d05475ba1","createdByUserId":"48047c93-09db-4372-b7da-b9ffe956c992"}'

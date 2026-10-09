@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM4LjkxNjI4NiIsInVzZXJfaWQiOiI4NTUwNjg4My01ODRiLTQwMjAtOTIwNy05YWEzYjNhZjlkNTEifQ.yuJ6543oJZ7UGUygmKLssA2HZf3fykPPtskALFwfg9Q' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Number space often watch have institution.","maxScore":88,"minScore":2,"description":"Avoid citizen couple only. Risk cut lose fish although. Especially special serve local order throughout if.\nMember try describe majority account. Take race commercial painting defense enjoy.","estimatedTime":"4 weeks","previewFileId":"OqTbXffMkq","createdByUserId":"85506883-584b-4020-9207-9aa3b3af9d51"}'

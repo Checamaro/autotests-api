@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU2LjQ1NzAxOCIsInVzZXJfaWQiOiI2MTBmZDJkOC0wNmRlLTQ3OGUtOWQ0My1jYWYwMGQyZWI0ZjQifQ.Mk3_-QsBxUQntvvAwo0yX7uAo4ul3zURsvuergzRvqk' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce south song number teacher say year thing.","maxScore":94,"minScore":27,"description":"Throughout these where official five although. Response Mrs eat southern reach among fill relationship. Decade set network region possible collection authority.\nSociety order second despite phone.","estimatedTime":"9 weeks","previewFileId":"9a352d9d-480b-464d-b917-0a35ef7b37af","createdByUserId":"610fd2d8-06de-478e-9d43-caf00d2eb4f4"}'

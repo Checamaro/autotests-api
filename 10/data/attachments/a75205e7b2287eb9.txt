@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM0LjE3NDQxNiIsInVzZXJfaWQiOiI3YjJiMjdjZS03ZmY3LTRiZTktYTkyMi02MWIzMWNjMzFlOWMifQ.bxz1QLMu5RVpYEm-_qVCDqu7I4NLJT1pJw2j2DSetA4' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Value game spend free receive discover score.","maxScore":75,"minScore":75,"description":"Exist trip street. Forward get system no.\nBy picture body likely late song look. Marriage should believe pattern clear.","estimatedTime":"4 weeks","previewFileId":"21174e86-4b51-47e8-8e79-66d3d8f7b7ce","createdByUserId":"7b2b27ce-7ff7-4be9-a922-61b31cc31e9c"}'

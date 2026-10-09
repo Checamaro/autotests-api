@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/734b0a04-927e-4360-91ba-4bf173ec8681' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMzLjMyODAxNiIsInVzZXJfaWQiOiJmMDYxMjkxNi1hNTk3LTQ5ZmItYTNjYy0zYjIyMzcxNTljZTMifQ.mskLqOgBI5c6IG3bcA_6oupISmqdB7RwCzYnRGi9LA4' \
+  -H 'content-length: 27' \
+  -H 'content-type: application/json' \
+  -d '{"estimatedTime":"2 weeks"}'

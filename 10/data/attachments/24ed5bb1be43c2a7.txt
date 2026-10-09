@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ1Ljk1MjcwMiIsInVzZXJfaWQiOiJlMmFmZmQ3NS1mMDc1LTQ2NmUtOTJhZi01YmNjMDQ3NDNjNjgifQ.M6vyRnIrGD-rmeRj8EenM-fzqBMR7k6DTYJQXCKxQMA' \
+  -H 'content-length: 247' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology home information remember she impact per.","maxScore":91,"minScore":20,"description":"","estimatedTime":"8 weeks","previewFileId":"1331e903-fd82-4aa4-b319-9742ec94efcd","createdByUserId":"e2affd75-f075-466e-92af-5bcc04743c68"}'

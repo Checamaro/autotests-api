@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3b7a3465-725d-4263-b6e3-30f587ec640b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAzLjg0NDU1OCIsInVzZXJfaWQiOiI2Nzg3NGI4Yi1hOTFhLTQ5NGEtOWUzZS1mZTJjODhiMWE1NDQifQ.gp7D0C7093dtgVyyI-9MnvzeunVAwSBNjHr5yk0jjfs' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Marriage buy decade agree artist seek himself you.","maxScore":71,"minScore":21,"description":"Region stuff it degree have ability. Family if early. Baby view professor despite set standard check stock.","estimatedTime":"5 weeks"}'

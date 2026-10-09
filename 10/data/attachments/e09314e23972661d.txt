@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI0Ljk1ODQ3NyIsInVzZXJfaWQiOiI5OGUxMWI4OC1jMzZjLTQ0NDMtOWJhYy1mZDg2YTVlMjFkZmYifQ.cx32rsuRy0it1N34t4IgKKy-h_EwQqMDua0_P-i2Md4' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Little think door hard.","maxScore":62,"minScore":28,"description":"Rock seem benefit approach. Catch travel generation goal maintain notice prevent.\nWhere worker born fill although alone. Certainly attention media manage because. Country score Congress dog any.","estimatedTime":"5 weeks","previewFileId":"dded914e-cd13-4c47-aab3-bf0a2c400631","createdByUserId":"98e11b88-c36c-4443-9bac-fd86a5e21dff"}'

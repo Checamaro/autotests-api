@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/edc651fe-86ce-404a-8d42-fdab0ae42a69' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU5LjQ4MTg0MCIsInVzZXJfaWQiOiJkZjc5YTY3OC1iMjg0LTQ3NTktODMyNy0wZmQ2ZDVlMmQwMGIifQ.cYYJ993vL4aV4IVVRDuHHXv0-J4kCCfLocdYwyjVpPQ' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich create support receive arrive hit.","maxScore":83,"minScore":14,"description":"Throw maintain scene scientist share level. Any blue reveal join single skill this west. Feeling also trip point indeed nation sometimes.","estimatedTime":"3 weeks"}'

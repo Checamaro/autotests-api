@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjAwLjg0NTIzMSIsInVzZXJfaWQiOiJlNGQ5OTBkOC00MWY1LTQ2NzUtOTBmOC1hOGVjMzQ2ZTExMTQifQ.zO2Ym6VT2Df-eRrAPMlZKL14INso78S6gD29rF4hgn8' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agree director either former.","maxScore":72,"minScore":9,"description":"Provide movie something both design interest. Participant wait wish born later which interest national.\nBuilding impact must choice have second near. Go court leg election be amount artist.","estimatedTime":"2 weeks","previewFileId":"2f6a978b-2f54-4190-bc70-71c48acd4841","createdByUserId":"e4d990d8-41f5-4675-90f8-a8ec346e1114"}'

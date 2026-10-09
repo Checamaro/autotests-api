@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjUzLjk5MTczOCIsInVzZXJfaWQiOiJlM2E5ZWNiMC05OTE5LTQ4N2UtODVjZi1mZjJhNmE3NDQ2OWIifQ.f_RbHa1zA-p100DRr9h4ArPlSdZusnEndXwY2Z804PY' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"North fall camera own point think suddenly perform.","maxScore":74,"minScore":3,"description":"High figure number rock center our. Season cause mother around floor. Care question government system clear meeting.","estimatedTime":"1 weeks","previewFileId":"a48e4094-ff14-46fb-bf6f-f5ac81c7d2ce","createdByUserId":"e3a9ecb0-9919-487e-85cf-ff2a6a74469b"}'

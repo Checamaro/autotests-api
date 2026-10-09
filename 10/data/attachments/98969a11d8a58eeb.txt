@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjA2LjM2OTQ1NyIsInVzZXJfaWQiOiI4MDRmZmExNy0wMGIyLTRjMTMtOTRiZi1kMmRiMGUyMjYxNmIifQ.AQcnkkbe9oWwQoFO1Xq7pEK0H38ESvlFcJjwtOvaZtg' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay that system check.","maxScore":63,"minScore":15,"description":"Administration feeling citizen your lead. Assume help whatever note member. Four allow future sing.\nBecome show form reduce again once out.\nPhysical continue treat could type. Similar offer it firm.","estimatedTime":"10 weeks","previewFileId":"59d5fae7-c1b6-40dc-85a1-3303cd9ae687","createdByUserId":"804ffa17-00b2-4c13-94bf-d2db0e22616b"}'

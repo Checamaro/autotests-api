@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjMzLjMyODAxNiIsInVzZXJfaWQiOiJmMDYxMjkxNi1hNTk3LTQ5ZmItYTNjYy0zYjIyMzcxNTljZTMifQ.mskLqOgBI5c6IG3bcA_6oupISmqdB7RwCzYnRGi9LA4' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly right fear wonder candidate agency foot kind.","maxScore":92,"minScore":14,"description":"Whole change indeed work run movement born analysis.\nStory market explain kid. Significant which fish pay. City science build edge up course theory know. Section piece avoid race be tend few.","estimatedTime":"3 weeks","previewFileId":"16271aca-7292-423c-b0ec-8825f956876a","createdByUserId":"f0612916-a597-49fb-a3cc-3b2237159ce3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjUyLjAxMDAzMyIsInVzZXJfaWQiOiI0ZjljNjg3My0zMjViLTQ5ZjEtOGUwYy1iZGQ0NzZjOTRhOTEifQ.2EQFC7pWVy_5Hnyhk8sZegfRwMq9kUPMvEwFmbEwHnc' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"House region thus financial east pick.","maxScore":54,"minScore":26,"description":"Ability daughter between to institution.\nDemocrat development specific prevent professional wear. Matter return campaign cut western traditional writer.","estimatedTime":"3 weeks","previewFileId":"37d73da5-3e9f-4ff0-a181-e149e98ddf7a"}'

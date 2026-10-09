@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQxLjA4NDE3NSIsInVzZXJfaWQiOiIwMmQwZDVkZi02ZGExLTQ5MzgtYmEzYy1iMWM1YmEzNzQyN2EifQ.drvkp89dPXyqORJqu1Zxd68I3owQiXy_GofN3F2_whw' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where design everybody Mr hospital beat let consumer.","maxScore":61,"minScore":29,"description":"Along wish compare up. Region single others participant race world low. Middle fire since.\nExpect memory a base leader. Will again include human poor.","estimatedTime":"4 weeks","previewFileId":"5a8b24d9-f470-4222-aa7b-4c03fb265efb","createdByUserId":"02d0d5df-6da1-4938-ba3c-b1c5ba37427a"}'

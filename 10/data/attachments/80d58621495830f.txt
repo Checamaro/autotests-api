@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjA1LjIzNzE3MCIsInVzZXJfaWQiOiIxY2RkMjU4MS0wM2U2LTRlYWQtOThkMC1kZWFjODVhNmRiMzcifQ.8wLDuzuGxyr6pVmQL2XgNSpyJJNAZOQsGMlD-xSXoNc' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Still whole yourself her.","maxScore":90,"minScore":16,"description":"Produce determine interesting bank by million. Team nature girl rest edge receive out. Carry beat red money her personal.","estimatedTime":"7 weeks","previewFileId":"157ede6b-7c73-47ea-9716-305904aabf32","createdByUserId":"1cdd2581-03e6-4ead-98d0-deac85a6db37"}'

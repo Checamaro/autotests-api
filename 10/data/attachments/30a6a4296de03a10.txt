@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ5Ljg1MTUxOSIsInVzZXJfaWQiOiIyYTQxOGZlYS1jMmE2LTQxYzQtOTI1Zi1hZTVlYTI5MTgxM2QifQ.AbPTVnIdATcAadFsK6kbhf0moUTssE4YAnyjhNd8tpE' \
+  -H 'content-length: 205' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result lawyer whom itself.","maxScore":69,"minScore":23,"estimatedTime":"10 weeks","previewFileId":"d89fa860-2f57-4171-b1c2-ddf89f55a234","createdByUserId":"2a418fea-c2a6-41c4-925f-ae5ea291813d"}'

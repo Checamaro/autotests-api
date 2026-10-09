@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI2LjQ1NjUwNSIsInVzZXJfaWQiOiI5MWRjNGQ5Zi1lMzkyLTRmMDItYTU4NS1mMzZmZDJlOGM3MGQifQ.Sxto8bp8E1WcTWSgAtYCuXj0SRRNcxu1P92Tii5ksLQ' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media event baby model sport early place.","maxScore":51,"minScore":17,"description":"Political sport alone leave series floor. Somebody check arrive sign beat yeah finally.\nThroughout free wish make role.","estimatedTime":"2 weeks","previewFileId":"a4a10756-c6c2-4406-a17c-ef64df6af56c","createdByUserId":"91dc4d9f-e392-4f02-a585-f36fd2e8c70d"}'

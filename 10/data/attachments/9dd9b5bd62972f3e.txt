@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/28e3bee6-50ac-4995-a85f-d321002f681a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI5Ljc5MTIyOSIsInVzZXJfaWQiOiIxZTA2MzFjMS0yMTNiLTQxODEtOWIxZi1iMjlhNzA1ZjRiZDcifQ.eaIvqmCGS5G_jn7t6eG-mMXftE2cHaZsrfhF-xC_gvM' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seat discuss represent strategy air.","maxScore":84,"minScore":25,"description":"Company though least difference. Accept rise tell above. Physical result money bar involve in. Wall serious word many skin day relationship pressure.","estimatedTime":"3 weeks"}'

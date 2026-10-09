@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ5LjMwMjczNSIsInVzZXJfaWQiOiIzNjczMmI0Mi0wNmVjLTRkYjEtODFjYy1hMTUwOTIyZDFkMWIifQ.W0dUekYRVIypB4N4AdjAx-635V6PxZ3lDNEqvcI55AU' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Price speech follow image seven near.","maxScore":58,"minScore":10,"description":"Poor long when as city. Southern floor society across. Also sound local deal treat fact factor ago.","estimatedTime":"6 weeks","previewFileId":"801df312-528b-4c62-bcf7-c95b1dbbbe92","createdByUserId":"36732b42-06ec-4db1-81cc-a150922d1d1b"}'

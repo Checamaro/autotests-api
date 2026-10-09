@@ -1,0 +1,10 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cbeb51a5-e8d9-4dac-935c-12d190c1d981' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 220' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item of well early.","maxScore":60,"minScore":24,"description":"Which race your such food. Stock across partner because language remember country. Cell but hear yard space land task.","estimatedTime":"9 weeks"}'

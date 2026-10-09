@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjA2LjExMTkzMyIsInVzZXJfaWQiOiI5MjQ1OTFhYy0yNTVlLTQ2MjItOTA5Yi0xNDE4MzRjN2MyYzQifQ.lGxVW4pL5PqE31WI80o9yly5CaBvh0EJcl53r3LWLNo' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reveal and such surface.","maxScore":99,"minScore":4,"description":"Investment cell if standard clearly manage. Politics each determine it but technology sure. Last radio lose floor always enjoy lawyer.","estimatedTime":"4 weeks","previewFileId":"4348053c-36ed-42f6-8027-b0c5fde6d3f6","createdByUserId":"924591ac-255e-4622-909b-141834c7c2c4"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5ee037f9-2946-4a64-83c0-6dfb067f58de' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer 03ceca4e10f12788d9195357169dd22dd9da6ec7323342dfb0d6a00697b68418' \
+  -H 'content-length: 222' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least board social.","maxScore":69,"minScore":13,"description":"Certainly film administration movement building tree far. Media tree serve interesting use institution. Lose big create.","estimatedTime":"4 weeks"}'

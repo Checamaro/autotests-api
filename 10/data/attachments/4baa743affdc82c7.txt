@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjUyLjkwMzQxNSIsInVzZXJfaWQiOiJmMmU3MTQ1MC00MzAwLTQ1ODQtODQ5OS02YTc2NGIzNTQ0N2IifQ.DhHQMQKpyRbz2uHbyFq1ocgzZyNj82somFszGQWZz2g' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement other college approach here.","maxScore":51,"minScore":29,"description":"Federal upon him somebody total fight claim. Involve source nearly may shake year.","estimatedTime":"6 weeks","previewFileId":"56ceaacb-204b-40c6-a3ec-cbed8a8b5b8f","createdByUserId":"f2e71450-4300-4584-8499-6a764b35447b"}'

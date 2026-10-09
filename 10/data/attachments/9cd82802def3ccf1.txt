@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjI4LjkxNzY4OSIsInVzZXJfaWQiOiJiNjE4NjM0OS0wNDMzLTRlZTEtYmUxYy0yNTZmNDRhOTNiYjMifQ.fEtl5qFn0XabDDyqT5SeTr4dnMv56qr0PcOgjvP8kmQ' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"R","maxScore":79,"minScore":4,"description":"Thousand question local opportunity order. Defense responsibility mouth skill water try how.","estimatedTime":"2 weeks","previewFileId":"43d5880b-bb57-4fbb-85fd-46b37ed3dcc2","createdByUserId":"b6186349-0433-4ee1-be1c-256f44a93bb3"}'

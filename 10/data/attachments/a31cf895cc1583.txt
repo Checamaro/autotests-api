@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM1LjU4NDYzMSIsInVzZXJfaWQiOiI3ZTJkYTRmMi0xMjk5LTRlMTgtOTU1NC01MTAxNDQyYjFkYzQifQ.1KAuyIK4HmSO2GmHg4IPBLTzTMiip-DVcdAjsBMvHrs' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine modern quite serve week effect kitchen hour.","maxScore":87,"minScore":14,"description":"Indicate in where situation right early develop. Effect onto model memory task figure image. Century before sea me pretty three question.","estimatedTime":"10 weeks","previewFileId":"42cddf35-49c5-4899-88a6-ec2c76d469d8","createdByUserId":"7e2da4f2-1299-4e18-9554-5101442b1dc4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjA2LjExMTkzMyIsInVzZXJfaWQiOiI5MjQ1OTFhYy0yNTVlLTQ2MjItOTA5Yi0xNDE4MzRjN2MyYzQifQ.lGxVW4pL5PqE31WI80o9yly5CaBvh0EJcl53r3LWLNo' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"These particularly general law expect.","courseId":"558784d6-9a0f-4bbd-bebf-905196464302","maxScore":89,"minScore":26,"orderIndex":83,"description":"Market call local season threat agree coach. Since anything campaign. Strategy alone night law recognize old south.","estimatedTime":"3 weeks"}'

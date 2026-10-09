@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA1OjA3LjUyMzE5MSIsInVzZXJfaWQiOiI1ODhhZWU3Yi0yMWYwLTRkMDItOTIyNC04YjM4NjQ1ZWNiMjQifQ.fNzf4X5BVP2AXIiN-bMHzfNHp_V6xweJynFjA0696HY' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer contain say find probably including section.","maxScore":86,"minScore":4,"description":"Continue federal miss resource someone energy family six.\nServe crime include stage not purpose yeah down. Personal picture process those. Anything cup goal field.\nWhich inside grow measure risk.","estimatedTime":"2 weeks","previewFileId":"0319c837-0966-48a8-afcd-553704799e0a","createdByUserId":"588aee7b-21f0-4d02-9224-8b38645ecb24"}'

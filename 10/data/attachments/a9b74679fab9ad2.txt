@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjQ4LjE0NDYyMSIsInVzZXJfaWQiOiI3NTMxNmMzMy1kMDFiLTRmMmQtOTIzOC03ZDllMTk2NDgxNmMifQ.XMdjhw2RzH4iacNlmJJ8KQlpPBR3aAifeYbCG6EAY6U' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring by better rule.","maxScore":69,"minScore":16,"description":"Happen pull oil property. Key pretty likely group level upon.\nDrug whole option level heavy. Whole statement what any seven believe.","estimatedTime":"8 weeks","previewFileId":"2851c3ca-e305-4024-9b01-2f9738477159","createdByUserId":"75316c33-d01b-4f2d-9238-7d9e1964816c"}'

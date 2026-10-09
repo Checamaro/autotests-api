@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjU3LjU0OTM4NyIsInVzZXJfaWQiOiI2ZTQxYjkwZi1mODRmLTRlMTMtOWIyNC03MTk1MWJhZDUxNTgifQ.4deYOQOyvvUCtdsIERyxvZ4Y8XzalyMs87EkCJ2evQc' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor sea just design several commercial our.","maxScore":90,"minScore":20,"description":"All on offer specific year. Free today leader hair fly. Single eye yeah word fear citizen evening.\nFew teach describe decide course probably herself fire. Lawyer maintain history record run.","estimatedTime":"9 weeks","previewFileId":"f3735f76-c3c6-4328-b4e7-c6a842299420","createdByUserId":"6e41b90f-f84f-4e13-9b24-71951bad5158"}'

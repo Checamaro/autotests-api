@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM5Ljc0NjgzMiIsInVzZXJfaWQiOiIwYTkwYTQxMi04NjU3LTQ2ZTAtYjdlMy02ZjRkY2M3Mjg3NWYifQ.PDqUbsnY4Pe2zLTTIwMUWsc088wZnyZjx4FYJsE8-gg' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner field to large.","maxScore":51,"minScore":23,"description":"Week base four economy challenge without other drop. Leg avoid concern can. Degree appear campaign defense either yes idea. Similar it economic little your cover indicate everybody.","estimatedTime":"6 weeks","previewFileId":"44937739-d14f-40a6-902c-3535406f0375","createdByUserId":"0a90a412-8657-46e0-b7e3-6f4dcc72875f"}'

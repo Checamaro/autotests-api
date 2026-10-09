@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjA0OjM4LjM4NTg5MiIsInVzZXJfaWQiOiI1NWY2ZmUzYy1lNjg4LTQwNDgtYWI4Mi0wNDZhMWIyYzZiMzYifQ.B94fJBXGcLX_jUOVOQtz8J4kE_D916N8AHSTTGR5PI0' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community responsibility sure tax yes threat the.","maxScore":77,"minScore":10,"description":"Guess figure bill hope. Gas run skill so town.\nYourself side medical race as amount foot. Plant attack form per production agent. Support piece every.","estimatedTime":"2 weeks","previewFileId":"fad0a4cf-6682-4ebe-82df-50726ac7426b","createdByUserId":"55f6fe3c-e688-4048-ab82-046a1b2c6b36"}'
