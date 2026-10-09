@@ -1,0 +1,10 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9b7bbf6b-998f-4bd2-b32a-91b31bcbf307' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight response under religious today each detail enjoy.","maxScore":65,"minScore":9,"description":"Fire again artist. Reach myself himself purpose.\nWhere show side of military country degree hit.\nAlready social it difference rule type.","estimatedTime":"4 weeks"}'

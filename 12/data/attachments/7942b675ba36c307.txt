@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQxLjk5NDA4MiIsInVzZXJfaWQiOiJmY2ZkY2NmZC1mOThjLTRlZTItYjdlYi1lNjVlNDQwMWJhZWUifQ.a92rWhkTHGV9nZ2cb_bs6gCN7HeBTnS5EbDWcqNrheI' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment alone summer away.","maxScore":91,"minScore":18,"description":"Magazine imagine trial make campaign. Practice interview professional training throw city firm knowledge. New kitchen fact argue allow serious bring.\nDraw majority perform under couple room.","estimatedTime":"10 weeks","previewFileId":"c6759ab6-8ec3-4318-ac4a-e8c78aa2e361","createdByUserId":"fcfdccfd-f98c-4ee2-b7eb-e65e4401baee"}'

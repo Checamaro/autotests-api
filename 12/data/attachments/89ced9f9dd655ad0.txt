@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM0LjgzNTgxMyIsInVzZXJfaWQiOiI1YTJiYWNhYy02ZmNhLTQ1NTAtODU1Yi05Zjk5NTQ5ZDJjOTUifQ.wolkyLmH8JdSvpINT8iusJfdOZqFKa3nZAXHsM1DiRo' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade site contain class way each your.","maxScore":94,"minScore":21,"description":"Machine can shake argue attack language. Today senior investment agree on trial. Sit watch hit that live.","estimatedTime":"4 weeks","previewFileId":"a12adfbd-e3ce-4432-ac27-d40ad4b17f8a","createdByUserId":"5a2bacac-6fca-4550-855b-9f99549d2c95"}'

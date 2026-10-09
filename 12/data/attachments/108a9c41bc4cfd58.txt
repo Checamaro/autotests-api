@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE3LjY1NTg0NSIsInVzZXJfaWQiOiIyNzllM2U4Yy1kMjAyLTQ5NzEtOGRjYy05YmQyMjQyOWM5M2MifQ.NvhBPSZUJ3nEfsxWfrlDMmd79ESz-WMR9BPnadknnLE' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account local very much safe commercial if.","maxScore":85,"minScore":18,"description":"Seat manager everyone factor shoulder technology light. Happy financial camera here.\nHappy measure half agent table read. Wear seat part subject history may.","estimatedTime":"7 weeks","previewFileId":"22d3cb76-78a3-408a-b2ba-20a670af35ce","createdByUserId":"279e3e8c-d202-4971-8dcc-9bd22429c93c"}'

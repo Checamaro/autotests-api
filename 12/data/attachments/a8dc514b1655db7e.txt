@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQwLjgxOTIzNiIsInVzZXJfaWQiOiIwMWZiNDk5My1mNmE1LTRmMzUtOGJjYy02MDY3YmI2YjY1MTIifQ.izgFlcM85ggjCOvp5b0ctjQK7EY2Z0tL8i82D6hpkXU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table act customer environmental as easy energy.","maxScore":72,"minScore":29,"description":"Really notice standard stage probably. Chance require treatment wide general fill finish subject.","estimatedTime":"6 weeks","previewFileId":"4a50a1f3-7762-4ece-97b9-f397540451c7","createdByUserId":"01fb4993-f6a5-4f35-8bcc-6067bb6b6512"}'

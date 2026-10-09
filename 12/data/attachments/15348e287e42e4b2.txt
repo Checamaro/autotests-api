@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjUxLjE1NjUyNSIsInVzZXJfaWQiOiIxMmRiZTk1MC05Y2M4LTRiNTQtYmZiZC1hNTBmOGY4ZmFkZWEifQ.RPdCfxk5LnHrNEJYEH3i_HRbNkoprE8JbE4boz2g-1c' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throughout represent traditional often pull expert bar.","maxScore":96,"minScore":1,"description":"Process help event specific wear free. Right together report.\nPass stage you nature pattern study. Character author professional consumer should. Take born into read she.","estimatedTime":"6 weeks","previewFileId":"654cee8f-bcb6-44cf-9a7e-dce9a2f5cc03","createdByUserId":"12dbe950-9cc8-4b54-bfbd-a50f8f8fadea"}'

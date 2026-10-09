@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjU0LjcxNjQzNiIsInVzZXJfaWQiOiJlYzQ1ZDJhOC01YjIzLTRiYTAtYTAxZC1hY2Q5ZDY3ZGJjYmQifQ.BsmEKm3kanZIFJIWzCFvIbpO7VMK-awFjOPIcEkQrtA' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home herself happy operation.","maxScore":65,"minScore":15,"description":"Far rise stock choose degree current other. Speak television form spring nor why. Last process detail figure sign couple.","estimatedTime":"1 weeks","previewFileId":"c70b345f-1b4a-4979-a63a-51954fbde556","createdByUserId":"ec45d2a8-5b23-4ba0-a01d-acd9d67dbcbd"}'

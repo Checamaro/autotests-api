@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjUzLjc5MDI5MiIsInVzZXJfaWQiOiJjNzNhOGUyNS1jYWQwLTQwOWItOGM3Zi0yZjU1YTc2ZjdkYTUifQ.g2mM7VizB-2jMfWKCCzuJRvjjfYIx-TvxNEreSZpumA' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade stuff whether add.","maxScore":86,"minScore":27,"description":"Message carry reality table. Young skin trip society. Focus pick amount cup just.\nNot traditional fill people create. Human fire approach yes Republican hand. Involve arm leave wall event.","estimatedTime":"4 weeks","previewFileId":"d89e1644-fc6f-4960-87ab-5a0e5b187559","createdByUserId":"c73a8e25-cad0-409b-8c7f-2f55a76f7da5"}'

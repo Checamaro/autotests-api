@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM2LjkyMDU0NiIsInVzZXJfaWQiOiJmZmRmNjYzZi1hNWExLTQwZmEtOTA2Zi01ODE2M2MwOWE4MDAifQ.M3pHfj50tDLKAFssWlnNI5i45lj8HKVWOV0bLf7EnMU' \
+  -H 'content-length: 207' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High task about gun cut deal.","maxScore":97,"minScore":10,"estimatedTime":"8 weeks","previewFileId":"1c366755-e1c5-4fc0-8c37-84836ff9f839","createdByUserId":"ffdf663f-a5a1-40fa-906f-58163c09a800"}'

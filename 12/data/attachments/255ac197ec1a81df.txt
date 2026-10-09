@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjU0Ljk5MTA2MyIsInVzZXJfaWQiOiIzYTAzMDlhNC0wMjNiLTRjNDUtOGJhNC0zMTEwYzE5NjZlZWQifQ.ASbOnBphcOv-aByi6y4-fFKuETgiBdn3r0MLT-1DkxU' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official should international job sell professor.","maxScore":96,"minScore":10,"description":"Phone beyond benefit unit like never election. He same born east quality catch especially. Herself third stock choice.","estimatedTime":"2 weeks","previewFileId":"16d286c7-fbb9-4b3f-ae48-84f59c93f3a7","createdByUserId":"3a0309a4-023b-4c45-8ba4-3110c1966eed"}'

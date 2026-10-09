@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjUwLjI1NDgwMiIsInVzZXJfaWQiOiJlZmViYjQ4Mi1mZTY0LTQyMzAtODNjNS1jODE1YzQ4YThjYjYifQ.4J5gwweHvzZ2Bn3vazbmQsyiyawn-6SXp3rl9BpXY78' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect ago group budget play oil number.","maxScore":98,"minScore":10,"description":"Same four shake loss build any camera score. Which then work finish production.\nDream area their TV analysis that base. Message let film fine. Food next world laugh especially poor baby.","estimatedTime":"2 weeks","previewFileId":"d1acc289-051f-4576-b4df-f10398cf07ae","createdByUserId":"efebb482-fe64-4230-83c5-c815c48a8cb6"}'

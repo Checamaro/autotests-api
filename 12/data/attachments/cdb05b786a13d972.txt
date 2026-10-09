@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM5LjI3NTUyNSIsInVzZXJfaWQiOiI4MjY0ZjNiOC0yOWFmLTQ1YjQtYWYwYi0xMGI0MzUyZTRmYzQifQ.7nAa-9CzB-pBQnQNzkJTRfUmM9pktbnn5B1bVydPiPI' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably perform tell building teacher drug.","maxScore":71,"minScore":2,"description":"Our season produce. Picture cause them data soon. Cup together campaign century.\nMove hard area. Yes firm wish her focus every during.\nWhat front yes responsibility child.","estimatedTime":"8 weeks","previewFileId":"f713b71f-e81a-4e98-ad93-aa8c0649126d"}'

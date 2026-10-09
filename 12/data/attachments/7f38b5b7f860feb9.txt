@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjMyLjM1NTUyOCIsInVzZXJfaWQiOiI3MDI3ODA1Ni0wZTdlLTQ4YTQtYTQ0NC01MGM1MTE3ODJhOWEifQ.oadTWwnGah51D-MrwAolPSn4Y9rZL-WgRqy3XvcL7h8' \
+  -H 'content-length: 241' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term than after develop buy lay action nature.","maxScore":99,"minScore":27,"description":"","estimatedTime":"6 weeks","previewFileId":"75a58f6f-7968-41c2-bd78-379d59b9a7b4","createdByUserId":"70278056-0e7e-48a4-a444-50c511782a9a"}'

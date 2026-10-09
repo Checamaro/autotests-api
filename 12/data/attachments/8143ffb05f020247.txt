@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjIxLjMxNjU4NCIsInVzZXJfaWQiOiI5YjgwOWU1Ni00Njk2LTQyMzQtYTI3My0wNGU5NmQ5OWVhMjcifQ.xa0sJyGbKGLl_om7FsQUNTBWs5mnu9rZnlBjs9QmPpY' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Our often officer rest by.","maxScore":55,"minScore":22,"description":"Analysis protect trial good accept scene sound. Down simple enter ball about.\nFor them care art up toward. Administration maybe spring. Nation data officer sit station term.","estimatedTime":"7 weeks","previewFileId":"a0b2bf21-e4e3-4c66-bf74-87a3d82ea748","createdByUserId":"9b809e56-4696-4234-a273-04e96d99ea27"}'

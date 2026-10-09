@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjMyLjA4MTUzNCIsInVzZXJfaWQiOiJlN2VkOTVjOS0yMWFhLTQwYTctYTQyZC00NGI2MWJkNTRjYWEifQ.3-XO0ZMFiRBnT_7XTnOQDAe49RFQ-TaCAl-8eZxmzXQ' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fill four continue use budget couple.","maxScore":87,"minScore":3,"description":"Research yeah board worker matter we listen. Hold wish somebody movie risk threat degree.\nLot other final guess will. Office example leave.","estimatedTime":"3 weeks","previewFileId":"c0d56805-7ea2-4f6a-90ed-089a5c2ba774","createdByUserId":"e7ed95c9-21aa-40a7-a42d-44b61bd54caa"}'

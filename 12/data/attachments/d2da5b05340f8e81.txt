@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA5LjQ3OTgzNSIsInVzZXJfaWQiOiIzZGIxNDlhNS1mMDU2LTQ4YmMtOGRmYi1iYmIwYTIzNmU2YTQifQ.Gy7Ba647JN4CamjMOlzYAq-D1_vLRIk2Cmq_MzVEERo' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wrong enough future water.","maxScore":59,"minScore":19,"description":"Always finally soon I include almost. Help what throughout whose writer start. Forward wide across president role that.","estimatedTime":"7 weeks","previewFileId":"49b3e17d-99a1-465a-8e13-1ac446f84899","createdByUserId":"3db149a5-f056-48bc-8dfb-bbb0a236e6a4"}'

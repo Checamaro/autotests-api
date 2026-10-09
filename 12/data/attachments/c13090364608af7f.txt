@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjMxLjE5NjY4MyIsInVzZXJfaWQiOiJiMWQ5YTljYy05OTVjLTRhMTEtYmU1MC1iMTVhYWRjNDVlN2IifQ.fBJ2I3-TMKHl3wV8m2-G76bgOJLY3TBPkq4MxJEWjTg' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"","maxScore":97,"minScore":8,"description":"Control writer past interest act bank story. Trip long character particular mission blood. Start before trial lay assume.\nIndustry draw life room energy development matter. Describe detail writer.","estimatedTime":"5 weeks","previewFileId":"f0a6bdd9-6232-4f1d-842b-77d9d7473725","createdByUserId":"b1d9a9cc-995c-4a11-be50-b15aadc45e7b"}'

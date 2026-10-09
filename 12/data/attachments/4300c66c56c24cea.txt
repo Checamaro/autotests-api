@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE4Ljg4Njc2OCIsInVzZXJfaWQiOiIzNDg5MDI1Zi02YzNiLTRlYzMtOWQ5Yi0xNWY0MWFmMmEwOWIifQ.J3l2DQxzDOcMZG2CmwOTrcJIWjIsp_bxVP07ILxOAwU' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Several improve state three across hit rule.","maxScore":55,"minScore":15,"description":"High serious never hot nature right. Job contain debate window lot.\nSoldier apply audience street. Central treat discuss may four bad.","estimatedTime":"5 weeks","previewFileId":"f26fb6db-08f6-4c4a-8be1-d8c51ac25904","createdByUserId":"3489025f-6c3b-4ec3-9d9b-15f41af2a09b"}'

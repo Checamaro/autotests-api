@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2adb2aff-fc71-4c45-8f35-f6f616eca730' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjUyLjU5NDQ1MSIsInVzZXJfaWQiOiJkMTk1MDA1MC0wMDE0LTQzZWQtYWQyMS03ODVmMDIwOGE5NGMifQ.FvHdEhSeiYoA0lWrWWhiSuMQplR9ot-7Ao0qE6IgI78' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Art management whom.","maxScore":84,"minScore":26,"orderIndex":22,"description":"Dark radio throw try point goal far. After to low feeling artist arrive.\nOff board rather movie could. When model much pull account.","estimatedTime":"10 weeks"}'

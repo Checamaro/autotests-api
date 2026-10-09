@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM1Ljc0MDQ5MSIsInVzZXJfaWQiOiI1ZTRlMGNhNy03ZTY2LTQyZWItOGQ5Mi1kYjc0MGJjZjY4ZmMifQ.1NPm6I1FryizHu7ag0ridorvNxDpLamda4LwkXxxB48' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"maxScore":92,"minScore":28,"description":"Help while product last environment. Involve fact politics tend. Simply law common police sound pull. Area lay from article it page investment simple.","estimatedTime":"6 weeks","previewFileId":"191bbca9-26d3-48ed-b351-78056f1e7429","createdByUserId":"5e4e0ca7-7e66-42eb-8d92-db740bcf68fc"}'

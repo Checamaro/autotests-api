@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjIwLjEwNTU4OSIsInVzZXJfaWQiOiI2ZTRkZTk1MS1mM2ZhLTQxYTMtYjEzZi01M2Q4N2YwMjUwZTcifQ.1Mi0Rjnz7jf_2fXs82JVrBHiWeDKhZf2yGgSJi_n48c' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card computer late field knowledge.","maxScore":88,"minScore":27,"description":"Should choose to may people.\nGeneration wonder offer development environment. Show full western much fall effect fall establish. Up type memory study represent today. Never your social idea physical.","estimatedTime":"7 weeks","previewFileId":"3af75711-bba2-4c1f-92b8-b4d2b86aaeb0","createdByUserId":"6e4de951-f3fa-41a3-b13f-53d87f0250e7"}'

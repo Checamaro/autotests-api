@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM3LjE5NDI5MSIsInVzZXJfaWQiOiIwMGZhODFmNi03NzllLTRiYzAtOTdhNC1hNzkzNTlkNGUzZGUifQ.JwVU-dm5jAHbEvs4VgYi-lJKh95uuAPrLrt6gvVAbiQ' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project eye magazine admit design travel begin.","maxScore":64,"minScore":16,"description":"Drug strong success people in brother book. Top some today control hold improve.\nData set level here family. Serious born now scientist company page almost.","estimatedTime":"10 weeks","previewFileId":"73f8c33b-952e-4827-a6d7-88a82651fc2c","createdByUserId":"00fa81f6-779e-4bc0-97a4-a79359d4e3de"}'

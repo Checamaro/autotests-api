@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ3Ljk0OTI2MSIsInVzZXJfaWQiOiI2M2Q3MDA1YS01NzI2LTQ0OGMtYmRhMy1iOWVkN2FjN2FjM2QifQ.cdb5E_EFmxRCnBKZfBguJSRl0G5_TMsEwVO6ianV5lQ' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off movie might official.","maxScore":52,"minScore":27,"description":"Fear political side sort east song. Address affect here network figure. Leave system specific deep mouth. Character southern loss month guy.","estimatedTime":"2 weeks","previewFileId":"33a3dd3b-453f-461f-b1b8-149fe2bec2ef","createdByUserId":"63d7005a-5726-448c-bda3-b9ed7ac7ac3d"}'

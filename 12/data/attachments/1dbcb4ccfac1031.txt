@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/328b846a-5ee6-445d-8b70-5c7b2e15c735' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ1LjU4ODMxMiIsInVzZXJfaWQiOiJhNWUzNTI3Yi1iMTRiLTRhN2ItYTllZC1lZWYyMTE1YjJkMzEifQ.FJgdtNLvX--yHFaYc7ewfhO_6J7gZCd6Zvx-1GBvpY0' \
+  -H 'content-length: 218' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box necessary region.","maxScore":76,"minScore":3,"description":"Ahead security parent such. Represent oil material identify away year cold. Pay garden answer term would according.","estimatedTime":"4 weeks"}'

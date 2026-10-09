@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM4LjA5NTc3NCIsInVzZXJfaWQiOiJlNWY5YWFhZi05MTdiLTRmNDItYWNhYi05MjExZjZmZDU0NWMifQ.qS0p4SpZB5hbhPWpwfaZztyzFHbd5IxaP-BBmEBuJPg' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready positive thus require because.","maxScore":75,"minScore":16,"description":"Her skill grow attack black sport must. Treat reach line material upon.\nIndicate nothing material yourself improve. Wait risk hear main indicate particularly religious.","estimatedTime":"1 weeks","createdByUserId":"e5f9aaaf-917b-4f42-acab-9211f6fd545c"}'

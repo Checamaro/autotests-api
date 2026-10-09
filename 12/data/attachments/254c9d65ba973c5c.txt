@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEzLjAxOTU4MCIsInVzZXJfaWQiOiJmY2E2NDdkYy0xNGU4LTQzNjUtYjMyNy04NTlkYTc2ZGQwZTAifQ.u_Dy2NC0xeGk9EQXWACN8j_0CX63wwpxxDGigr9gkxs' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"y","maxScore":65,"minScore":13,"description":"Federal break central individual themselves level television. Crime bit remember reflect.","estimatedTime":"10 weeks","previewFileId":"0ed60573-f922-4af4-b3f0-9d07a3fa637f","createdByUserId":"fca647dc-14e8-4365-b327-859da76dd0e0"}'

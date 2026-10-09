@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE2LjcxMDMwOCIsInVzZXJfaWQiOiI3MmRjZjc4NC1jZGM4LTQxY2YtOWM3My0zNWRkMTViNDZkOWMifQ.v19PAMltGqquwVxCZjC3RkyzyA_-vurcTNFtKPUbiwk' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sister throughout development difference sure toward.","maxScore":96,"minScore":30,"description":"End most case west memory data last. Expect actually health common Mrs issue.\nHappen serve not detail point this would. Site person military majority town upon scientist doctor.","estimatedTime":"u","previewFileId":"ac724fe6-954f-403b-ab77-2d8fef9986d0","createdByUserId":"72dcf784-cdc8-41cf-9c73-35dd15b46d9c"}'

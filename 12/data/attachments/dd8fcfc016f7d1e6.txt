@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA4Ljg0Mzk0MCIsInVzZXJfaWQiOiI2MzMyZTgzZC1iNzdjLTQ3NTEtYmVhYy0zZGVjMWI5ODIwNTQifQ.rxnZEUyDXvE2Y_bkPPvz_ckNzgyy6WGFP9mRLosC9TI' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"True attention moment early project.","maxScore":70,"minScore":18,"description":"Which above movement make her none. Star natural PM ever make either. Itself hope wish hard view himself firm let. Expert young role.","estimatedTime":"1 weeks","previewFileId":"62ff6dcb-e88f-406f-8e01-46503313aea0","createdByUserId":"6332e83d-b77c-4751-beac-3dec1b982054"}'

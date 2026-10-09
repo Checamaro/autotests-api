@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/de4cf1a2-4017-4665-860d-270e1d271ccd
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/de4cf1a2-4017-4665-860d-270e1d271ccd
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:121 Check partial update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to p
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to High serious never hot nature right. Job contain debate window lot.
+Soldier apply audience street. Central treat discuss may four bad.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to de4cf1a2-4017-4665-860d-270e1d271ccd
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

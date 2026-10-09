@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ3LjM2Njg3MiIsInVzZXJfaWQiOiJjMTU4YWMyNy05M2UzLTRmMDItYmRmOS0wMTFjYjU0NTJmNDMifQ.VvqugKTm7U54lklVhhBpZp1iNhLjjTwLLumzmXztSxg' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born light be tough.","maxScore":70,"minScore":9,"description":"Answer develop also. Economic girl send series. Sport window could authority list Democrat.\nMaterial television fish body per town. Police sign study building item several listen.","estimatedTime":"5 weeks","previewFileId":"dc9e2a15-8860-4bd8-8cf0-cd4d64f846f2","createdByUserId":"c158ac27-93e3-4f02-bdf9-011cb5452f43"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjMzLjU5MTM2MCIsInVzZXJfaWQiOiIzYjAzNTg1Ny1kYjZlLTQ1YTItYjE5Ny0xOTdkYzhlMmYyNWQifQ.mwClQslgOq1c9Tr5vbkhsqWm-W3lrtcBoJuOcu0AYrs' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though send out participant.","maxScore":54,"minScore":28,"description":"Radio administration future firm cost ten through. Middle age court race population water third.\nMatter meet become heart director.","estimatedTime":"7 weeks","previewFileId":"84acc990-2e1a-41ec-9230-358de83fddd9","createdByUserId":"3b035857-db6e-45a2-b197-197dc8e2f25d"}'

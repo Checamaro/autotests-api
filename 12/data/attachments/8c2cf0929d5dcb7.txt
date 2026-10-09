@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjI4LjI2NDI5NyIsInVzZXJfaWQiOiIxNzYxNTMwZC03ZjNhLTQxZTktYjJkMS0zMzQzNTliODAzOGYifQ.RrS46GN2s5y6Hrs-fnUdykpTGTLk8suAiXdzVkz1BV8' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry region traditional grow yourself.","maxScore":51,"minScore":28,"description":"Power argue challenge. Risk tonight hear price rise remember still daughter.\nDog again while. Imagine serve at mean sing organization new. Spend picture simply house.","estimatedTime":"5 weeks","previewFileId":"f611783d-fa4c-46f2-8d71-fa8a9b89350d","createdByUserId":"1761530d-7f3a-41e9-b2d1-334359b8038f"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/63ebcbf6-3a45-4c86-ab6c-8ecfa4908399
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/63ebcbf6-3a45-4c86-ab6c-8ecfa4908399
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:121 Check partial update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Director computer fine front make.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Upon plant tax develop. Can effect yourself ball would large turn.
+To money weight page. Information image walk buy change sure hundred voice.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 63ebcbf6-3a45-4c86-ab6c-8ecfa4908399
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE1LjIxODE1NyIsInVzZXJfaWQiOiJiMmJjNjMxZC01NzE1LTQwYjEtYjgzZS1kNzRjN2E4NWI0YjQifQ.xT8bSiBPOMgNR7-JGSmVvWiltbsXKYICrx7zNYQISoY' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Explain American sort adult memory moment thing.","maxScore":63,"minScore":14,"description":"Upon plant tax develop. Can effect yourself ball would large turn.\nTo money weight page. Information image walk buy change sure hundred voice.","estimatedTime":"5 weeks","previewFileId":"40525d77-a2ef-4aab-b678-fe3b31ca7658","createdByUserId":"b2bc631d-5715-40b1-b83e-d74c7a85b4b4"}'

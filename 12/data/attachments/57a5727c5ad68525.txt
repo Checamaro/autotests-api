@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE5LjE2MTYwNyIsInVzZXJfaWQiOiJlZDBlZjk3Ny1mNjU0LTQ2MzItYjVjMi03MGIzYjI5ZWI2MzAifQ.6gi0cA_bAlkVAxR_zhVS7YRIKqplOz-eVXIn836Dm5w' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guy form space a.","maxScore":87,"minScore":87,"description":"Wonder might real really. Small whatever prove black million in.\nThese owner science about report. Such return thought keep space when black.\nRock practice know skill inside off order.","estimatedTime":"9 weeks","previewFileId":"cb0ed832-d3e1-4499-a78a-1f7358e5de61","createdByUserId":"ed0ef977-f654-4632-b5c2-70b3b29eb630"}'

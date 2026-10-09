@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQzLjIyNTkzMSIsInVzZXJfaWQiOiJkMGVlMDY3Ny0zZTZhLTRmNWUtYjBhYi00M2EzMWIwOTg2Y2EifQ.OwYi5esauZAXkNKYbRQrdIx2w6r8qJ80u_n5X0c-rh0' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow effect area child executive speech physical.","maxScore":98,"minScore":21,"description":"Mouth yard loss which know sea.\nMrs natural a speech eye discover. Role require week present economy them listen. Education dream adult walk alone fight product.","estimatedTime":"3 weeks","previewFileId":"adf5b0f7-6271-46d4-96ce-bd81e7fcba68","createdByUserId":"d0ee0677-3e6a-4f5e-b0ab-43a31b0986ca"}'

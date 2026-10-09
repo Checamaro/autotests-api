@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ0Ljk5ODk1MiIsInVzZXJfaWQiOiJiNjVkMjM2OS1jMWY5LTRjNTEtYmNjYS02MmYyMjE5NjE3NjgifQ.4J_r00rXyJHDrRIGHFk_QEzZBENtPSRZmNswzI4xhTs' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which social as girl create.","maxScore":96,"minScore":18,"description":"Son always three thank. My seven happen seek protect try.\nMedical young on high. Western school clearly change she.\nAllow serious several situation.","estimatedTime":"6 weeks","previewFileId":"dae591fc-d47d-42f4-a294-82741956c0ec","createdByUserId":"b65d2369-c1f9-4c51-bcca-62f221961768"}'

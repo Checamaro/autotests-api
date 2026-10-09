@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEwLjA2NjIzNyIsInVzZXJfaWQiOiI4Mjc1OGUzMS1hODg0LTQzNGMtYTMyZC1iNWUyZDg4OTk2ZDcifQ.uiOKMZRtuI995kPZG3FgSPOdNx14O38NeUcUVBvos4U' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation form last they drop remember.","maxScore":65,"minScore":3,"description":"Responsibility benefit the test behind compare sometimes. Rather tell region could might.\nTake agree top. Apply debate suggest for reality. Perform former church service evidence break really.","estimatedTime":"6 weeks","previewFileId":"31a9466c-c94a-46b3-9e91-de81020939a7","createdByUserId":"82758e31-a884-434c-a32d-b5e2d88996d7"}'

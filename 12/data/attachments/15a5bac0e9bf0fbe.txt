@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/FzDLSwtJvr' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ0LjQxNjI0NyIsInVzZXJfaWQiOiI5NmViN2JlYi1hNzI3LTRhZDMtYmMwZS1iZjFlYTRkYzlkY2UifQ.xr4TJkXR6K6mJFJYnEWvSqOotbXBa7vidOTlHIKc4kA' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street expert do early interesting on.","maxScore":86,"minScore":9,"description":"Real set would whatever edge dream. Although animal one specific. True lawyer win total get measure.\nAmong executive face second affect author system. So clearly grow start.","estimatedTime":"7 weeks"}'

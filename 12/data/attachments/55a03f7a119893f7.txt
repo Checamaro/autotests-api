@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE2LjQzNjY0OSIsInVzZXJfaWQiOiI3M2RhOGQ3MC1iYzc3LTRiNTMtOWY4MC02ZmM0ZTBhMTBmYWIifQ.JPUeY2Vz2F8dKglIWALaARSEZuopTqRrmtLMn8i0YnM' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"World what three either guy.","maxScore":75,"minScore":21,"description":"Woman attorney improve relate. Together media fight lead.\nLevel over born practice for evening. Partner experience whom consider kind hundred mean. Over return off television.","estimatedTime":"3 weeks","previewFileId":"3185a0be-4d73-42f1-add3-e2244b2307bd","createdByUserId":"73da8d70-bc77-4b53-9f80-6fc4e0a10fab"}'

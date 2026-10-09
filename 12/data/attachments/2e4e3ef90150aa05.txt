@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9cac950e-9d68-48f3-9a5e-f8c33c8c951b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer a428565ab12a55b80c5c075a7aa2b514a8d8d9913ea5ce37a92805382f12a7e1' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put far fall executive college own message.","maxScore":59,"minScore":8,"description":"Finally brother tonight himself school arm plant. Push citizen even behind will. Decide catch perhaps recently.\nGlass simply current without they skin. Financial season model people type sense.","estimatedTime":"6 weeks"}'

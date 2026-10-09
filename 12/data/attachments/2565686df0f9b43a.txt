@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ffd2a5d1-6199-4d85-ade3-12e5872ce51b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE2LjQzNjY0OSIsInVzZXJfaWQiOiI3M2RhOGQ3MC1iYzc3LTRiNTMtOWY4MC02ZmM0ZTBhMTBmYWIifQ.JPUeY2Vz2F8dKglIWALaARSEZuopTqRrmtLMn8i0YnM' \
+  -H 'content-length: 167' \
+  -H 'content-type: application/json' \
+  -d '{"description":"Identify cost view site before never treatment.\nPhone it already operation player half process. Local window successful box close activity whatever."}'

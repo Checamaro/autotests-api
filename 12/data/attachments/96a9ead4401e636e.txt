@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ2Ljc4NDExNCIsInVzZXJfaWQiOiI5NjQ4MzM2My0zYzkyLTQwMGUtOTgyZi05Zjg1M2Y2Mjc5NTUifQ.ODBBWdqRklv2VpFFUw5KNkfNO__QAJmbGhfZ99MeNQU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact billion something recently over garden ready.","maxScore":74,"minScore":10,"description":"Little hard heavy everything analysis account. World modern agent life here democratic note. Speech stop catch morning your base town.","estimatedTime":"9 weeks","previewFileId":"c8ba7b47-bca5-455b-ac97-fc8290250e5e","createdByUserId":"96483363-3c92-400e-982f-9f853f627955"}'

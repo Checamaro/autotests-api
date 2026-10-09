@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE0LjI3Njk1NiIsInVzZXJfaWQiOiI2NDAwODZkMC1iOTRmLTQwMzItOGQ5OC0xZDVhZDllMThhNDQifQ.XdvjnntmTlpy04q3kB3fSSzcUmqlGaVle6FEk7Z1z9k' \
+  -H 'content-length: 562' \
+  -H 'content-type: application/json' \
+  -d '{"title":"OaEbUjDHqKxxEbJkgbiUvSxibMQHaJfpjUfFDzaxFFwkAqYRErNnHMkjBwgFqcTILChVEXVWPdwIJJXglMfkAuIdgIZTRJWllkuDkGoMxNJIqTeoLoNgTotORRmdxvNwZktjnzyPBwGkngOupiyHiaLqjIIPXlGxbZdvyGFxcneTzsCgAqDRKzbSMlbBjygwGAaWOUfszbXCeYaTXnZctYTTAlFEZjHABTIJjArDskTEFHAyBJkOACgoyK","maxScore":70,"minScore":13,"description":"Natural condition table. Seven arrive city perhaps along daughter it. Call responsibility a half. It true rich whose.","estimatedTime":"5 weeks","previewFileId":"82dddae6-b51e-41bb-86f8-e9c0177201cb","createdByUserId":"640086d0-b94f-4032-8d98-1d5ad9e18a44"}'

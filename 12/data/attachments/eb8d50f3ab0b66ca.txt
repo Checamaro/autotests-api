@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach anyone involve kind.","maxScore":58,"minScore":21,"description":"Cover big sort agree. How west behavior action. Television decade collection myself participant left them knowledge.","estimatedTime":"9 weeks","previewFileId":"c3bf98fe-7f2f-491a-9431-05a64cf29c59","createdByUserId":"76541e93-2255-473a-91fe-c9a36128879a"}'

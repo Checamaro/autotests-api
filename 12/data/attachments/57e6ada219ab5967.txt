@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjExLjg1MTcwNCIsInVzZXJfaWQiOiJhYzM0OTE4NS1lNGRhLTQ1NWEtYjBlMi05OTIyNzcxMTZmNDkifQ.csW8dJlRU3b2E8dQ4kHwFzoOVsED57UHJujkfq8HEZE' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen such whole.","maxScore":null,"minScore":null,"description":"Town realize whole hit. Read southern may effort.\nMain serious represent serious collection kid. Color stuff quite along make baby present. Him anyone us four.","estimatedTime":null,"previewFileId":"bc04eba4-5aab-496c-818c-d53deda316cd","createdByUserId":"ac349185-e4da-455a-b0e2-992277116f49"}'

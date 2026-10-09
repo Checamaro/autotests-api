@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjI1LjUzOTQ1NCIsInVzZXJfaWQiOiJmOWI2NjUyYy1lYTZmLTQ1ZmEtOGE1My0wNTkyNGQzNDA4MTIifQ.r3N8XO1FQ356tRYUsM81D-HKpyG6DtEKFUPgAZ9X8iU' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie protect win cell.","maxScore":59,"minScore":4,"description":"According actually anything become probably. Pm serve six look area same which ever. Real represent center moment.","estimatedTime":"10 weeks","previewFileId":"4e94fefe-dfcc-44fc-8cbc-bc52e902d818","createdByUserId":"f9b6652c-ea6f-45fa-8a53-05924d340812"}'

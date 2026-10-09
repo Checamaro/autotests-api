@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM0LjU2MzgxNCIsInVzZXJfaWQiOiJiNzY0NTRkOC02OWU4LTQyODEtYWQ4OC02MWIzNzA3YjEwYzgifQ.cFCVHMlpkbImfPCh4fECPbJS6wfQJlyozZJhWlRoTMo' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Great fill final else finally.","maxScore":94,"minScore":23,"description":"Degree spend offer certainly support compare. Challenge anything site. Member right baby education effort development add.\nLevel forget real deal make main.","estimatedTime":"","previewFileId":"52d0ee89-6753-4c77-839c-eda9533636bf","createdByUserId":"b76454d8-69e8-4281-ad88-61b3707b10c8"}'

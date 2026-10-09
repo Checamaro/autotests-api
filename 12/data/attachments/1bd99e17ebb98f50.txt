@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjI2Ljc1NjA2NyIsInVzZXJfaWQiOiJiMzJmNDQyZC1lODUxLTRmYzUtOTZkZi1jYmQ5MTdlMTJmN2MifQ.p5ETUzrZVAsVt3RzDQOWHl7t5uWzzBZt6_8KpoFtmpI' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Green true audience hair foot.","maxScore":5,"minScore":91,"description":"Tree air reveal kid.\nThough music box process doctor. Different bag book product hold moment tax door.","estimatedTime":"6 weeks","previewFileId":"ad00d054-31c9-4f96-b415-12b8f770c924","createdByUserId":"b32f442d-e851-4fc5-96df-cbd917e12f7c"}'

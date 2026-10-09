@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQwLjIzNDgyMyIsInVzZXJfaWQiOiIyZTgxMzIzOC05NDJkLTRjMGEtOGE5Ny0wYzQwNWM5ZGRmMzEifQ.vTpCXV4qb7jHvsFp-hMBPgSm2TzossBkHaA7R7NvQJE' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Challenge good every degree black.","maxScore":84,"minScore":10,"description":"Two past Democrat among economic floor voice. Debate wish ask break.\nSee single age teach account. Card really anyone.","estimatedTime":"4 weeks","previewFileId":"2bc66c9e-49b2-4800-a914-ea08a512c5ae","createdByUserId":"2e813238-942d-4c0a-8a97-0c405c9ddf31"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b873ba63-7713-4b62-9313-e09a06be4da4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ5LjA1MzU0MSIsInVzZXJfaWQiOiJhNjc4MDE2ZC0xODc3LTQzMzUtODUyMC1iNWFkYzRmMDE1ZjAifQ.rjrPZWR6tuqZQ37kOFVFm4PC7aLwTz6VoVIxOOWVV0s' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Make rest still forward.","maxScore":54,"minScore":29,"description":"Sport sometimes fire resource people. Across customer enter picture.\nAgo behind official key fish. Of century if glass. Though large stuff memory.","estimatedTime":"3 weeks"}'

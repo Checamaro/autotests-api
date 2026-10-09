@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE1LjQ5MzI5MiIsInVzZXJfaWQiOiIxMzAzYjEyZS1jMzkzLTQ2ZjgtOGNmNC1mYTM5ZTEyMmY5M2EifQ.LHSUryGwR3vLRyz5ivzUzo-fsCt_G8yNe4BBjFzIPLs' \
+  -H 'content-length: 210' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win until bag.","maxScore":50,"minScore":13,"description":"B","estimatedTime":"4 weeks","previewFileId":"53978220-d94f-454c-bfa1-1d4d3a35a6b5","createdByUserId":"1303b12e-c393-46f8-8cf4-fa39e122f93a"}'

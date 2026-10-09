@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjMzLjMyMjQzNSIsInVzZXJfaWQiOiIyZjAxYzYwOS0xNDA0LTQzZjUtODgwNS0yN2I3YjU2ZTA5MzUifQ.7h10MlC0IJXjigvdlApwVsbIkihwhbvaE2v0BiI-HFw' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim someone sense know our effect.","maxScore":96,"minScore":22,"description":"When someone site offer professor care room. Senior moment outside floor effort white personal test. Drop they key structure. Live its kid decade today.","estimatedTime":"XXBWHvdnPBlTbHAZzYPmDkVUnvGgKEdkrATqZXFpzEvhqxPgUlq","previewFileId":"d72832c7-5e51-44ba-82ff-f05305e835d1","createdByUserId":"2f01c609-1404-43f5-8805-27b7b56e0935"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM2LjAxNjc4MiIsInVzZXJfaWQiOiJjNTNmZjgyYS1jM2Q1LTRjYTQtYTQwMC03YWExMjFkMmQ0ZGMifQ.0mr6Qf_XixS_7MAu-GNAap8LQAjmW5x1DOnVDBFvA3I' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation ok design remember half paper go.","maxScore":86,"minScore":28,"description":"Open throw note election dinner.\nMethod live not commercial talk kind. Discussion floor usually born garden attack wear.","estimatedTime":"8 weeks","previewFileId":"7b7e852a-c7c1-4662-bc1a-5cff34bfe01a","createdByUserId":"c53ff82a-c3d5-4ca4-a400-7aa121d2d4dc"}'

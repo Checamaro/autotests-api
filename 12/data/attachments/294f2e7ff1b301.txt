@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM4LjM2OTc5NCIsInVzZXJfaWQiOiI1YmVkOTA3NS04OTVlLTRhYzAtOThkYy1kNjE4ZTJhNDFkODMifQ.u867L6ik1EMv40LksRon3t57jGmchdXXKGGXLW34Q64' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"News determine vote each.","maxScore":95,"minScore":12,"description":"Offer quite woman. Either rate standard expect young represent seven.\nAuthority authority whether task save. Before support understand allow. Focus between their bar.","estimatedTime":"9 weeks","previewFileId":"e6b26d25-f26e-4473-9334-8dc66406d88d","createdByUserId":"5bed9075-895e-4ac0-98dc-d618e2a41d83"}'

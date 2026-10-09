@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjI0LjY0MDA0OCIsInVzZXJfaWQiOiIwNGU3MzM3Yy00MTQzLTRmNmEtODBlOS02ZDJjZTdiZDlmZTcifQ.ZCAvRFx5-WSbybMSQ9VGxvVSJc_k0qt08lRH5Wyq-oE' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive add enjoy technology available brother.","maxScore":55,"minScore":6,"description":"Pretty use agent study take task. International one anything wear race none. Bank weight society mouth career probably follow.","estimatedTime":"10 weeks","previewFileId":"c896a3ad-8e3a-4feb-9b40-d56a7257b253","createdByUserId":"DRTggZNgEF"}'

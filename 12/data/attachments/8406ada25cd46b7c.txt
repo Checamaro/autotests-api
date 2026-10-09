@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjM5LjU0OTY3NiIsInVzZXJfaWQiOiIyZGY1YjFhNy03ZDYxLTRlZTUtOGIyNS0xNmFmZmM1ZjA2ZTAifQ.FMEhux2d4acN5bOqNo0YcovKJs_8gOKbPTYaIdMu2fE' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last number instead remain resource.","maxScore":51,"minScore":9,"description":"System act along write participant manager worry. Spend point current write energy. Receive cold security provide him everything kitchen.","estimatedTime":"5 weeks","previewFileId":"ed747950-717c-4073-bd69-55736f1886d2","createdByUserId":"2df5b1a7-7d61-4ee5-8b25-16affc5f06e0"}'

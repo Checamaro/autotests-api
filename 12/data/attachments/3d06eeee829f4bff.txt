@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjQ5Ljk3OTc4MSIsInVzZXJfaWQiOiI4OGI1NDg0Ny01NzBiLTRlMTEtODQxYS1jMmNjMmNlODkwYmEifQ.utOzJmAskQSuU2qbrtdidlyWTA0nPu46RfoXz5yKwgA' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us specific dream together yet finish.","maxScore":56,"minScore":20,"description":"Model season agree Mrs me back. Protect follow top.\nChoose fire light. Front interesting push military sport. Attorney door story open front decade.","estimatedTime":"6 weeks","previewFileId":"8efe66b9-6328-4c7a-b0d7-45d16e3c3405","createdByUserId":"88b54847-570b-4e11-841a-c2cc2ce890ba"}'

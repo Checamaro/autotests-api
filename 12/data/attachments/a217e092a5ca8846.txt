@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer 524ee6b57b5fa995e20ce45c1fb170b39a59fde938fdbeef044e5950194ce613' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone today grow rather analysis natural activity.","maxScore":62,"minScore":9,"description":"What receive certainly run bring sit. Land themselves west. Interview upon listen safe nation level involve form.\nIssue bag check pick discover event. Choose audience message lay drive.","estimatedTime":"7 weeks","previewFileId":"b6f032f8-5d2d-43fd-8711-b0e87598c95f","createdByUserId":"888339a2-345a-4ea8-b1db-15688b799bef"}'
