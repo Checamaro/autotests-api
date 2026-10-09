@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjE1LjY0ODQ3NiIsInVzZXJfaWQiOiIxMDYzMTNlYy0wNTU0LTQwMGMtYjNjZC1jNDU3NzM3MWVhZWIifQ.J06MhQBnp2hK2giYAr_mHXcYXhJoC5OCOsF39R0N3X8' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental once organization ever.","maxScore":55,"minScore":28,"description":"Nice process manager page garden wall budget. Throw magazine save best however.\nFace skin clear that concern do. Machine common human bag guy describe. Fall wish heavy interesting.","estimatedTime":"4 weeks","previewFileId":"4c9fbdab-0452-4181-b00f-ab3813740ad6","createdByUserId":"106313ec-0554-400c-b3cd-c4577371eaeb"}'

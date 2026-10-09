@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjE1Ljg4NzIyNiIsInVzZXJfaWQiOiJjN2UyNDAxOS01ZTkxLTRkNTMtYTlhYS05MjlkYWZmN2VlMjQifQ.ACMmb3psfZXjNl8vBtBEO2JvWdA4rDO6adGxcwCHKMo' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stay truth statement technology technology customer specific.","courseId":"3e8b7719-a579-40c7-a200-ac83d28acc8c","maxScore":79,"minScore":6,"orderIndex":96,"description":"Author lot writer.\nOf ahead little which perform man. School play discuss art human message term.","estimatedTime":"5 weeks"}'

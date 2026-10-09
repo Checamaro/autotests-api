@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjE0Ljg0NjMxOSIsInVzZXJfaWQiOiI1ZTQ0N2RhNC00YWZkLTQwMDMtOWVlYy01YmYzMDBhMzA4YjAifQ.LWRtLOZbIBk63ppoHswKnC72ChuLdNxbLeWZjKyJQEA' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask prevent spend whatever true major.","courseId":"62e9062c-502d-4cc7-91cc-02a748f36edb","maxScore":67,"minScore":1,"orderIndex":24,"description":"Bill next box amount. Sell almost evidence more beat imagine civil. Final tend first believe full hour.\nAuthority health receive economy rather example. Success nor charge case give.","estimatedTime":"4 weeks"}'

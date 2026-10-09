@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/0285397e-9193-43e6-aa78-5a37ec731019
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/0285397e-9193-43e6-aa78-5a37ec731019
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 0285397e-9193-43e6-aa78-5a37ec731019
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Ask prevent spend whatever true major.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 62e9062c-502d-4cc7-91cc-02a748f36edb
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 24
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Bill next box amount. Sell almost evidence more beat imagine civil. Final tend first believe full hour.
+Authority health receive economy rather example. Success nor charge case give.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

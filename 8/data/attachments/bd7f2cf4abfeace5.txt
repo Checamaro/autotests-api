@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjE1Ljg4NzIyNiIsInVzZXJfaWQiOiJjN2UyNDAxOS01ZTkxLTRkNTMtYTlhYS05MjlkYWZmN2VlMjQifQ.ACMmb3psfZXjNl8vBtBEO2JvWdA4rDO6adGxcwCHKMo' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Personal thousand despite bill should.","maxScore":92,"minScore":7,"description":"Technology produce kind civil language customer. Others total music company born.\nStrategy him mother a large. Meeting carry try region security work result. Born sing base theory military.","estimatedTime":"2 weeks","previewFileId":"7d73dcab-6071-4a36-88ee-bbd44b1b156c","createdByUserId":"c7e24019-5e91-4d53-a9aa-929daff7ee24"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjEzLjc4NDU5NCIsInVzZXJfaWQiOiI4YmM3NmFjMy00MWZhLTQzMjEtOTRhMS05NzY4NmExMDRiZGQifQ.ZFVrvbGZnhi7gAtsPoRbwQY3KvKiIj7anxMOUKbIkmE' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office officer dinner.","courseId":"a964a725-6b25-45ac-a3f8-1ba91f1f6536","maxScore":79,"minScore":24,"orderIndex":31,"description":"Spend he hundred room. Peace option key time agreement surface. Eye reality mention close attorney science rich. Door experience much democratic campaign country probably.","estimatedTime":"6 weeks"}'

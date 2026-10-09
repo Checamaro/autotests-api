@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjEyLjI2NDUzNCIsInVzZXJfaWQiOiI1YTEzYzNlYi1kMmViLTQzZTEtOTA4Zi00YjIwY2U4OWIxYjgifQ.05XWwpSCh9ATvV7SG7kk6cuDnxnXm5OgzdLhpSVOGK8' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr itself effort story behind.","maxScore":85,"minScore":27,"description":"Particular particularly attorney some address not outside spring. Research strong would low. Current discussion significant parent vote.","estimatedTime":"10 weeks","previewFileId":"987c4fbe-5fc8-4c8e-83ee-c98102a877b5","createdByUserId":"5a13c3eb-d2eb-43e1-908f-4b20ce89b1b8"}'

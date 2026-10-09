@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3c443482-235a-4738-9e10-2ab658d605df' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjEzLjU0NDA0NiIsInVzZXJfaWQiOiJlMGE3OTAxZC1mNzJlLTRkMjgtYjY1Yy05ZWI4MWJmNjc1YWIifQ.u0gJ547MOdmDLPiYyb8kgadETRLdGSg7Y02zEUWkGYg' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why hundred view somebody.","maxScore":73,"minScore":13,"description":"Ball mouth get reveal police consumer tonight. Piece same major those join. Subject hit son whose study billion. New nature term sound country another attorney deal.","estimatedTime":"4 weeks"}'

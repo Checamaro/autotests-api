@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjU1OjEzLjU0NDA0NiIsInVzZXJfaWQiOiJlMGE3OTAxZC1mNzJlLTRkMjgtYjY1Yy05ZWI4MWJmNjc1YWIifQ.u0gJ547MOdmDLPiYyb8kgadETRLdGSg7Y02zEUWkGYg' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style bed likely specific seat thought keep.","maxScore":71,"minScore":24,"description":"Employee speak process eat worker condition including. Media matter this list.\nHair explain necessary process firm at.","estimatedTime":"2 weeks","previewFileId":"b30a5e08-61cd-4b33-af1f-cd6c24e60fa5","createdByUserId":"e0a7901d-f72e-4d28-b65c-9eb81bf675ab"}'
