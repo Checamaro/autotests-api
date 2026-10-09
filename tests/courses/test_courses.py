@@ -792,7 +792,7 @@ class TestCourses:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @qase.id(68)
-    @pytest.mark.xfail(reason="DELETE /courses/{id} не удаляет exercises курса: GET exercise после удаления возвращает 200 вместо 404 (issue будет заведён позже)", strict=True)
+    @pytest.mark.xfail(reason="#5", strict=True)
     @allure.tag(AllureTag.DELETE_ENTITY)
     @allure.story(AllureStory.DELETE_ENTITY)
     @allure.title("[LMS-68] Удаление курса удаляет exercises")
@@ -1518,7 +1518,7 @@ class TestCoursesNegative:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @qase.id(53)
-    @pytest.mark.xfail(reason="PATCH /courses/{id} c title=null возвращает 500 Internal Server Error вместо 422 (issue будет заведён позже)", strict=True)
+    @pytest.mark.xfail(reason="#1", strict=True)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("[LMS-53] Обновление курса: title = null")
@@ -1546,7 +1546,7 @@ class TestCoursesNegative:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @qase.id(54)
-    @pytest.mark.xfail(reason="PATCH /courses/{id} c description=null возвращает 500 Internal Server Error вместо 422 (issue будет заведён позже)", strict=True)
+    @pytest.mark.xfail(reason="#1", strict=True)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("[LMS-54] Обновление курса: description = null")
@@ -1630,7 +1630,7 @@ class TestCoursesNegative:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @qase.id(57)
-    @pytest.mark.xfail(reason="PATCH /courses/{id} для несуществующего курса возвращает 500 Internal Server Error вместо 404 (issue будет заведён позже)", strict=True)
+    @pytest.mark.xfail(reason="#2", strict=True)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("[LMS-57] Обновление несуществующего курса")
@@ -1929,7 +1929,7 @@ class TestCoursesSecurity:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @qase.id(60)
-    @pytest.mark.xfail(reason="PATCH /courses/{id} чужим пользователем возвращает 200 и изменяет курс вместо 403 (issue будет заведён позже)", strict=True)
+    @pytest.mark.xfail(reason="#3", strict=True)
     @allure.tag(AllureTag.SECURITY)
     @allure.story(AllureStory.SECURITY)
     @allure.title("[LMS-60] Обновление чужого курса другим пользователем")
@@ -1999,7 +1999,7 @@ class TestCoursesSecurity:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @qase.id(71)
-    @pytest.mark.xfail(reason="DELETE /courses/{id} чужим пользователем возвращает 200 и удаляет курс вместо 403 (issue будет заведён позже)", strict=True)
+    @pytest.mark.xfail(reason="#4", strict=True)
     @allure.tag(AllureTag.SECURITY)
     @allure.story(AllureStory.SECURITY)
     @allure.title("[LMS-71] Удаление чужого курса другим пользователем")
