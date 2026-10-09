@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjQ0OjI4LjM0MzMyNSIsInVzZXJfaWQiOiI5MDY0YWIwZC04MjM3LTRjMjktOWUwOC1iM2EzNDE2NmQ4M2UifQ.VgT0W87ftaF8NnbH4VivQCuGBTPrEcTZNzEkd_iz0gg' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above industry resource check conference process.","maxScore":72,"minScore":19,"description":"Trade book think. Guess today every within so design.\nBlood to likely degree military whole really. Thousand bar city reach hold full focus. Hot describe key information evening.","estimatedTime":"2 weeks","previewFileId":"8d77e9a5-a282-4210-b82f-c59e1cf298e8","createdByUserId":"9064ab0d-8237-4c29-9e08-b3a34166d83e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjQ0OjI5LjIzNjYwNCIsInVzZXJfaWQiOiI4YTc5YmIwYS0wMWRkLTQzYjItOWFkMy02ZWI5NGZiMDhmMjYifQ.paqLfcRMSzfHJNLKSRTVNcg4EPEx92CFjxwe6SoEBPE' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father field sign beat.","courseId":"a06db8db-d5ba-422f-81e1-7afeed6b9328","maxScore":100,"minScore":20,"orderIndex":6,"description":"Change argue dark chair paper perform drop. Unit according although network mother pretty.\nWind truth firm through. Summer report care everything always.","estimatedTime":"6 weeks"}'

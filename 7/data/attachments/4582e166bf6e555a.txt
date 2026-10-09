@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjQ0OjMxLjAxMTg3MSIsInVzZXJfaWQiOiIwN2JhODJjZC02ZGIzLTRkNDctYTAyYy1mODc4MDI1ODNhMzcifQ.pl38qinfcCaMXDCf9Vb0KQ0Zvnf7-7gZXXU1qz4c60s' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ground teach something until lot mind short.","courseId":"2a0c20aa-a529-4d20-9ce1-54cdd75b09d0","maxScore":73,"minScore":28,"orderIndex":60,"description":"Who score according wall. Development themselves a. Tell one late trouble face. Energy series child lot.\nGlass question a goal minute rich. Must late keep assume.","estimatedTime":"2 weeks"}'

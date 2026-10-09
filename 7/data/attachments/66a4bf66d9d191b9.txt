@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjQ0OjI5LjIzNjYwNCIsInVzZXJfaWQiOiI4YTc5YmIwYS0wMWRkLTQzYjItOWFkMy02ZWI5NGZiMDhmMjYifQ.paqLfcRMSzfHJNLKSRTVNcg4EPEx92CFjxwe6SoEBPE' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal now Mrs career deep.","maxScore":51,"minScore":4,"description":"Heart evening cover skill outside such. Today week week general former. Wait clearly continue identify station Mr.\nThese help support. Born lose research list soon serious network do.","estimatedTime":"7 weeks","previewFileId":"0ac38d29-e27f-42bc-aec5-8ef574920659","createdByUserId":"8a79bb0a-01dd-43b2-9ad3-6eb94fb08f26"}'

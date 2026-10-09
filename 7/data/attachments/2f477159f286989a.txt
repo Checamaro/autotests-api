@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjQ0OjI5LjkxODQ0NCIsInVzZXJfaWQiOiIwMGJmY2UyNi1mZjJmLTQ1ZjYtYTQ3My01MDIyMDU4ZGFhYzkifQ.dvNZOxsocXXVZQJfqF8skgO4qIov18n8smLbzlNxREg' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million bill director.","maxScore":92,"minScore":12,"description":"Crime should none again everyone maintain large. Yourself policy choice win international particular summer. Discover law deep far attention girl week.","estimatedTime":"8 weeks","previewFileId":"ec1d9a60-5eb2-4d4f-a886-57dc1b30a1a6","createdByUserId":"00bfce26-ff2f-45f6-a473-5022058daac9"}'

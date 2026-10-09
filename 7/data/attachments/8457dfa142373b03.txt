@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDE5OjQ0OjMwLjEyMzI1MyIsInVzZXJfaWQiOiI3M2YxYzZkYi0zODRjLTQ3NzItYWZhYS0yYjEzOGZiMGYwMTQifQ.pZAbKMzheLOPbBQ8zK91GsHG5KQ30SWrdoUTa-v-DXA' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never song use son person.","maxScore":80,"minScore":17,"description":"Item be enough education wide age. Beautiful up cold fear might every.\nBest of wall thousand. Could no participant word onto. Between law quality fear toward factor.","estimatedTime":"9 weeks","previewFileId":"bfd1fab9-1ce5-4141-a90d-13fabb653c19","createdByUserId":"73f1c6db-384c-4772-afaa-2b138fb0f014"}'
