@@ -10,3 +10,4 @@ class AllureStory(str, Enum):
     UPDATE_ENTITY = "Update entity"
     DELETE_ENTITY = "Delete entity"
     VALIDATE_ENTITY = "Validate entity"
+    SECURITY = "Security"
