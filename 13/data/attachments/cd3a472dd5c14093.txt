@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA3LjAzMjA3MyIsInVzZXJfaWQiOiIwODE1ZmY0YS04NGFlLTRlMzctYWI0Zi0yNTI1OWI1Y2ZkNzUifQ.bkPdhMoi983Et7hZYDMuY2IEkY6jvE0UppaMUJ1C0FM' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leave score teacher case dinner history.","maxScore":65,"minScore":28,"description":"Standard write manage account its open. Baby president catch ready.\nGarden art last go heart imagine your. Crime rule story discuss college base town. Paper human see produce yourself.","estimatedTime":"5 weeks","previewFileId":"77b6263a-f346-4d31-ab7d-34b108740df5","createdByUserId":"0815ff4a-84ae-4e37-ab4f-25259b5cfd75"}'

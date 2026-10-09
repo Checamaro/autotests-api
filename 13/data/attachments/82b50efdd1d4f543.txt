@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/AylXZuJOZA' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM0LjgwNTgwMCIsInVzZXJfaWQiOiI1NWZlNzJkNS0xOGQ1LTQ5OTMtOWQyOS00NTExNWNjOWJhMWUifQ.Gg6ap2KvTNZTHiAtL5lxJg8fNGc3y6klfm86f9cW9oA' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home support argue business though wrong bag.","maxScore":60,"minScore":17,"description":"Always magazine price scientist trouble. None church away eight.\nBring skin music. Always federal sound store sure present population. Natural not growth staff write.","estimatedTime":"4 weeks"}'

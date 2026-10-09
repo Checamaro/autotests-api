@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjI1LjIzMDg1MiIsInVzZXJfaWQiOiI2ODRiYTZhZi02ZmU3LTRjYjUtOWQwZS1iNmQ0MDUxOTkwMDYifQ.mKHkRJ8HDEtTHfDIdGY9F5nLVwTdcibgktzlhCUKubc' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce late least professor.","maxScore":97,"minScore":8,"description":"Data believe important beyond Congress. Decide treatment area note threat coach team.\nSee use president board agree administration. Respond worry amount forget. Serve military least guess.","estimatedTime":"","previewFileId":"d40fe3ce-23ba-4812-9512-b1423b8dc18a","createdByUserId":"684ba6af-6fe7-4cb5-9d0e-b6d405199006"}'

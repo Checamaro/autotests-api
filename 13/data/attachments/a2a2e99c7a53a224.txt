@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d8081bfa-4965-435c-9a10-2cb697873ade' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQzLjEwOTQxNyIsInVzZXJfaWQiOiJmZTc3NDEyYy1jMjA0LTRiYzktOTNhOS1kOTJmNDRiNzEyOWYifQ.dHCxV80EkCVmi4e0i5Uf1bSiepPb1e1d9MgE38hdvn0' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Local ten animal.","maxScore":88,"minScore":13,"orderIndex":80,"description":"Number light option place record. Position although prevent movement why almost.\nNumber various agree raise establish network.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjI0Ljk2MTc5NSIsInVzZXJfaWQiOiJkMzhlZThjYS0wNTEwLTRjNTctODZjMy02NTA2NDFjYWQ5ZjMifQ.i9BRVjqgbZa35EgxFUM92PeufjSK9Fnehn7_GRH3Y3A' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule mean military kitchen available protect board.","maxScore":84,"minScore":2,"description":"Design center feeling along. Level stuff board walk ok.\nLet second both sit. Standard party military energy bring indicate make. Option particularly government network myself particular pass.","estimatedTime":"7 weeks","previewFileId":"54f65cca-3784-4ed0-92f0-645ab06ab0b9","createdByUserId":"d38ee8ca-0510-4c57-86c3-650641cad9f3"}'

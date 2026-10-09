@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA5LjQzNjc0NSIsInVzZXJfaWQiOiJlNDRhMzI5NC1lMTA4LTQ2YzItODMyNS0yNjg5ZmZhY2NiMzUifQ.V90lZsqHanzV-xaS-bTdE28r6kJcOEFdiilDlb_4_DM' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young decade between produce.","maxScore":90,"minScore":21,"description":"Discussion four recently east. Give church improve idea now.\nThird social small person turn. My success present bit.\nIncluding attorney notice check tree. My laugh senior open. Loss whether tell.","estimatedTime":"4 weeks","previewFileId":"405427fc-691e-475e-9227-30cf8aa3e869","createdByUserId":"e44a3294-e108-46c2-8325-2689ffaccb35"}'

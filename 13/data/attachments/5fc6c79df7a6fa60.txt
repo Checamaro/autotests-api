@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQ0LjMwMTgxMyIsInVzZXJfaWQiOiIxYTlkNjBjMC02MTE2LTQyZmYtOGU1Yi1kODk3YjI3NmNlNzUifQ.TEy9oSxDkow7K7nJ7Sth9GT_fDpt_LjwRXUqlMikfEc' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Outside American anyone less.","maxScore":96,"minScore":29,"description":"Fire both environmental author clear development job necessary.\nEverybody stay push real this later. Culture amount green responsibility. Enough hand fight.","estimatedTime":"3 weeks","previewFileId":"e7db2795-8f8c-4c3b-9392-01c0c1c52cc7","createdByUserId":"1a9d60c0-6116-42ff-8e5b-d897b276ce75"}'

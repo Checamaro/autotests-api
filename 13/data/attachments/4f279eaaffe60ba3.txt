@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjEwLjkxNTM3OSIsInVzZXJfaWQiOiI5YjdjMDQwZS0yZDg4LTRkZWQtYjYxZC04YjU4Yzk1NjgxM2YifQ.y9KZYVGzfVkqGaL-s-HXHRX9NfAMGKRA7sudRYT84f0' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation walk risk amount at everything.","maxScore":89,"minScore":null,"description":"Toward tough writer talk recent effort probably. Case several where practice laugh story film every.\nTelevision why rock case. Could dream fill morning. Me first maybe since fire.","estimatedTime":"7 weeks","previewFileId":"0171776e-54e0-47d9-938c-182abf39b283","createdByUserId":"9b7c040e-2d88-4ded-b61d-8b58c956813f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjE2LjAxMDA4MyIsInVzZXJfaWQiOiI2Yzc3MjEzOC02MDYxLTRkODAtODkxMC0xMDA2NWM5N2RhNmQifQ.c2xsl1ksCL01kGOALYaVdCHjFwKzqy6wCpteGCZmUZA' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power vote it less candidate room change.","maxScore":74,"minScore":17,"description":"Arm three movie can. Watch building control minute pattern off. Subject of itself form story thing.","estimatedTime":"10 weeks","previewFileId":"39859e09-e0f0-47b9-b756-889ee390a243","createdByUserId":"6c772138-6061-4d80-8910-10065c97da6d"}'

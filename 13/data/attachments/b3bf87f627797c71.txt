@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/exercises/d8081bfa-4965-435c-9a10-2cb697873ade
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/d8081bfa-4965-435c-9a10-2cb697873ade
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Local ten animal.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 80
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Number light option place record. Position although prevent movement why almost.
+Number various agree raise establish network.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

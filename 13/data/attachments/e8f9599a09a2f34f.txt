@@ -1,0 +1,10 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1355728f-416d-4955-bbb3-79bf8a820bf7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 239' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But pick concern four product magazine.","maxScore":70,"minScore":19,"description":"City people sea you. Skin wrong green realize partner.\nGive yes edge threat trade. To often wonder certain ever bed.","estimatedTime":"3 weeks"}'

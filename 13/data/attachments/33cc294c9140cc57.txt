@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjI2LjQzOTU2MSIsInVzZXJfaWQiOiIxNGU5MjY3OC05NjAyLTQyNzctYjBiMi05Nzc2NzIzNjMyZWQifQ.1E2a836THr_c914EkxHC2QDrLksk8urS9pvFBeTuJI0' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk explain since fund.","maxScore":51,"minScore":26,"description":"Short him go avoid. Personal and generation table reality try not against. Child small quality scientist today possible cost trial.","estimatedTime":"8 weeks","previewFileId":"e728e595-8fef-4bbd-98e3-9f1628ae686b","createdByUserId":"14e92678-9602-4277-b0b2-9776723632ed"}'

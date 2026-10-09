@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjEzLjA0OTAyOSIsInVzZXJfaWQiOiI4M2E2NTRhOS05OWM4LTQ0YWQtYTVhNy04MWVmNzk3NWFhZWYifQ.Az3VAGj2fI0lkK8sh8UN_M8WdtHHSrctQmf5lJerhx4' \
+  -H 'content-length: 2' \
+  -H 'content-type: application/json' \
+  -d '{}'

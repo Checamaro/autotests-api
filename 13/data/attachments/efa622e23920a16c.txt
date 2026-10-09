@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjIwLjQ5NDAzNiIsInVzZXJfaWQiOiJlODNjYThjMS1hNzVmLTQ1ZjMtOTdjMS1lOTM1ZDI3MDkwZTkifQ.PyGJ1K4zKzXuP2py7cWqprBOaceEXpZmTIdhYCCY3pE' \
+  -H 'content-length: 645' \
+  -H 'content-type: application/json' \
+  -d '{"title":"ZZjBiXSzmHWgFjEPTwzdevJuxXKIUUudwGwEkAQcFXEQDMjrXLalfLLmVaNXkAWwRAQXTzothwoFWXyxiuPunTvRxaLxeNUWNtGQMLOGaExMnotNfzfvSjSDInAhbSjVBGbhmBNDjPJkUcmZwMBSarpllDWKNuqoNIylNlacxqyVmDLKUhaktClxXhfNHzATcjNcdTopSCQdVHiMqiTgrHKcuEHjrGyUzXASFrSTxAQgTXruajmTSmRvzYG","maxScore":67,"minScore":7,"description":"Probably begin whatever town carry when institution. Yet team husband friend speech cup environmental.\nSame whole particular year end. Rule teacher no save price hospital. Threat decide base however.","estimatedTime":"7 weeks","previewFileId":"405c4739-4b4e-4214-9839-2a9a390c6835","createdByUserId":"e83ca8c1-a75f-45f3-97c1-e935d27090e9"}'

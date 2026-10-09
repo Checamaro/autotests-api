@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer 6e14933f52f8b954c57d454202acae7410383f3c0a5b9a355ea632b0a5b9b2fa' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Her continue assume hour message feeling three.","maxScore":60,"minScore":11,"description":"Big produce past foreign. Really election appear everything.\nRelate moment offer week child pass. Throughout trial campaign middle organization least. Human town much believe play statement upon.","estimatedTime":"5 weeks","previewFileId":"c453ade1-faaa-4763-8350-dd37b3c45a82","createdByUserId":"b580ef22-a73e-440f-9862-53a9302797f0"}'

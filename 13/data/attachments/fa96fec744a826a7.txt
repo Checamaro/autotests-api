@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjEyLjExNTc0NyIsInVzZXJfaWQiOiJhYWVhYzNjZC1jMzEyLTRlZWUtYjYxNy01ZWU4ZTRjOWE0NTIifQ.DaAcamJtWiN3IUTqbuPJ5l-vhvoTypPspfu_rV-oxKw' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Course realize do several discover.","maxScore":88,"minScore":16,"description":"Explain term apply nothing they time.\nBe fear hit somebody mouth few into. Another religious own garden board go.","estimatedTime":"3 weeks","previewFileId":"670d8669-553e-462e-8401-06ae0e7b22e6","createdByUserId":"aaeac3cd-c312-4eee-b617-5ee8e4c9a452"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMyOjU5LjQ3NTIwMSIsInVzZXJfaWQiOiJkMTc1YWVjMy1mZWRhLTQzZjktOWMzZS02ZGViYjkyZDM4NzAifQ.f8-0Dkurdg9-nWjiWWEiyjdio0GYcWnEVBqu0WccEks' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Case nothing color relate say any avoid money.","maxScore":60,"minScore":21,"description":"Ability force style number yet clearly home. Wall into live customer enjoy. Whatever maybe reflect yes whose member.\nMeeting staff well fight. Church question skin note. Guy answer pass kitchen.","estimatedTime":"1 weeks","previewFileId":"e4d4f6f9-195b-44d2-a556-2fad84ab08c1","createdByUserId":"d175aec3-feda-43f9-9c3e-6debb92d3870"}'

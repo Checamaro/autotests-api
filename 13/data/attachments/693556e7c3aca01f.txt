@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjAwLjc0NjkxNyIsInVzZXJfaWQiOiIxZjgwMDBhNy01M2JjLTQ4MDktOGIwMC05NTM0N2UwYzJlNzYifQ.ycGIq9zAAmy003zcY0bmwXhTRDfCOX_FW6W-e69FuNs' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial institution similar open national happy leader idea.","maxScore":81,"minScore":21,"description":"It course matter possible city size. Discuss decision despite because shoulder easy lose. Wife ten easy heart travel live woman.","estimatedTime":"1 weeks","previewFileId":"55af2535-4def-431b-b4c9-efb36d66ad6a","createdByUserId":"1f8000a7-53bc-4809-8b00-95347e0c2e76"}'

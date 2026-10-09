@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjMxLjIyNjMyNiIsInVzZXJfaWQiOiJmMWMyMjBmZi04YmUyLTQzMDUtYjViYy03YjIzMjc2MjhhZjQifQ.jMcEFmw-xaI8AsMmf4gx3iBUn02XGTbCDJSeHc966Dk' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare eight its.","maxScore":96,"minScore":22,"description":"Those enter artist relationship. Fight different agree toward current. Personal past win.\nAgain decision have really. Somebody purpose medical among go staff above. World bar site nation.","estimatedTime":"3 weeks","previewFileId":"d1df2dc0-2eb8-415e-85dd-5f893fd2d726","createdByUserId":"f1c220ff-8be2-4305-b5bc-7b2327628af4"}'

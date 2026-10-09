@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQ0LjAyNzM0OSIsInVzZXJfaWQiOiJiODVkMTU3ZC1iMTQ0LTQ4ZTYtOTU5Ni1jMzNkZTAyZmRhOWEifQ.XRDwSZ3fX16hWj9xJeP4ubJPvHypUccL-ndKkabuO9o' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Director pressure consider democratic.","maxScore":57,"minScore":24,"description":"Condition beyond simple central way. Wish best change strong office. Friend certainly pressure sort. War because left field computer.","estimatedTime":"10 weeks","previewFileId":"0569a3d0-09d7-40c2-a313-d0d85d5d859d","createdByUserId":"b85d157d-b144-48e6-9596-c33de02fda9a"}'

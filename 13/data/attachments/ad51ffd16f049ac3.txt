@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQwLjQ5MjM4MSIsInVzZXJfaWQiOiIxZTM0MjA1Zi1lZjIzLTRjYWQtOWVlOS1kMDg3ZTcwZTMwZmMifQ.NNQwCJj0LgVIQ9DhOC9dQl8FxAKg31DbtXaCdX8dHdQ' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go though cause want bag though fast.","maxScore":77,"minScore":3,"description":"Grow discuss technology floor wonder cultural. Performance whose trouble analysis pay forget. White its rule thus tonight.","estimatedTime":"3 weeks","previewFileId":"00bdfc0b-474c-4d84-a35a-9e95a80caabb","createdByUserId":"1e34205f-ef23-4cad-9ee9-d087e70e30fc"}'

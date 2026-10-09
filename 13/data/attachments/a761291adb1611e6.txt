@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM2LjkwNTQ1MSIsInVzZXJfaWQiOiI1YzE5ZTM3MS01OWI0LTQxODUtOGFlNS0zZmEyODZjMmNlNDIifQ.lYRtxFEudUkgJdp7sd0BNzSYSIaRB0n9uAjL4Bn-u9Q' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form relate cause side change.","maxScore":50,"minScore":27,"description":"Peace today statement thousand. Message arm star have.\nLeg drop Congress music. Usually north whole her kid floor. Political tend think continue outside admit.","estimatedTime":"7 weeks","previewFileId":"47ac0874-4e9d-4296-acbb-b6f235faaeaf","createdByUserId":"5c19e371-59b4-4185-8ae5-3fa286c2ce42"}'

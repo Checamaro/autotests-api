@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjMwLjY0NTkxMSIsInVzZXJfaWQiOiJiMjllN2M3My1iNTk2LTRhZDYtOGRkYy03OWYyMzNlZjI1MzEifQ._gb2O2EehmO_QmK2SDT-yJyIsCf35MZU-7zmeqeeRRw' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indeed act movie series.","maxScore":89,"minScore":10,"description":"Or material sense manage else from age. Employee ball population stop.\nMyself hour stage here each collection. Sea heart instead interview. Hand every attack bring.","estimatedTime":"7 weeks","previewFileId":"c99fe38f-a6ec-446d-b7d2-c5a75c36a748","createdByUserId":"b29e7c73-b596-4ad6-8ddc-79f233ef2531"}'

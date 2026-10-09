@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/4a71138e-9602-43db-9262-0d31c50fb542
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/4a71138e-9602-43db-9262-0d31c50fb542
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:121 Check partial update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Course realize do several discover.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Explain term apply nothing they time.
+Be fear hit somebody mouth few into. Another religious own garden board go.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 4a71138e-9602-43db-9262-0d31c50fb542
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

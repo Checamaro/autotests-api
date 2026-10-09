@@ -1,0 +1,7 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 401 Unauthorized from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 401
+INFO     ERRORS_ASSERTIONS:errors.py:118 Check invalid token response
+INFO     ERRORS_ASSERTIONS:errors.py:60 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "details" equals to Invalid or expired token
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

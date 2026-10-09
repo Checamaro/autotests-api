@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjMyLjQwODY5NiIsInVzZXJfaWQiOiJhZTEzZDY1Yi02M2NhLTRhMWItODBkZi0wYzYxMTUwZWU0MjEifQ.vc4S1vRAx-Fg29hNhg_FwPtgGdZ-3RJCQidP5hIqaUA' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once factor trade find minute know ball.","maxScore":57,"minScore":19,"description":"Project begin more general special cause.\nAdministration finally experience. Although quality program take view opportunity special.","estimatedTime":"10 weeks","previewFileId":"027ca0e3-e5ef-487c-a97d-62a20907969b","createdByUserId":"ae13d65b-63ca-4a1b-80df-0c61150ee421"}'

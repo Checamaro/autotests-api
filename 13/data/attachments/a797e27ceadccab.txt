@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjIzLjc0MTEzNiIsInVzZXJfaWQiOiI4OTQwMTE5Yi0wNGUzLTRiNDYtODFkOS0xODQ2NzA4NDg0OWEifQ.barCqBiEYRg4uqOqkEOu9yEyr-rjlSVkYldCWdBQXlc' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Identify society my trial paper investment.","maxScore":60,"minScore":19,"description":"You summer for issue our.\nHalf partner agreement him recently group magazine yourself. Paper art what weight police other student.","estimatedTime":"8 weeks","previewFileId":"fc55de80-dc49-4c74-8e29-0de839a9dad5","createdByUserId":"8940119b-04e3-4b46-81d9-18467084849a"}'

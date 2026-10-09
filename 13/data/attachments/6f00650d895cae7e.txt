@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjMzLjYyMjU2NCIsInVzZXJfaWQiOiI4MmEyOWFkMi1lMDhlLTQ1ODUtYmVjYS1iN2FjNWNhZDJkYmUifQ.jxbVDW0XmcYvz2a-0RjKFjTPV3w2o7GLelxbl1G2myU' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Across sense believe impact thousand ten tax.","maxScore":69,"minScore":15,"description":"About real public clearly lay Mrs then. Much huge participant mention happen.\nFigure bed clearly property end collection again. Administration scene black baby. Simply red into learn away find.","estimatedTime":"4 weeks","previewFileId":"ce51065d-5b18-47ae-b0a9-7b8efb6980a1","createdByUserId":"82a29ad2-e08e-4585-beca-b7ac5cad2dbe"}'

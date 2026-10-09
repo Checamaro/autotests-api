@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjI4Ljc5NDU5MiIsInVzZXJfaWQiOiJkNzU5YTY2MS1iYTM5LTRjMzQtOTFjZS0zMTg1ZjU0NzJmY2IifQ.xYz_KpknySUzyDF0tn01hfVhTR2EGPtZcuHbzGnAvuA' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice million itself control senior.","maxScore":98,"minScore":23,"description":"Strong she material table produce. Later hit first account page.\nHospital task agreement. Letter capital create place senior of would she.","estimatedTime":"1 weeks","previewFileId":"eab84600-2e02-4d8c-b63c-a252511794a3","createdByUserId":"d759a661-ba39-4c34-91ce-3185f5472fcb"}'

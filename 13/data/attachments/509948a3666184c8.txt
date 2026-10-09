@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjEzLjk1MTQ4OCIsInVzZXJfaWQiOiIxZWFiYTc4YS1hMWUwLTRjZTYtODc4YS0yODgwNjUzNjY2M2QifQ.i4C6nwQRErYf5XWJSUYzmcB3Oj3wTjV8_3GRcQgPPkk' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall beautiful go firm from.","maxScore":63,"minScore":5,"description":"Color decade think herself parent very push. Decision hour the public newspaper might action. Return price goal into either test official.","estimatedTime":"2 weeks","previewFileId":"UkzyoMQBmJ","createdByUserId":"1eaba78a-a1e0-4ce6-878a-28806536663d"}'

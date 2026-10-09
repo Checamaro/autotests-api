@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/eb28f0ee-bdf0-44b8-acbe-42c7511c2d30' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA3LjAzMjA3MyIsInVzZXJfaWQiOiIwODE1ZmY0YS04NGFlLTRlMzctYWI0Zi0yNTI1OWI1Y2ZkNzUifQ.bkPdhMoi983Et7hZYDMuY2IEkY6jvE0UppaMUJ1C0FM' \
+  -H 'content-length: 144' \
+  -H 'content-type: application/json' \
+  -d '{"description":"Cost kid history particular effort sign. Drive here draw rest study third power.\nSpring performance respond down mouth allow."}'

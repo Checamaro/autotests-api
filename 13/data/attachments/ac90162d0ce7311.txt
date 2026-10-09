@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/89f1ce5a-0807-4767-bb4b-c6502adfc30b
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/89f1ce5a-0807-4767-bb4b-c6502adfc30b
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:121 Check partial update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Partner campaign level service they.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Finish later society interview. Language discover away fear. Always technology mother a personal teacher box example. Movie upon successful result should sea near happy.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 89f1ce5a-0807-4767-bb4b-c6502adfc30b
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjIyLjUzNDMxMyIsInVzZXJfaWQiOiJiOTQzZmIwOS1mNzQ4LTQzNTMtYjYxOC0wMzU3NzVmY2UxZjEifQ.4aooxdIkIXmoOmLvNrvOERVgm9_ah43-by9qCHtfqwM' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choose happen half room hotel read how.","maxScore":51,"minScore":26,"description":"Smile record at voice. Imagine interesting daughter pretty feel. Eye send law myself.\nNext night share effect. Remember attorney national run. Large man south its near each win society.","estimatedTime":"2 weeks","previewFileId":"a0af7710-6055-429f-8edf-a2bca1c4adc7","createdByUserId":"b943fb09-f748-4353-b618-035775fce1f1"}'

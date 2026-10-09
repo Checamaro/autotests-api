@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjE1LjExMzQ2OCIsInVzZXJfaWQiOiI4YWQyZTAwNy04ZjJjLTRmOTEtODhmNC03NDg5YzQxOWRjZWEifQ.IKSk-oVRIoD4o5yVsqvb1yl2Wb6VORaObFKlb8Inyk4' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region staff suffer girl one report.","maxScore":95,"minScore":26,"description":"Me deal organization school. Evidence military single standard commercial. Ground just require perform draw every stock.\nCandidate clearly soldier right. Movie chair degree TV money sea traditional.","estimatedTime":"1 weeks","previewFileId":"e8e42964-1942-4360-949c-00c20d6fe10a","createdByUserId":"azLXHQiTyr"}'

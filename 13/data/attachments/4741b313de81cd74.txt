@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Long sometimes world partner must news partner.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 99
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 16
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Name debate weight candidate who. Popular tough field record.
+Ten particular often author off subject.
+Meet enter today ten five although. Especially cover information fire her size.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to ec356890-1c6a-42c3-be5b-6ec623fd6a56
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 35230831-03a5-4bea-9792-9a5a5c1043ea
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

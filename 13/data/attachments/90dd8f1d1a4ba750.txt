@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2a5ee760-01e6-41cf-ab27-38b0d8f7793a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer d276f344c7548704f969cd8c1adb46dda36e095ce36e54d034ddc569d699dba3' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Value house recognize despite after heavy something.","maxScore":58,"minScore":14,"description":"Board any generation this arm test. Four responsibility bed let modern enjoy television. Alone her front million still.\nThere eight majority factor.","estimatedTime":"9 weeks"}'

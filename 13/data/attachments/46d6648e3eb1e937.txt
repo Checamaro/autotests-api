@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA1LjgyNzk3NyIsInVzZXJfaWQiOiIxNGI5MzAzNi1jZmIxLTQzZmMtOGNmOS0wZGUwMmZhMThjYzYifQ.8zGHMUCo_fZQvO2T52YYqv3cc684e55_Sc3cliNUoTY' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Single result concern none dream factor partner what.","maxScore":60,"minScore":25,"description":"Specific health cause subject ready. Establish purpose keep set give.","estimatedTime":"7 weeks","previewFileId":"a5afed95-4e49-4505-aaa7-e107dfe7f25a","createdByUserId":"14b93036-cfb1-43fc-8cf9-0de02fa18cc6"}'

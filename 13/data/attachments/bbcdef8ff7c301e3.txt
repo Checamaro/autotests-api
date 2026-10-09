@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQwLjc2NTg3NyIsInVzZXJfaWQiOiIxN2ExMjE5Ni0yOWZiLTQxMmQtYjFjNC1lMTUzYmE2YjI4YmYifQ.1a2iNWyccnxq1J7to_zLHUIoVNx23rzkchrKylalrGo' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear blood everything.","maxScore":72,"minScore":10,"description":"Data happy paper.\nCulture lot else worker. Easy article short decide need appear agent billion.","estimatedTime":"4 weeks","previewFileId":"8a951339-8ac0-41f1-8de8-a4b9ed35dc41","createdByUserId":"17a12196-29fb-412d-b1c4-e153ba6b28bf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjAxLjMyNjE0MiIsInVzZXJfaWQiOiIxNjFlMjYxOC00YzlmLTRkNjYtYWNlNi1hYjQxNzdjMmQ4NmMifQ.R6G4Xs9R6pNBpWLUMf4MSh4qWFd_s0D4-8YXoWthyqo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Face identify him agree.","description":"Get anyone history what itself. Order scientist theory stay up of.\nGeneral able sister business season happy yourself. System down edge. Data degree east sign system information some police.","previewFileId":"84179173-e954-42b9-aa97-8925aa61dcd7","createdByUserId":"161e2618-4c9f-4d66-ace6-ab4177c2d86c"}'

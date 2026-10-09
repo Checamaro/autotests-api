@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQxLjk0MDIyMSIsInVzZXJfaWQiOiI4MmRhZDdiZi1iMjZmLTQ0NjEtYjQ0Ny03OTcwNzEyNGViODcifQ.Tmx7MqLW1monILI-RPUJeufqRuF4aLIbYKLDieaod_U' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Their discussion young drive ball cut leg.","maxScore":74,"minScore":7,"description":"Market play if risk relate agree. Fine reason goal number maybe school. Home senior well we thank probably.","estimatedTime":"6 weeks","previewFileId":"864fafab-ff53-416a-86dc-1680f2bfe0ef","createdByUserId":"82dad7bf-b26f-4461-b447-79707124eb87"}'

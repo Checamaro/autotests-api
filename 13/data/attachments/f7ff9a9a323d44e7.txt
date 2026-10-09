@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjAyLjUwOTM3OCIsInVzZXJfaWQiOiIxNDFiZjA0Ny04MWM3LTQ1YzAtOGVjNy0zOWNkZThkMzlkYmMifQ.PAzzZq1TkVmCoVHjo_8p_tP-wI30GKMioxZ9eIu__5I' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon senior range everybody foreign.","maxScore":null,"minScore":null,"description":"Machine born choice trade measure simply center wonder. Meet whom democratic outside get certainly. Argue full use light expert prepare property.","estimatedTime":null,"previewFileId":"c22dc884-7f7f-4fcf-a801-7bee947fcf64","createdByUserId":"141bf047-81c7-45c0-8ec7-39cde8d39dbc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjIyLjgwOTAzNCIsInVzZXJfaWQiOiJiZjIzMmM5ZS00ZWY0LTRhY2MtYmYxYy05MWMzMTFkMWU3YzMifQ.KFV8Hzi6nwBk0cG2lA6UxaD-u2jQSY4L3EgTcfHPEI8' \
+  -H 'content-length: 238' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already say security month imagine quality.","maxScore":57,"minScore":18,"description":"","estimatedTime":"3 weeks","previewFileId":"bab0e7db-604a-48c6-afb9-a86469409c35","createdByUserId":"bf232c9e-4ef4-4acc-bf1c-91c311d1e7c3"}'

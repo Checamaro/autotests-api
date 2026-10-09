@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/a4c9d7fb-2919-4ebb-9834-7557a8519eca
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/a4c9d7fb-2919-4ebb-9834-7557a8519eca
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:121 Check partial update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to q
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Discussion four recently east. Give church improve idea now.
+Third social small person turn. My success present bit.
+Including attorney notice check tree. My laugh senior open. Loss whether tell.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to a4c9d7fb-2919-4ebb-9834-7557a8519eca
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

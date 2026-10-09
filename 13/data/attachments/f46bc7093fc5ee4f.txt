@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjE0LjUzNzQzOCIsInVzZXJfaWQiOiIwMGZkYzVlYy0wNjBhLTRiOGYtYTMxOS1hODBhYWQ4ZjYzNTcifQ.hHSDO4YqLmsfRnN52_1pljVxw9iLvhgZL-8esVKb9SU' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine term that thus.","maxScore":69,"minScore":30,"description":"Church hope but wind establish window market. Office well green order sit. Between miss man firm number beautiful personal.","estimatedTime":"1 weeks","previewFileId":"902de941-0927-4a32-8866-dbe763efe4ca","createdByUserId":"00fdc5ec-060a-4b8f-a319-a80aad8f6357"}'

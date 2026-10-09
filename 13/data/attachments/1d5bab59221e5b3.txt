@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQ1LjUwNjA3NiIsInVzZXJfaWQiOiJlMzc2MzIxZS04YjRmLTQzMGYtYTc1Ni04OWQ1NDU4NDRjNzIifQ.34989kXSxTv7LKpsXrXFCswkDFHf99qMlmGc8Tc4ZwM' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop something miss voice.","courseId":"71234eb3-fade-4b80-aff8-b64df59a6af7","maxScore":50,"minScore":16,"orderIndex":11,"description":"Movement this check in. Only purpose process father name society.\nAbility center rest speak. Issue method structure guy. Cut cell word record lead against.","estimatedTime":"1 weeks"}'

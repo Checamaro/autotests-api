@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjExLjg0MjIwOSIsInVzZXJfaWQiOiJjZjg1ODQxMC1iN2EzLTQ2NDMtYjVhOC0yY2Q4NjRmYjY5MTgifQ.kbjwJHt44jXjliUgb-Rcs7dx1QZiVqSHSPXE2xweWbc' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation south service picture world.","maxScore":68,"minScore":30,"description":"Administration popular necessary well. Either letter send visit fight full kind seat. Issue minute campaign treatment.","estimatedTime":"10 weeks","previewFileId":"0523f637-1bfc-42a2-9130-b4de76bdb57f","createdByUserId":"cf858410-b7a3-4643-b5a8-2cd864fb6918"}'

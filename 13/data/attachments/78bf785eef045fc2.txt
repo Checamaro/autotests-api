@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjAwLjA1ODM5OCIsInVzZXJfaWQiOiIzNTIzMDgzMS0wM2E1LTRiZWEtOTc5Mi05YTVhNWMxMDQzZWEifQ.IZJjgYs5XlXQh0ZM3pP9HRAD888xABBxcSqNLBubu44' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long sometimes world partner must news partner.","maxScore":99,"minScore":16,"description":"Name debate weight candidate who. Popular tough field record.\nTen particular often author off subject.\nMeet enter today ten five although. Especially cover information fire her size.","estimatedTime":"5 weeks","previewFileId":"ec356890-1c6a-42c3-be5b-6ec623fd6a56","createdByUserId":"35230831-03a5-4bea-9792-9a5a5c1043ea"}'

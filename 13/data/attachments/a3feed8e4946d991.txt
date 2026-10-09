@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA4LjIzODUxNSIsInVzZXJfaWQiOiJjOWUyZmI0Ni02NGE4LTQxMTctOGY0OC00NGNkYjQ3ZGM1OGUifQ.DEi-vhOSX7F9gzG8MhbUE9pEBEPSFGpQuqrQseJSkvg' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner campaign level service they.","maxScore":93,"minScore":15,"description":"Finish later society interview. Language discover away fear. Always technology mother a personal teacher box example. Movie upon successful result should sea near happy.","estimatedTime":"10 weeks","previewFileId":"e0bc6326-32b3-444c-9394-ec5fbe188295","createdByUserId":"c9e2fb46-64a8-4117-8f48-44cdb47dc58e"}'

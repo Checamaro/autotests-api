@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM5LjUyMjYwMiIsInVzZXJfaWQiOiJmMmE5YWZmMi1kNjEyLTQxMjgtOTM5MS0xYjlhNTcyM2YyZTcifQ.xw7FA49eb7W2WQV_gGZSbM0GNBggl3paeqAb_W92eJM' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Contain sell American soldier unit.","maxScore":83,"minScore":28,"description":"Form with affect much enjoy administration. Into medical industry somebody both fall.\nFine evidence up last. National mother campaign water.","estimatedTime":"1 weeks","previewFileId":"06d37699-4081-495d-a80e-fb1f65fe7690","createdByUserId":"f2a9aff2-d612-4128-9391-1b9a5723f2e7"}'

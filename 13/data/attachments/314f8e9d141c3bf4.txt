@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjE4LjcxOTUxNCIsInVzZXJfaWQiOiJjMjZlOTJjNS0xMmZmLTQ4MjQtOTM4Ni0zZTliM2ZmODM4YTMifQ.Y0hq4cxDwBDpew4iFxUkmiOhEvH4yHntAq064tXbA80' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago man nice since similar media west society.","maxScore":63,"minScore":10,"description":"Couple run family him race.\nBecome home quality peace herself vote far. Save approach consider street.\nHear difficult everybody. Party reality line enter. Listen send east moment cost.","estimatedTime":"7 weeks","previewFileId":"350935a3-a8da-4705-8000-2faf7f56f92d","createdByUserId":"c26e92c5-12ff-4824-9386-3e9b3ff838a3"}'

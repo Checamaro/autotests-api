@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Operation walk risk amount at everything.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Toward tough writer talk recent effort probably. Case several where practice laugh story film every.
+Television why rock case. Could dream fill morning. Me first maybe since fire.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 0171776e-54e0-47d9-938c-182abf39b283
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 9b7c040e-2d88-4ded-b61d-8b58c956813f
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

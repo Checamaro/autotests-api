@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ae88a9de-d1c0-49c9-8226-3f384be25c01' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM5LjI0NTU4OSIsInVzZXJfaWQiOiIzYTlmOGQ0Yi05NzRiLTRlYjYtYTIzMi1iYzhkMzY1MGFiOWQifQ.O206AIggKtTfuOBDUeRCXUDUJTa_68SFSVnooMvxfoI' \
+  -H 'content-length: 189' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue shoulder ever scientist.","maxScore":55,"minScore":7,"description":"Return general Mrs now book.\nSimple visit sense represent spend money ground.","estimatedTime":"7 weeks"}'

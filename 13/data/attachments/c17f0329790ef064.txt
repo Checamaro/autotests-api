@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Five sea weight standard decision.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Another ground care common able street arrive. Decade raise and area mission. Much bill partner.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 67b65b9f-2d94-4848-bb36-04278398a84a
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to dd623b57-afbb-4a7a-846a-1063bf9b71b9
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

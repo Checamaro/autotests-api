@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM1LjM4NDMzOCIsInVzZXJfaWQiOiJhMDk2NmRlNS1kYTU0LTRiOTMtOWUwMC1mMzU5N2RlNDMzMWIifQ.8wT99hHH90piK0nkI-Kkm291R5fmC7pXlaPrnmmHlWo' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank hear difficult.","maxScore":87,"minScore":24,"description":"Machine parent best southern. Test determine owner performance.\nRather stuff example. Material bring form surface similar benefit sister Republican. Skin when morning film employee moment conference.","estimatedTime":"8 weeks","previewFileId":"10418338-63af-4bf4-abea-4db9d54ca7ab","createdByUserId":"a0966de5-da54-4b93-9e00-f3597de4331b"}'

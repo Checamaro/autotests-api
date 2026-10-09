@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjI5Ljk3Mzg1OSIsInVzZXJfaWQiOiI2Y2E4MWY2NC1iMTcyLTQzMTEtODg1NS1kNjlkYTMxZmUyYzkifQ.c0LMFc4K2IaIne8bZAAoACJleg31ql_D7nIFzsbR7SA' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cup production season article head language perhaps.","maxScore":84,"minScore":18,"description":"Line while benefit what woman friend. Star somebody from power set get guess. Fish little argue environmental standard owner poor room. Mention dog thank live may character nice high.","estimatedTime":"3 weeks","previewFileId":"38876358-ac08-499e-96d1-256b38e25b3d","createdByUserId":"6ca81f64-b172-4311-8855-d69da31fe2c9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQzLjEwOTQxNyIsInVzZXJfaWQiOiJmZTc3NDEyYy1jMjA0LTRiYzktOTNhOS1kOTJmNDRiNzEyOWYifQ.dHCxV80EkCVmi4e0i5Uf1bSiepPb1e1d9MgE38hdvn0' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least argue seem dark image.","maxScore":95,"minScore":10,"description":"Each time list know somebody.\nInvolve summer player allow investment east personal.\nConsumer least deal myself miss daughter father. Amount project analysis effort sign state.\nSurface head real.","estimatedTime":"5 weeks","previewFileId":"0be67ebd-8116-4ff0-abe4-a9f35841e610","createdByUserId":"fe77412c-c204-4bc9-93a9-d92f44b7129f"}'

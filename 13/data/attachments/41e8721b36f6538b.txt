@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQ0LjMwMTgxMyIsInVzZXJfaWQiOiIxYTlkNjBjMC02MTE2LTQyZmYtOGU1Yi1kODk3YjI3NmNlNzUifQ.TEy9oSxDkow7K7nJ7Sth9GT_fDpt_LjwRXUqlMikfEc' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce kitchen meeting down only him usually group.","courseId":"e4beb719-ca02-42d7-8a16-a268d18ca7c8","maxScore":81,"minScore":7,"orderIndex":45,"description":"Energy analysis modern else instead nature serve box. Sense see interest keep management rich. Series I look.\nClear trip whatever perhaps. Member plant traditional reduce.","estimatedTime":"10 weeks"}'

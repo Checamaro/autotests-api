@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjAzLjQwMDUxMCIsInVzZXJfaWQiOiI1Y2ExZDM0Yy02YmNjLTQ0ZjktYjZlNy02MGQ0ZmVjZjZhNGIifQ.zzYr1hPmTge7f0sMaDVkUn8XHIGJkxcJV4SzI6ogsGU' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over picture perhaps church across.","maxScore":69,"minScore":25,"description":"Factor former produce. Thank however fish article. Deep ground open quality single begin. Citizen at yard sister hundred knowledge.\nStart something appear memory pass. Even series coach.","estimatedTime":"1 weeks","previewFileId":"f9655d7e-b66b-4e5b-b368-b8d41e1effa1","createdByUserId":"5ca1d34c-6bcc-44f9-b6e7-60d4fecf6a4b"}'

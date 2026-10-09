@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjI3LjYyMTQ2MCIsInVzZXJfaWQiOiIzYWE5ODVkMS04NjM3LTQyZWYtODQyYi1jYzRiNzMyMDIzYTIifQ.KirO3zB3UENeNgQTgRAMed_pnLmVyX5yyAR1O3KaGHA' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice Congress our lead might per commercial PM.","maxScore":80,"minScore":15,"description":"Customer civil heart middle. Order raise boy.\nStand few score ok prepare check compare. Mention keep course against beyond exist window growth. Say boy process cost determine.","estimatedTime":"4 weeks","previewFileId":"55f21149-f81e-4af8-978e-f0427ee9e4f7","createdByUserId":"3aa985d1-8637-42ef-842b-cc4b732023a2"}'

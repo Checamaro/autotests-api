@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cdc50fb7-ac00-418c-9664-a09e9586d702' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM1Ljk2ODc1NSIsInVzZXJfaWQiOiIxMzEyZTQzMS0xZTM2LTQ3YWEtOTQ2MS0xMDE1YmYyNWQ3OWEifQ.Vv3y5_ulCsnxiqwYN5HWMTqmKTThueHw1kZNmvwX6h8' \
+  -H 'content-length: 232' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In trial support safe financial range lead.","maxScore":67,"minScore":14,"description":"Describe person person indicate. Real father cover attention woman. Detail TV score grow course rich view.","estimatedTime":"1 weeks"}'

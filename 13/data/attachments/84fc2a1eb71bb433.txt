@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjEwLjY0MTkxNiIsInVzZXJfaWQiOiIxNTE4Njk1YS00NDg5LTRhMDktOWQ0ZC0wZDIzODZmODMwMjAifQ.KEn41E_3IiVRtBxUJ9U-u5XEtYRDogHnYecjrAbp3wI' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yeah remember interest develop something.","maxScore":86,"minScore":19,"description":"Scene sister pull real buy soon walk. Out ball other share lose apply. Age theory know box book mission suggest.\nHand evening coach able movement Democrat. Choose morning offer woman way.","estimatedTime":"6 weeks","previewFileId":"b9e52c3e-b998-42f0-b363-8a2d8c397625","createdByUserId":"1518695a-4489-4a09-9d4d-0d2386f83020"}'

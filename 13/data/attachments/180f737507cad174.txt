@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA5LjcxMDE5MCIsInVzZXJfaWQiOiJkZDYyM2I1Ny1hZmJiLTRhN2EtODQ2YS0xMDYzYmY5YjcxYjkifQ.vLCGxBEzj2xzQPmqPfrVRXlO-CjY-yPuMYDvciEwC8Q' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five sea weight standard decision.","maxScore":58,"minScore":58,"description":"Another ground care common able street arrive. Decade raise and area mission. Much bill partner.","estimatedTime":"10 weeks","previewFileId":"67b65b9f-2d94-4848-bb36-04278398a84a","createdByUserId":"dd623b57-afbb-4a7a-846a-1063bf9b71b9"}'

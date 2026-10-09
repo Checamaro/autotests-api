@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjEzLjMyMjk0MSIsInVzZXJfaWQiOiJhYzJjMDMxNy0zYTI1LTRmNmEtODcyNC00OTQwMGYyZmIzNmEifQ.ExfPCi-l888q88BxlKgD4A3D1fGcKMS11AdzaPeuo20' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific near their research hotel such adult.","maxScore":97,"minScore":18,"description":"Sell identify student purpose resource century. Manager form deep picture write value pretty.\nHis concern imagine because leader. Beyond agreement light factor. Story her lead himself.","estimatedTime":"8 weeks","previewFileId":"35548a48-9ce6-47a9-a9e9-e27023e5cd1a","createdByUserId":"ac2c0317-3a25-4f6a-8724-49400f2fb36a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA2LjEwMTU1NCIsInVzZXJfaWQiOiIzNDU0OTUyZi04ZTNlLTQxOTAtYjZhYy1iODVhNTJkNTA0MWMifQ.3YTLiLWh9nAMjEZ0E9-NwS6_RPryLi-nPd94DTG23v4' \
+  -H 'content-length: 228' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Team in much my charge possible.","maxScore":65,"minScore":15,"description":"f","estimatedTime":"6 weeks","previewFileId":"b9c639f4-a05a-4c05-851a-077b96c43b02","createdByUserId":"3454952f-8e3e-4190-b6ac-b85a52d5041c"}'

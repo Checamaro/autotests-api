@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjQ1LjUwNjA3NiIsInVzZXJfaWQiOiJlMzc2MzIxZS04YjRmLTQzMGYtYTc1Ni04OWQ1NDU4NDRjNzIifQ.34989kXSxTv7LKpsXrXFCswkDFHf99qMlmGc8Tc4ZwM' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control parent treatment create society.","maxScore":78,"minScore":22,"description":"Analysis air worker suddenly imagine. Change watch three war mind fund. Because garden how instead hit down everybody your.\nAgent religious modern ever suggest.","estimatedTime":"6 weeks","previewFileId":"9e29bd15-0805-43f5-a455-7e7f93bc294e","createdByUserId":"e376321e-8b4f-430f-a756-89d545844c72"}'

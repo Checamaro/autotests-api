@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjM4LjM5MDc0NCIsInVzZXJfaWQiOiIwMjEwMGNmZC1kNWJiLTRlMjItODVlMi1mODJlZjM1M2EwNmIifQ.BB3hAr3YQzI8738dV_tMGzCmtkzpDCHY9Z-DZreF5pE' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute wish section name.","maxScore":87,"minScore":23,"description":"Forget control main continue city media realize. Rule production environment consider ever stuff. Wonder nation media foreign often green.","estimatedTime":"9 weeks","previewFileId":"6e726ed4-c83f-4268-8608-2360998f46d2","createdByUserId":"02100cfd-d5bb-4e22-85e2-f82ef353a06b"}'

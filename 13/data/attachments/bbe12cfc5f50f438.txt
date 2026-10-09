@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjA3LjMwNTQ1OCIsInVzZXJfaWQiOiJmYmI2ZmNlZC05MDJkLTRkZWUtYjdkNS0zMmUyNWViNDcyYzQifQ.NauLEkbD29_Q6NeTEa9hwXKPlXm77rUti2KqV5yuf48' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit camera white something.","maxScore":51,"minScore":21,"description":"Against treat quite smile region challenge accept. Executive lose wife serve.","estimatedTime":"k","previewFileId":"b8d83b39-5426-47a4-81e1-5a6a684fe039","createdByUserId":"fbb6fced-902d-4dee-b7d5-32e25eb472c4"}'

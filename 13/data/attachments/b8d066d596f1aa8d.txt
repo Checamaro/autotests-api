@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjMzOjE3LjIxMDU0NyIsInVzZXJfaWQiOiI0ZjBmODJlNS03ZjAxLTQ5NmMtYTVlMS1lYjAwYTY5ZTgzOTMifQ.puxMXTj15wU3_BCn_TLptdl6ApX9PQjzOJ12AFTy7Kk' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Successful good reflect institution.","maxScore":1,"minScore":73,"description":"Yes sister compare myself up book series enter.\nMay feel political stage contain write for. Enter generation community.","estimatedTime":"7 weeks","previewFileId":"db77a2ac-2333-4aff-b706-fa723653e7cf","createdByUserId":"4f0f82e5-7f01-496c-a5e1-eb00a69e8393"}'
