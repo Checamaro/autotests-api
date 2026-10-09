@@ -1,0 +1,60 @@
+# ИИ-разбор упавшего прогона: запускается после workflow "API tests", только если он упал.
+# Нужен секрет CLAUDE_CODE_OAUTH_TOKEN (получить локально командой `claude setup-token`).
+name: AI triage
+
+on:
+  workflow_run:
+    workflows: ["API tests"]
+    types: [completed]
+
+jobs:
+  triage:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Download Allure results from the failed run
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Summarize failures
+        run: python tools/ai/summarize_allure.py allure-results > failures.txt
+
+      - name: Claude triage
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Ты действуешь как субагент run-triager (правила — в .claude/agents/run-triager.md и CLAUDE.md).
+            Сводка падений прогона ${{ github.event.workflow_run.html_url }} лежит в failures.txt.
+            1. Классифицируй каждое падение: BUG / TEST / ENV / FLAKY, с обоснованием.
+            2. Для BUG проверь дубли (gh issue list --state all --label bug --search ...).
+               Если дубля нет — создай issue по templates/bug.md с метками bug,ai-triage.
+               Если дубль есть — добавь комментарий со ссылкой на этот прогон.
+            3. Создай ОДНО issue с меткой ai-triage и заголовком
+               "AI-разбор прогона #${{ github.event.workflow_run.run_number }}":
+               сводка по категориям, таблица Тест | Категория | Причина | Действие,
+               для TEST — предложенный diff исправления.
+            Ничего не коммить и не пушь.
+          claude_args: >-
+            --allowedTools "Read,Glob,Grep,Bash(gh issue list:*),Bash(gh issue create:*),Bash(gh issue comment:*),Bash(gh run view:*)"
