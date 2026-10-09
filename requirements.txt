@@ -9,3 +9,5 @@ pytest==9.0.2
 pytest-rerunfailures==16.1
 pytest-xdist==3.8.0
 
+
+qase-pytest==9.0.0

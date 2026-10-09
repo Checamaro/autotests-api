@@ -3,15 +3,17 @@ from clients.event_hooks import curl_event_hook, log_request_event_hook, log_res
 from config import settings
 
 
-def get_public_http_client() -> Client:
+def get_public_http_client(headers: dict[str, str] | None = None) -> Client:
     """
     Функция создаёт экземпляр httpx.Client с базовыми настройками.
 
+    :param headers: Дополнительные заголовки (например, Authorization с произвольным токеном).
     :return: Готовый к использованию объект httpx.Client.
     """
     return Client(
         timeout=settings.http_client.timeout,
         base_url=settings.http_client.client_url,
+        headers=headers,
         event_hooks={
             "request": [curl_event_hook, log_request_event_hook],
             "response": [log_response_event_hook]

@@ -96,6 +96,23 @@ class Fake:
         """
         return self.faker.random_int(start, end)
 
+    def string(self, length: int) -> str:
+        """
+        Генерирует строку из случайных букв заданной длины (для граничных значений).
+
+        :param length: Длина строки.
+        :return: Случайная строка нужной длины.
+        """
+        return "".join(self.faker.random_letters(length))
+
+    def access_token(self) -> str:
+        """
+        Генерирует случайную строку, которая не является валидным токеном доступа.
+
+        :return: Случайная строка.
+        """
+        return self.faker.sha256()
+
     def max_score(self) -> int:
         """
         Генерирует случайный максимальный балл в диапазоне от 50 до 100.

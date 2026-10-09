@@ -39,3 +39,13 @@ def function_user(public_users_client: PublicUsersClient) -> UserFixture:
     request = CreateUserRequestSchema()
     response = public_users_client.create_user(request)
     return UserFixture(request=request, response=response)
+
+
+@pytest.fixture
+def function_second_user(public_users_client: PublicUsersClient) -> UserFixture:
+    """
+    Второй пользователь (для проверок изоляции данных между пользователями).
+    """
+    request = CreateUserRequestSchema()
+    response = public_users_client.create_user(request)
+    return UserFixture(request=request, response=response)
