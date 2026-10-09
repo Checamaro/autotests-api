@@ -91,16 +91,33 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      # 4. Шаг для генерации отчёта Allure с историей
-      - name: Generates Allure Report with history
-        uses: simple-elf/allure-report-action@v1.13
-        if: always()
+      # 4. Устанавливаем Java и Allure CLI напрямую (вместо simple-elf/allure-report-action:
+      #    его Docker-образ сломан — в базовом образе нет xargs, и allure не запускается)
+      - name: Set up Java
+        uses: actions/setup-java@v4
         with:
-          allure_results: allure-results
-          allure_history: allure-history
-          keep_reports: 20  # Храним последние 20 отчетов
+          distribution: temurin
+          java-version: '17'
 
-      # 5. Шаг для деплоя отчёта Allure на GitHub Pages
+      - name: Install Allure CLI
+        env:
+          ALLURE_VERSION: 2.32.0
+        run: |
+          wget -q https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/$ALLURE_VERSION/allure-commandline-$ALLURE_VERSION.tgz
+          tar -xzf allure-commandline-$ALLURE_VERSION.tgz -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/allure-$ALLURE_VERSION/bin" >> "$GITHUB_PATH"
+
+      # 5. Генерируем отчёт с историей трендов и храним последние 20 отчётов
+      - name: Generate Allure report with history
+        if: always()
+        env:
+          RUN_NUMBER: ${{ github.run_number }}
+          KEEP_REPORTS: 20
+          PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          BUILD_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: bash .github/scripts/allure-history.sh
+
+      # 6. Шаг для деплоя отчёта Allure на GitHub Pages
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
