@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjQxLjAxNzExMCIsInVzZXJfaWQiOiI2ZTU3YzI1Yi0wYjA0LTQxZmYtOWQ0MS00OGI4YjIyMjcwZTYifQ.8Dw4kSHKfrTTivqQ2PjKTWkoPOTiRDXTVODz2Xc4XKc' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"My news often consider writer indicate.","maxScore":67,"minScore":18,"description":"Travel feeling just sense. Good card approach course put local have. Week against whole.","estimatedTime":"1 weeks","previewFileId":"abef5de3-5672-482b-a19a-93a52bbf2f4e","createdByUserId":"6e57c25b-0b04-41ff-9d41-48b8b22270e6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE4LjUwNjE2NyIsInVzZXJfaWQiOiIzNTE1NjQ5OC1kYzUxLTRmNGUtYWM4MC1kMDQ5YmQ5ODMxNzkifQ.jAAjuySOe2yygb686tYJJBu6x9vhfYBG35n6kz6dqSU' \
+  -H 'content-length: 221' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area read receive big lot.","maxScore":73,"minScore":30,"description":"","estimatedTime":"1 weeks","previewFileId":"8d7617f6-3786-4594-a853-ad7f2d0f753f","createdByUserId":"35156498-dc51-4f4e-ac80-d049bd983179"}'

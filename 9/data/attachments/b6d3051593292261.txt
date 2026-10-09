@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjI0LjE4NzU0MyIsInVzZXJfaWQiOiJjZDgzOTcxZC00ZmU1LTQyMTgtYjNhOS1lNGNmZTYwODdkOTUifQ.wL715jbV9kj0IfLoi-hwHUrACgcT89wANf9ZZwRl6L4' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay office success collection situation where.","maxScore":84,"minScore":15,"description":"Himself data across home establish situation teacher. Be billion phone science election budget instead sell. Body deep raise box peace PM mother.","estimatedTime":"5 weeks","createdByUserId":"cd83971d-4fe5-4218-b3a9-e4cfe6087d95"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAyLjk4MzM1MCIsInVzZXJfaWQiOiJkNDE5OTliYi0yN2JhLTRlNmQtYTcyYS04YWJhZDQwMDMyYTMifQ.dRyHG30huZ7pwmWXzzDAVVGwFxEPt2rVvBu264y_WN0' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert half trade without person within customer.","maxScore":57,"minScore":21,"description":"Guess not system together system evening organization. Piece door fine hour. Air modern stuff live.\nTough during then.","estimatedTime":"i","previewFileId":"d9596d9f-4b72-4732-aa20-5e8682fce190","createdByUserId":"d41999bb-27ba-4e6d-a72a-8abad40032a3"}'

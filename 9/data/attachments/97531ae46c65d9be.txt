@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/iYzYvdeIcX' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjMwLjQyOTU1OCIsInVzZXJfaWQiOiIwNzRiMWYxZi0yNDBlLTQwM2MtOTZlNC00ZDQyZDRkYWY2NDAifQ.yGsm1fgtoaigo6fAmL9tvS5dNycUUrL7pq8xrGPGkBU' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest wait natural seven season economy born.","maxScore":81,"minScore":15,"description":"Go today clearly campaign glass. Government party travel. Near box add teacher.\nInformation teach tough debate home garden. Parent peace image just keep. Our fight director far serious watch.","estimatedTime":"10 weeks"}'

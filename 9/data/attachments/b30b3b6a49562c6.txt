@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjIzLjI4NzA4NSIsInVzZXJfaWQiOiIzYWM2NWYzNy04N2YxLTRmYTgtOTdmYS0wZmM4NzYwMTliZjcifQ.E5XNE2Ud9Xi8hK2plWqgztVk7_GPgY76jGA4kBxc4xI' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Again remember artist leg military.","maxScore":69,"minScore":22,"description":"Most last activity forget half.\nMaterial better prove resource arrive. Side break rule. Realize near mean very officer which newspaper.","estimatedTime":"5 weeks","previewFileId":"6f9f973a-246a-4da6-908c-a9e0587473dd","createdByUserId":"3ac65f37-87f1-4fa8-97fa-0fc876019bf7"}'

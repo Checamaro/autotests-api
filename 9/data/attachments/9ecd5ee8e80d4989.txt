@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjMzLjk2NjU4NSIsInVzZXJfaWQiOiIzZWQxNmZlZC01ODliLTQ2NDAtODY0Yy1mNTNiMTdiNDk5OWQifQ.1bFQ830fS3pGWHDz7hWs8FUn5YPj9PnCglargAIVvIc' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term attorney consumer box us heavy.","maxScore":67,"minScore":22,"description":"Mean believe truth example through woman ability. Most network road class visit agree. Prove control sometimes exactly no against court citizen.","estimatedTime":"5 weeks","previewFileId":"5becff6f-276a-4f31-b212-6123bc38590f","createdByUserId":"3ed16fed-589b-4640-864c-f53b17b4999d"}'

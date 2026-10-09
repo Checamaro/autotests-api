@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE5LjQ2MDk3MyIsInVzZXJfaWQiOiIyODkzYjI3ZC0zNGVjLTRjOGEtODRlNi1jMDA4ZTUxODdiZDAifQ.zmQxwy3vOvZHDo7rqO-lHevdukrLptX_4tWGS16v3F4' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born bring career.","maxScore":53,"minScore":21,"description":"North tend boy claim the type. Window mouth between resource.\nResearch various account result. Professor design interest much today thousand.","estimatedTime":"coqOXgCDMdSotourHCsNvKlNhynDWLHyhUDrRbRgmfHKDKTzOuE","previewFileId":"8e57ee7b-d356-4a66-90d2-1c4eb33fd305","createdByUserId":"2893b27d-34ec-4c8a-84e6-c008e5187bd0"}'

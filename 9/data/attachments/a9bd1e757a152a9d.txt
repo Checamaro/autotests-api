@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM3LjQ1MzA2MiIsInVzZXJfaWQiOiI4MGE0ZmQ3MS03Zjc4LTQ0YTctOWVhZi0xMjYwYzhmYjcxZWUifQ.EfohK6HI9u2wlB4XEKFxSCbLSBXB3FUXaDfYVNP9HvA' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Campaign later measure trip practice up provide sound.","maxScore":54,"minScore":28,"description":"Industry take themselves per stop top. Else write both maybe again bring study. No finally reality.\nNature ability wrong car institution. Will other light society civil buy research.","estimatedTime":"8 weeks","previewFileId":"56118f5f-8278-470f-988b-00efd44b5987","createdByUserId":"80a4fd71-7f78-44a7-9eaf-1260c8fb71ee"}'

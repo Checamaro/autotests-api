@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a8677e6b-5c4a-49b4-8e3a-bb7847c779ae' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAyLjcwOTc3MCIsInVzZXJfaWQiOiJkOTkyNGE3Ni0wZTE2LTQ1MTEtOTc1Yi03M2UxODRjZTA0MmQifQ.fAtY8EZbX-5sLzGjAEvq1Lyqb0A2d5hLsPiPg_pcNnw' \
+  -H 'content-length: 159' \
+  -H 'content-type: application/json' \
+  -d '{"description":"Field worry measure respond strong art. Pick task commercial benefit country everybody person. Center wide mind. Trade those scientist early."}'

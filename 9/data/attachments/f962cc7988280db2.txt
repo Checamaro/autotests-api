@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjMxLjAxNzE1MiIsInVzZXJfaWQiOiI2NjQ1YjEzMi02ZGM4LTRmNWEtOWI1NC1mOTczNjQxYjQwMDIifQ.uSH1whH6x6dPCATP9ERSuOXLFobOPHoDsD94fhp3EPw' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sea out rest.","maxScore":78,"minScore":8,"description":"One when adult member policy safe. Successful suddenly trade image education production. Their purpose eight clear miss against heavy.","estimatedTime":"1 weeks","previewFileId":"40bbf117-0044-4472-aed0-bad558e58873","createdByUserId":"6645b132-6dc8-4f5a-9b54-f973641b4002"}'

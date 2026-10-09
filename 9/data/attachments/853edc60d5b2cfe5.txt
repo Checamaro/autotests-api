@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End herself change statement national.","maxScore":68,"minScore":22,"description":"Friend really bit long institution. Full remain per whatever. Really sometimes measure resource blood over then blue.","estimatedTime":"10 weeks","previewFileId":"75546195-057f-4ab7-80bb-232f21869a2c","createdByUserId":"4d59de3e-9a1c-4d4b-85ed-8e7c94a1b5ac"}'

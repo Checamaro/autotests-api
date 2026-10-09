@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA5LjAxNjcxNyIsInVzZXJfaWQiOiI2M2I3OGQ5Yi05NzdkLTRjNmEtYjg2Yi0xMjcxYjk5MTAzZTMifQ.Pqx37y2LeQbucyXHWP4dq-yLA158g36Aw1rrChObUsw' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Design job anyone.","maxScore":83,"minScore":9,"description":"Continue drop center animal here.\nTrip have unit memory. Past major education star service shoulder.\nMain southern unit. Social anything more picture individual. Share end about kind sell dog.","estimatedTime":"2 weeks","previewFileId":"8cd5ea31-b960-4be5-acaa-c8ea8d03b36b","createdByUserId":"63b78d9b-977d-4c6a-b86b-1271b99103e3"}'

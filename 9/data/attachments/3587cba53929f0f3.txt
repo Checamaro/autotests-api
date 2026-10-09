@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjI0LjQ2MzE2MiIsInVzZXJfaWQiOiI4NGVlMzU2OC1lMjQyLTRkYTAtOGRlNC1jY2MzNDZiZjNkODIifQ.KOx41pGigMb_zaX26AKrA1ld9JpWY69od7kyJnI-H_c' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason serious benefit imagine either.","maxScore":51,"minScore":10,"description":"Station goal such down sit. Face house have national.\nIt program source other. Send enjoy probably worker. Some may similar peace brother. Significant beautiful heavy north.","estimatedTime":"4 weeks","previewFileId":"d4e6738c-8e3a-4833-95ad-b391d8e503dd","createdByUserId":"84ee3568-e242-4da0-8de4-ccc346bf3d82"}'

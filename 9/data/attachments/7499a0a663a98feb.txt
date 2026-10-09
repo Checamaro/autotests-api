@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM2LjI3NTA5MiIsInVzZXJfaWQiOiI1NjRiNmExOC02OTlmLTRiOGUtYTNiNC1kZWQ2MWMxMDNiYTIifQ.tek34p-fh8G_mBr2iFmzARH3BtaTOv8c5FbUMtscn8g' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Take professional run industry cut hot majority.","maxScore":62,"minScore":3,"description":"Simple win apply plant beautiful.\nArtist test send here care. Series wrong number deep together democratic treat. Thank same human.","estimatedTime":"8 weeks","previewFileId":"88883ae4-4685-47d8-92a2-dc6fabf48e1d","createdByUserId":"564b6a18-699f-4b8e-a3b4-ded61c103ba2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA3LjgwMjA4NiIsInVzZXJfaWQiOiJjNDdiMGViNS1lNjUzLTQ4ZTUtYTdhYS0yOGEwMWEwNmM0ZGEifQ.XaUKajurQ4mlc_51o-JP71AMs01bBWzlXuhU6PEBtXI' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever choose perform choose vote social.","maxScore":92,"minScore":22,"description":"Officer very result whole. Memory take knowledge follow quickly.\nMother others ability several government focus. And reality how particular especially. Either well respond energy environmental.","estimatedTime":"6 weeks","previewFileId":"25f3dd76-293a-43d7-8c9d-f7571884f4f6","createdByUserId":"c47b0eb5-e653-48e5-a7aa-28a01a06c4da"}'

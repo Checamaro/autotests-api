@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjEwLjI0NTEyNyIsInVzZXJfaWQiOiIwMmJkNmIxMS0zZGE4LTQ2YTItYjZlMy05ZmU3NDk0MWQ4YTYifQ.fO21l5hrnqKvtaWsUa-fLy8FruDHPbM9_JzOSlrt7zE' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key behind grow size.","maxScore":56,"minScore":28,"description":"Wall visit break avoid. Management degree political newspaper community. Color tonight glass indeed work somebody.\nProgram bring bar ready do power. Also imagine shoulder.","estimatedTime":"8 weeks","previewFileId":"1a637598-546d-400d-8a29-985966967a89","createdByUserId":"02bd6b11-3da8-46a2-b6e3-9fe74941d8a6"}'

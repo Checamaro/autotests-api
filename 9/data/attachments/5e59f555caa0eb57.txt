@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAxOjU3LjAxODA5NSIsInVzZXJfaWQiOiJjNmNiNDY4YS1lODdlLTQyOWUtOWY4Mi05YzRjMjViZGViYzMifQ.qD_IgQ_sOjGUAsI7VTumX5o4sdwg_aljDf1npxO6m-M' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tell chair ready appear big than find.","description":"Mission event old interview apply stuff manage heavy. Miss medical very. Offer meet on operation of care happy. Keep game agency protect public.","previewFileId":"2884e150-ff8d-44d0-a30b-845ff07bc92a","createdByUserId":"c6cb468a-e87e-429e-9f82-9c4c25bdebc3"}'

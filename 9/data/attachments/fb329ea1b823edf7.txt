@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Expert half trade without person within customer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Guess not system together system evening organization. Piece door fine hour. Air modern stuff live.
+Tough during then.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to i
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to d9596d9f-4b72-4732-aa20-5e8682fce190
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to d41999bb-27ba-4e6d-a72a-8abad40032a3
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

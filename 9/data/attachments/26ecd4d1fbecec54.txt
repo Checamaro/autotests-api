@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE3LjM0ODU1NCIsInVzZXJfaWQiOiJmMDAxYmRkMS1mMmJkLTRhM2YtOTNkOC05NWI5Y2RjZjIyOTAifQ.SZg1qnLb6nbWSRtkSCf-bHC-cGJMgyhf_V8KPUnKqe4' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"","maxScore":63,"minScore":2,"description":"Idea assume heavy economic computer. Reality act example billion current politics.","estimatedTime":"5 weeks","previewFileId":"294b6ccb-487f-4377-80b2-dda71c96d4d8","createdByUserId":"f001bdd1-f2bd-4a3f-93d8-95b9cdcf2290"}'

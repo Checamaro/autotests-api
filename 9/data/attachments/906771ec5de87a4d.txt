@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAxOjU1LjgzOTY1NSIsInVzZXJfaWQiOiJkNWU2MDU3NC00ZWU4LTQ4YzUtYjY5Ny02ZDQ4YmY4ODgwY2QifQ.YWt2q1nmBGN4cPPNFA8i8BBJUk9_JWyq_7SspDyQPVw' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gas shake dream stuff develop.","maxScore":63,"minScore":1,"description":"Future relate meet carry manage no whatever. Stuff across professional knowledge feeling onto. Over interesting support bring court. Avoid job computer so prove work.","estimatedTime":"5 weeks","previewFileId":"fa2f0cff-6915-46d4-a43a-f8761ce15734","createdByUserId":"d5e60574-4ee8-48c5-b697-6d48bf8880cd"}'

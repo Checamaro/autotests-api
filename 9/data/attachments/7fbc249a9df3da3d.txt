@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/aacbbda7-44a4-4445-adaf-06be8758c691' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAxLjUxMDgwNyIsInVzZXJfaWQiOiJlMWYzN2UwMC1mYTMxLTQ2NDctOWMyYS05MWRmNDhkYmJmMDgifQ.Wro_ndO-JyAPPRF4CCOSSLBbYMnG1Fo77q2ux25Wp4U' \
+  -H 'content-length: 55' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American heart include still by wear major."}'

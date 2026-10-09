@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjI1LjYzNjI1OCIsInVzZXJfaWQiOiIxNGNlYjU1Ny1jM2EzLTQzOWEtYWU1MS1jMGE0NzcwNjc0ZWEifQ.FKkNgOhwXccNXE5isUMmpyUpJ045Ued5FlpB_oqcVdA' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve partner win another capital.","maxScore":79,"minScore":27,"description":"Young poor adult meeting relate. Debate foot both represent fast. Trial recently top room really turn decide.\nTask bit former know really democratic stop where. Great reveal we gun short various.","estimatedTime":"8 weeks","previewFileId":"8449664a-0ba4-4101-b247-7ae1ba3355f1","createdByUserId":"14ceb557-c3a3-439a-ae51-c0a4770674ea"}'

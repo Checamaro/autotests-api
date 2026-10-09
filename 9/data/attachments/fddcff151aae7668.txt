@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM4LjYyMDMxOSIsInVzZXJfaWQiOiJjMjVhYTZkNS0xNWMzLTQyYmUtODQ0My0zZGJkZjY5N2EyZGIifQ.W66T4x8sjUbzS3h38Ep3yjsZ9slNOY3PIGPftb-6u58' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Process return part rise see particular.","maxScore":58,"minScore":9,"description":"Child call least seem. Lot vote us ten.\nFather miss team final last kid. Quite word those room. Kitchen card get floor collection avoid.","estimatedTime":"2 weeks","previewFileId":"c578def8-e6fe-4c3b-8637-2f9a23a920c7","createdByUserId":"c25aa6d5-15c3-42be-8443-3dbdf697a2db"}'

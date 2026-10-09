@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjMzLjM4NzA0MyIsInVzZXJfaWQiOiIwMzhjMmM2Ni00NzM3LTQxZWItODcwNy05ZjY5MDA2OGZhMDkifQ.dIEPX8dQG5EMia3omdjdtXN_9WwO0X_Jlbm1A-LKcIg' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Under task movement way professor wrong garden most.","maxScore":61,"minScore":4,"description":"Sometimes school reason issue until. Gas maybe set clear together increase section.\nNecessary response why hard onto. Loss always join large nature response child. Fight or full statement.","estimatedTime":"7 weeks","previewFileId":"717e9aea-bba0-43ed-901e-f971ee92ce1a","createdByUserId":"038c2c66-4737-41eb-8707-9f690068fa09"}'

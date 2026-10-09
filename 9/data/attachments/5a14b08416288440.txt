@@ -1,0 +1,10 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0fcc9ad4-944d-477f-b50c-ac60d64f033b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low less region.","maxScore":83,"minScore":10,"description":"Mrs wear laugh support film heart response. Fire future assume player never. Hit rest system simply want cost or arrive. Even bring far.\nHigh race fill play. Culture step station agree.","estimatedTime":"3 weeks"}'

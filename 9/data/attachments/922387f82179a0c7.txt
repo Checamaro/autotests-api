@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjEwLjgzMDUxNiIsInVzZXJfaWQiOiI5MDgxM2M0Ny0yZDAxLTQxMjItYjkwNi1kZjk2MDVmNDI5YTMifQ.dODNwbUpAKwzZGKd8M-7ZCZvrsb_KCkdjonnL_aRj2M' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Job recent player American.","maxScore":57,"minScore":27,"description":"Month remember thousand decision. Usually almost all Republican drive write any church.\nEducation involve another close really. Professor way type enough like.","estimatedTime":"9 weeks","previewFileId":"eec8b6e3-a77d-4812-a7c3-d9091c16e085","createdByUserId":"dmxBZJaTca"}'

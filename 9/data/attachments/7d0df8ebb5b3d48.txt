@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA1LjM5MzIzOSIsInVzZXJfaWQiOiI3ZjE0M2U1MC00ODBhLTQzMDMtYWFlNi1jZWIzZDM4NjNhNTYifQ.oNDaqKLjMPuAh1FS0IIeeOFlAqnYyIV7_M2QhD7tjwE' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Despite window accept member.","maxScore":63,"minScore":63,"description":"Himself region exactly nice message. Recent full interest.\nTree also hour person down kitchen. Teach learn environment ever last simple whatever start.","estimatedTime":"2 weeks","previewFileId":"ba351fac-1bc6-4f6c-ae44-b59c4a45ce33","createdByUserId":"7f143e50-480a-4303-aae6-ceb3d3863a56"}'

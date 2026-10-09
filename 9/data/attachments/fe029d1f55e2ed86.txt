@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjIwLjYyOTEzOCIsInVzZXJfaWQiOiJhNjk1OGExMy1hMzk5LTRkMjAtOGQ1Ny1lNDc4OTVkM2QzYTEifQ.c15zbobCuOeOOXHA53YNACGNk5Y-yInNcbKWfCx4ipg' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long fear lay computer just act.","maxScore":61,"minScore":3,"description":"Much policy rather response girl sister myself generation. Last when team get first news. These put picture type music well break.","estimatedTime":"","previewFileId":"dce976e8-302d-437a-aca6-408b02f1b04d","createdByUserId":"a6958a13-a399-4d20-8d57-e47895d3d3a1"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjIzLjAxMjc0OSIsInVzZXJfaWQiOiIxYjJlNDZmOC0xZGNiLTQ1MzItOGQ5Zi0xZGZhMjYxN2RkYmUifQ.8zVMiEN6oU3aTOJFD74-DH_OBBxsGd4b7-nb-KQSLs0' \
+  -H 'content-length: 205' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drop future list fine tend.","maxScore":83,"minScore":11,"estimatedTime":"7 weeks","previewFileId":"f99fb654-ca3c-4fb8-9d22-d3a084bcdae8","createdByUserId":"1b2e46f8-1dcb-4532-8d9f-1dfa2617ddbe"}'

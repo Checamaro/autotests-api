@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM3LjE3ODgwMyIsInVzZXJfaWQiOiJmN2RiMDdkZC1hZTliLTRkMjQtYWUwMC0yMjBjYmQ4ZjZkY2YifQ.6rr2qwVWk3ZcPJOncAe4d3bMphL9zWGTzWMp6Umv4Lo' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question effect economic class official.","maxScore":95,"minScore":14,"description":"Enough person road good civil least. Deep military stand minute here her commercial technology. Including our politics first. Ask firm method voice role west.","estimatedTime":"10 weeks","previewFileId":"9e5ffc6e-dd8f-46e8-8dce-7726702ff985","createdByUserId":"f7db07dd-ae9b-4d24-ae00-220cbd8f6dcf"}'

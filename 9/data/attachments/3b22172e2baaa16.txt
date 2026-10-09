@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA1LjExOTAzNyIsInVzZXJfaWQiOiI2ZTZlMzIwYy04YzI2LTQxN2YtYjAzYS03NmIzZTQyZjNmNjQifQ.aM_WslacNqSUnnjbrhAK6yQyJdR0WsXW6LSq-TZmYQk' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enter myself environment left force teach close candidate.","maxScore":85,"minScore":4,"description":"Feeling nation population scene someone shake gas. Technology machine concern to ten military various.","estimatedTime":"6 weeks","previewFileId":"cfefe5e7-7cb3-4a5c-8a52-40c506567f49","createdByUserId":"6e6e320c-8c26-417f-b03a-76b3e42f3f64"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Experience indeed rather away him far old.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Compare southern with. Film act process. Young success kitchen ever citizen finally job.
+Place spend to brother.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to HKFByKSEwZVFmHmWkKCfsKnpoJNZjUKqkKuhqzlASLwZLApFex
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 0c8a1aba-edb5-401a-a8ac-42a391c75d25
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to dac8ffab-1d1a-44ce-b3ef-602db1f8a9fd
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/98ae7557-c5d7-46b4-ac3d-710a5c5cbcbe' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer e99b54ab3816c23da26bdaefb4f46afe816f7fa69c44a90906d65c14dc880953' \
+  -H 'content-length: 247' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through themselves tell call hundred.","maxScore":58,"minScore":5,"description":"As general half machine. Weight find also couple get level. Participant trouble you. Sure other candidate consider visit a here.","estimatedTime":"8 weeks"}'

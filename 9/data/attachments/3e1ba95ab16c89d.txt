@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA5LjY1OTQ1NyIsInVzZXJfaWQiOiJiY2U1MTFiOC1mY2IzLTQ1NDMtYWY0Zi0zNzExYTAyMmU5OTcifQ.Or4B4CmtOxTW5ZPyTKPF2T2Zm3roAdro_tJcD4tO8zg' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pull situation face wife sign let.","maxScore":76,"minScore":9,"description":"Then several condition full work this.\nKid how stage someone structure represent morning history. Single pick information raise.","estimatedTime":"4 weeks","previewFileId":"KboMjBsOdv","createdByUserId":"bce511b8-fcb3-4543-af4f-3711a022e997"}'

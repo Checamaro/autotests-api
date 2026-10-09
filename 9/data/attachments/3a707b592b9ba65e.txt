@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAzLjkxMTA3MyIsInVzZXJfaWQiOiJhNTZjMmZiMC0yMzNkLTQ2NGQtODBhMi03NmJhYmFkMDIyZjgifQ.hOt5T0KLbGWD3AARAH0e7ZNUIGmFoxVyvBgLCeF83e0' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along animal senior paper.","maxScore":84,"minScore":21,"description":"Glass officer charge with religious for risk. Hold half table late especially increase three all.","estimatedTime":"8 weeks","previewFileId":"03ce8a26-9acb-492c-abd0-a61f80a0aad5","createdByUserId":"a56c2fb0-233d-464d-80a2-76babad022f8"}'

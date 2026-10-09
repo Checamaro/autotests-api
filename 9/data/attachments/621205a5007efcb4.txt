@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8bf84dc5-5981-4dcb-866d-3fe35af957f9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjMxLjYwNjIzMyIsInVzZXJfaWQiOiJjNDRiNmZiNi0zZjRmLTQyYzUtYmI5Ny02ZDAxN2Y2MjljMjUifQ.vDA-p8jSLlrr8CL7EA0SiZvFynwIxuTH4Z12UHkDW24' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority everyone agent break natural even bad.","maxScore":91,"minScore":13,"description":"Let executive spring various task. Blue million health help range. New morning upon. Player recently nice accept officer worry food town.","estimatedTime":"6 weeks"}'

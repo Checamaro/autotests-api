@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM5LjgxOTk1OSIsInVzZXJfaWQiOiJkZDhkZjdiYS03Yzg0LTQ3MDItYTNjNC1iMjJkYTg5ZjhiZDUifQ.yjsheYv7OWnoC1subFappoCdOSNdF0gOdHoSJI-zma8' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center participant window answer rule.","maxScore":72,"minScore":23,"description":"Without either management draw. Daughter might at onto even. Next whether cold assume reality court some.","estimatedTime":"1 weeks","previewFileId":"aa2dcb1b-5e6c-4c60-abba-ce51ef1c7730","createdByUserId":"dd8df7ba-7c84-4702-a3c4-b22da89f8bd5"}'

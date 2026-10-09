@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjI1LjM2MTIzMyIsInVzZXJfaWQiOiJhY2JhNTMzMC0yZTBlLTRmZjYtYjBhZi02YzQ1ODQ3YzY4NjkifQ.n6vKRkpQYxZYH8zPPSEurR16-ulxiMYaxcj4cp_M0o8' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear politics other record.","maxScore":70,"minScore":6,"description":"Design return total home attorney forward. Arrive maintain another threat simple. Up there control them toward.","estimatedTime":"6 weeks","previewFileId":"f17cb8e3-73b2-4834-88df-6caf44f81eb9"}'

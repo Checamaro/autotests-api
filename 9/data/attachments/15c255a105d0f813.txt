@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE4LjIzMDEzOSIsInVzZXJfaWQiOiI5MDhiMjRmNS0zYzFkLTQzMmMtYjJlZi0wY2I1Y2EyYWFkZjIifQ.Nd2HQQwlgwb1V48f7kDpMjGX_l5CbsRYxhqiyb6LRTo' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything focus hit fear baby main speech day.","maxScore":73,"minScore":10,"description":"Protect investment sister people carry blue. Tv move by success. Room day along statement through.\nPay those play film. Oil glass night into action adult. Choose argue serious teach word.","estimatedTime":"10 weeks","previewFileId":"aa69500a-cdf9-487a-b9b6-f4ba952a9312","createdByUserId":"908b24f5-3c1d-432c-b2ef-0cb5ca2aadf2"}'

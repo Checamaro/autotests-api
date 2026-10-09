@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjIyLjA4MzEwMCIsInVzZXJfaWQiOiIwMjhkODc0Ni01MThhLTQ0ZmUtYmIzZC00N2U1OTIyNDI4MzUifQ.22Ht7CHx9Rh3idIilIqjFvKm4uT24X-jbDomzGFILyY' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh individual key without fight.","maxScore":55,"minScore":1,"description":"Risk level my institution rise growth common. Thousand site year wind any choice none national.\nPick order it with during shoulder explain.","estimatedTime":"10 weeks","previewFileId":"24ca93e7-c68d-4d5e-abc0-eee73ad5607b","createdByUserId":"028d8746-518a-44fe-bb3d-47e592242835"}'

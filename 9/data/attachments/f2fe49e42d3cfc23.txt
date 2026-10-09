@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE0LjQzNDgyMiIsInVzZXJfaWQiOiIxMDUzMGVjNy1jNTEyLTRkMjItOTJiNy0yYmZkMjMzYTFlMDcifQ.otEcKxYxOdSavbk-j0yVYM2bWQVS694h6ocRntH-23o' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official anything require pretty politics medical dinner indeed.","maxScore":55,"minScore":12,"description":"Medical structure great receive goal. Test light per without support.\nLevel window morning rule sell film imagine. Place economy him all state perform.","estimatedTime":"3 weeks","previewFileId":"1d2c989f-7de5-4b50-8877-671898282a9b","createdByUserId":"10530ec7-c512-4d22-92b7-2bfd233a1e07"}'

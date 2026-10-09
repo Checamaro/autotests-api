@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAwLjU4MzM1OSIsInVzZXJfaWQiOiIxYzQ0YjFjZS01YmZlLTRiYWMtOTdlZC0xYjZjNWY1ZjgwOGYifQ.M409Qu5cRRBBQ9lMrqEMzzHaefm1u90VKETxwUDyeqg' \
+  -H 'content-length: 560' \
+  -H 'content-type: application/json' \
+  -d '{"title":"qQpTolpBeZOSPqUGRKbCJOuJAZENQNyhkcfBUcmhTDXGxeJcltvjJHoEXzPfoBOeNClbSgsBexrrEzdWLKJxhwbYNkKlSbHjOXdwbbciydqwxiTukjsDNBrQePoEWZFOEmDlrsaPDbxyKWFdYAkmohLRgdzAnDrBxLoojhfBUUyeyqUniNhzXCHESVHobwxhhPBrdOSteMDPhBRIgyUEJRYQQyIPtSjVqWZNyQzslUyYhnghINtJsNsGVE","maxScore":88,"minScore":30,"description":"Return present car option most born stay. Right gas capital station factor man. Always avoid doctor moment example.","estimatedTime":"9 weeks","previewFileId":"32dad886-ae5e-47d6-abc3-eae304293344","createdByUserId":"1c44b1ce-5bfe-4bac-97ed-1b6c5f5f808f"}'

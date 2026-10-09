@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjI2LjU0MDYyNCIsInVzZXJfaWQiOiIzODAyNTZlYy1kMTNiLTQ3ZTMtOGNlMi1mMDdlNjIyOGY4ZGQifQ.KyFJ4DZ2M5sylWGJFJL6TY1MMgp2ZPiJFUuMsylmPm0' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First trip person bit.","maxScore":86,"minScore":29,"description":"Study perhaps prepare capital require able hospital. Four nice glass find present. Manager show theory report let. Capital born hold likely officer.","estimatedTime":"10 weeks","previewFileId":"4c3f5fc8-e38a-4982-b85f-20a78d53e117","createdByUserId":"380256ec-d13b-47e3-8ce2-f07e6228f8dd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjI4LjAzMzQxMiIsInVzZXJfaWQiOiJmYjIxMGI5My1jYjY5LTQ2Y2MtYjczOC0wNGM1MGZhZTViOWMifQ.GnMK1fL9qQIpzt0Wf56RfUCwKd8UQl5efa1VO1Bt_s0' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie number there degree teach why.","maxScore":91,"minScore":16,"description":"North west key why letter space. Talk bank career capital.\nWhite eat stop. Language be understand anyone another need.\nAbility American on energy. Strong environmental class argue.","estimatedTime":"8 weeks","previewFileId":"96b09d12-62d5-49e0-b445-d45c89cc6567","createdByUserId":"fb210b93-cb69-46cc-b738-04c50fae5b9c"}'

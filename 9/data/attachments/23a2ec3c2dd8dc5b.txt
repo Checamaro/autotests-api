@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE2LjE5OTgzNSIsInVzZXJfaWQiOiIyYmNmMTQ3OC0xMzFiLTRiNzctODczNi1mN2MzNTQ0MDM0NzAifQ.kWF_9iIltDLxRVdZyN4-N91wiuNFq2NVvlLDdEtN1VM' \
+  -H 'content-length: 626' \
+  -H 'content-type: application/json' \
+  -d '{"title":"JTkzqaiQMnMXYusuxdbpmpPnaCGlKvTvwzltfmxNrPQsyCVFnFzDvpAaxtIbaiIFLpnsaqJOkOXIXezaGmqdIMXadKCHRjmnSqBAeCpmHpMoZwxnEsRKECNrSilSxJTqXJNoLkbWGeSoUKwBCEbIoozSHsnuQJfalqhUsdIHWNfayZlNvXCIDxlDdcsURlXLtABwqvhGBeZoQADlgKiRyngAzMTHiIldOchJYZjIjVHqZmCcRVQYjWJQHkj","maxScore":75,"minScore":23,"description":"Of official success our maybe. Into wall piece around. With whether recently away serve true various form.\nTotal whom eight happy. Stay suggest maintain age suffer thousand north.","estimatedTime":"6 weeks","previewFileId":"8883fb58-07d9-4ce0-9491-dda9228f0bef","createdByUserId":"2bcf1478-131b-4b77-8736-f7c354403470"}'

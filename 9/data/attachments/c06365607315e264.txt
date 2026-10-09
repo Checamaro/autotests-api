@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9897f3e3-a8a2-4f05-bed0-52bae91601a8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM1LjA3MzgzMiIsInVzZXJfaWQiOiI1ZmQ1MDQ5MS0zNzg3LTQ4MDAtYTk5ZC0zZWZlMzgwYjg0ZGUifQ.r4VN19d5M55w7JIM660V8DZ9CyppYFu_H4o89QQ1cig' \
+  -H 'content-length: 223' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them boy wonder same degree hospital prove.","maxScore":93,"minScore":22,"description":"Design night several vote effort yard. Across show leg finally between specific determine number.","estimatedTime":"3 weeks"}'

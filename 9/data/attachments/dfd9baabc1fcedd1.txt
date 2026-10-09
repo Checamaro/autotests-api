@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjExLjcyNDM3OCIsInVzZXJfaWQiOiIwNDIxOTVjOC02ZjQ1LTQ3NGQtODI4Ni02MmE5NGMwZTYyMTkifQ.2cK1l0J0Dhe5HvotYeFV-cC0HtGA5ODWMYG9PREM55I' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead color development certainly.","maxScore":68,"minScore":11,"description":"Conference article collection human senior. Back travel seat lose work benefit possible. Shoulder election must available design international.","estimatedTime":"5 weeks","previewFileId":"84215e29-290d-4236-9ba8-8326223ab6a6","createdByUserId":"042195c8-6f45-474d-8286-62a94c0e6219"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM2LjAwMDE1MSIsInVzZXJfaWQiOiIyMWQ4NjE3YS04ODM5LTQ0M2MtYTliMy1mOTJlZDYxZGRhNWEifQ.dpL7vwb6dbN01CipSzAFNWu2byU7L8kxQqm8D0Urm5I' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Total actually both knowledge.","maxScore":85,"minScore":7,"description":"Wait social require particular. Single finally score director. Father reach a sort realize structure bit east. Church indicate place mission could relationship cut meeting.","estimatedTime":"1 weeks","previewFileId":"dcb74d0c-6c6d-4d6d-ba77-d7b140f3a061","createdByUserId":"21d8617a-8839-443c-a9b3-f92ed61dda5a"}'

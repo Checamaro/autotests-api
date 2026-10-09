@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAyLjcwOTc3MCIsInVzZXJfaWQiOiJkOTkyNGE3Ni0wZTE2LTQ1MTEtOTc1Yi03M2UxODRjZTA0MmQifQ.fAtY8EZbX-5sLzGjAEvq1Lyqb0A2d5hLsPiPg_pcNnw' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person low bill institution probably.","maxScore":69,"minScore":23,"description":"Blood group PM lawyer rather article garden itself. Than participant reflect account go executive hour. Effort war nor recognize less arrive win.","estimatedTime":"3 weeks","previewFileId":"ffbe8eb1-331a-49e1-a884-a3b80c20759f","createdByUserId":"d9924a76-0e16-4511-975b-73e184ce042d"}'

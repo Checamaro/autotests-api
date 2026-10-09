@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAxOjU5LjEwNjQ2OCIsInVzZXJfaWQiOiIyYTU0MDVmNi1lMGYyLTQ5YmEtOTc4MC00ZWRmOTA1MmI3ZjkifQ.f2ksw3In1Cjp2J9Bd_KU0-W24BbqLXwwqY349JqlvzU' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Space suddenly consider.","maxScore":80,"minScore":5,"description":"Sign full feeling watch dinner. Paper star stay true represent. Challenge machine adult even remain control. Because car necessary nearly all.","estimatedTime":"8 weeks","previewFileId":"c3c9222f-e563-4779-bc3d-06833ca90f93","createdByUserId":"2a5405f6-e0f2-49ba-9780-4edf9052b7f9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA0LjE4NDYxNiIsInVzZXJfaWQiOiJkYWM4ZmZhYi0xZDFhLTQ0Y2UtYjNlZi02MDJkYjFmOGE5ZmQifQ.NpBLo8zdbsDRrajUgnZEPZTNf0kAvV2tpuj0GKlrTiQ' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Experience indeed rather away him far old.","maxScore":76,"minScore":5,"description":"Compare southern with. Film act process. Young success kitchen ever citizen finally job.\nPlace spend to brother.","estimatedTime":"HKFByKSEwZVFmHmWkKCfsKnpoJNZjUKqkKuhqzlASLwZLApFex","previewFileId":"0c8a1aba-edb5-401a-a8ac-42a391c75d25","createdByUserId":"dac8ffab-1d1a-44ce-b3ef-602db1f8a9fd"}'

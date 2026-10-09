@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjE5LjczNDY5MSIsInVzZXJfaWQiOiIzMGIzYTFlYi05MDg1LTQ0N2ItYTkyOC05OTBhN2Q1MzhmZGMifQ.J2QfVm3wiU-vjy4iQ62KbmmTxhXLFuH0Jvyz_SQ2vYY' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add when determine music now player wish.","maxScore":87,"minScore":23,"description":"Central grow every industry simple. Weight relationship simple along special bank generation.","estimatedTime":"2 weeks","previewFileId":"648a4f95-fdde-4cf8-90a1-951bf8f6dc88","createdByUserId":"30b3a1eb-9085-447b-a928-990a7d538fdc"}'

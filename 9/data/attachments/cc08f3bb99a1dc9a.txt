@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAxOjU2LjQyOTY4MCIsInVzZXJfaWQiOiIzMGM5OTZjNy0xNzk4LTRhYTEtYmFiMy0xMGNiNjEyNmExMjYifQ.Eyxc8wz_YJGZ5yT8vTFVcVfKvkZEyslQdd_R36s8DdU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural huge effect health we first watch.","maxScore":60,"minScore":4,"description":"Check yet camera eye expert reflect. Decision billion stock common born air. Middle win least.\nStatement data clearly true image sea.","estimatedTime":"9 weeks","previewFileId":"e1d7cad0-6f6e-466b-98e8-568cc8da3beb","createdByUserId":"30c996c7-1798-4aa1-bab3-10cb6126a126"}'

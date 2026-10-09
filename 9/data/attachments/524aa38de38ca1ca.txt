@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjAwLjMwOTA2MSIsInVzZXJfaWQiOiJiZjEyMDIzZS03YTM2LTQyZjMtOGNkYi1lOGIwYTJlMTRiYzcifQ.ONnDmtcAUYAhTt32YVmfE4Z9HaeIX8YFHTlPHByVDv4' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until edge safe Mrs speech space.","maxScore":63,"minScore":14,"description":"Central art capital system seem they eye. Today billion heart successful avoid above.\nOften experience real health one offer natural. Very day Congress billion.","estimatedTime":"10 weeks","previewFileId":"54f01036-d5fb-4906-ac5c-048583e9aa60","createdByUserId":"bf12023e-7a36-42f3-8cdb-e8b0a2e14bc7"}'

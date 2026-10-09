@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjA3LjUyODUwMyIsInVzZXJfaWQiOiIzZDgyYWZlYy1jZWIxLTQ3ODMtOGJkYy0wOWVhNmQ3ZTBmMWMifQ.s4rOgqUFn6KyDEi_hpqCZE0j24y6uuQrBczpnZSJ9n0' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement score tonight point weight environmental country.","maxScore":87,"minScore":30,"description":"Happy magazine some cost position.\nGive ahead century film build return sport consumer. Themselves security box teach this line law home. Real finally through seek option.","estimatedTime":"5 weeks","previewFileId":"e0d9e8b8-43c0-4a89-ad31-5911246df94e","createdByUserId":"3d82afec-ceb1-4783-8bdc-09ea6d7e0f1c"}'

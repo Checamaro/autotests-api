@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjM0LjgwMDEyMiIsInVzZXJfaWQiOiI3ZjcwMGRiZC05NjAzLTRlMmYtODIzZC1iMjcxZWY0ZTc5NWEifQ.o_BqK3b5OTPvaRkeD3AVWJx3i7TGheSL78_P_ykw1Hg' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democratic stop man floor.","maxScore":72,"minScore":1,"description":"Ten too major claim might hold. Stay actually let small strong behind decide age.\nMatter agreement travel recent course. Herself long late north must run.","estimatedTime":"10 weeks","previewFileId":"444ef494-d4d1-41b3-accd-0856672bf12e","createdByUserId":"7f700dbd-9603-4e2f-823d-b271ef4e795a"}'

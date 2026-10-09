@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/ce183513-399f-4f2e-bdf6-9c4d2479b584
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/ce183513-399f-4f2e-bdf6-9c4d2479b584
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to ce183513-399f-4f2e-bdf6-9c4d2479b584
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Back car federal relate media far toward.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to f3a25ad8-f52b-45e8-821f-f435749daee9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Off process develop trade strategy strategy thank. Bring large defense follow nice though look performance. Day for develop cost.
+Cost believe reason have art west offer. Voice memory memory finally.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjMyLjgwODI1MiIsInVzZXJfaWQiOiJjZDg4ZTUyYy1lMjE2LTQzZGItODE0Mi1lMzk1NjMzNGU0N2QifQ.7dfRQPf-plioURvGW0TbAzLgilEtO7oBvgY77A7dn0A' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim hear him media father pressure.","maxScore":86,"minScore":5,"description":"President meeting nor explain treatment. Only real pay blue age threat policy open.\nSure real full describe. Family marriage shoulder business.\nService figure reason east age option.","estimatedTime":"5 weeks","previewFileId":"8c545671-123d-4c5e-be94-abc111945e60","createdByUserId":"cd88e52c-e216-43db-8142-e3956334e47d"}'

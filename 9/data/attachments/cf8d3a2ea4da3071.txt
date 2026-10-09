@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjAyOjEzLjIxMTk3MyIsInVzZXJfaWQiOiI3MmE4Mzc5MS1hNmIxLTRjNDYtOWRiNy03MmM4M2JmYzA1NDkifQ.IN-4_J8t94v-TjVKtqwE2w8MS38DW0NbtfBFXligcOU' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"News argue position every.","maxScore":90,"minScore":1,"description":"Statement kind could concern. Three probably decade sea away person pass.\nLikely long meet dark. From knowledge view cause bring technology window skill. Play food decide future live.","estimatedTime":"1 weeks","previewFileId":"2fd1e300-fac9-404e-a908-5cdc47a7dc0c","createdByUserId":"72a83791-a6b1-4c46-9db7-72c83bfc0549"}'
