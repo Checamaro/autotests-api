@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU1LjA0Nzg0OSIsInVzZXJfaWQiOiI0M2UwOThkMy1mM2MxLTRkYmItOTczNi0zMWU4YzY2NjU4MWQifQ.BXYR3f_cDz4VU5AF7KEEvT-SNSBR5yd6GuykB2YfWRU' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight here rise ready.","maxScore":97,"minScore":8,"description":"She seat ask professional story. Pm grow moment property.\nFirst long organization pick else. Task develop data focus production.\nWith society clear instead. Wind southern girl.","estimatedTime":"1 weeks","previewFileId":"02214d5b-9a79-4643-be68-6d7acffb803c","createdByUserId":"43e098d3-f3c1-4dbb-9736-31e8c666581d"}'

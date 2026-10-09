@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU3LjI1ODcxOCIsInVzZXJfaWQiOiJhNGNkMGY1Yy1hYTkxLTQzZjctYTU1Yy1kOGUzYjc4MWQ1M2YifQ.AoJINEufv-aWIhRVwnGpGXrm4SFKrSF0cg_7QgVY1RM' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"","maxScore":52,"minScore":16,"description":"About speak against.\nAttorney culture leader yes. Must civil social maintain set production be. Store money marriage know social indeed throw.","estimatedTime":"6 weeks","previewFileId":"34ee2416-733d-4bd8-bc93-d224cd82d14a","createdByUserId":"a4cd0f5c-aa91-43f7-a55c-d8e3b781d53f"}'

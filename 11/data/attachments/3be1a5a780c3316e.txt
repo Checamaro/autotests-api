@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjAzLjM3NTc2MCIsInVzZXJfaWQiOiJlMGFkY2Q2ZC0zZjg0LTQ2MDktYWNiNi1mN2RiOGNhMWMxYmMifQ.Hw_nFbZP-Y7pklMkyPMWYtvGcTzQ2pAGKYH_RiOFWDs' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Level whole and even indeed bed.","maxScore":76,"minScore":15,"description":"Purpose region decide late four tax. Attack down activity nice. Total including race window interview fund young finish.","estimatedTime":"6 weeks","previewFileId":"494ea093-308d-49e9-9799-615424214625","createdByUserId":"e0adcd6d-3f84-4609-acb6-f7db8ca1c1bc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE0LjM5NTYxOCIsInVzZXJfaWQiOiJmOGZiMDIzMC1hNGI4LTQ0MmItYWE4YS1mMDhmMjYzNTRmMjcifQ.VLoegUJQrqB1iy9KvluCQBGgMALZnqTAo16w7Ugwl3E' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long tough relationship trip paper common.","maxScore":74,"minScore":15,"description":"Environment message who. Traditional there every they strong already expect. Line represent environment these item group develop thus.","estimatedTime":"5 weeks","previewFileId":"02cc47d0-4d29-4d74-a4f5-c683c24ccea7","createdByUserId":"f8fb0230-a4b8-442b-aa8a-f08f26354f27"}'

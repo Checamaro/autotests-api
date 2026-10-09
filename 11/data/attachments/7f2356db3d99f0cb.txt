@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA5LjcyMTc5MSIsInVzZXJfaWQiOiI5MjkwZjE3Zi01NTI3LTQ2MDktOTk4ZC0yYTA4ZTMwOWU2Y2EifQ.6H357Y6I3GLjVpRq3XDuQDjzirFoverEnvLcGizwfWw' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account democratic control party seem coach.","maxScore":70,"minScore":17,"description":"Say design true defense goal share court sense. Control gas situation question. Beyond detail ten hold sport.","estimatedTime":"6 weeks","previewFileId":"86707e12-eb48-48a8-b87d-8cae348ffc0b","createdByUserId":"9290f17f-5527-4609-998d-2a08e309e6ca"}'

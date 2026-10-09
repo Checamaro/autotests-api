@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU5LjA4ODU0MiIsInVzZXJfaWQiOiJlODRiZmEyZi0xMGViLTRkNzUtOTk3My02YWE2MDk4ZDFjZDUifQ.IFnU7i0Oo6B8RBSLLphQ-aQ9aAa3q1uXS3J6QYrNuWc' \
+  -H 'content-length: 476' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Culture approach policy adult indicate discover.","maxScore":67,"minScore":6,"description":"Including operation seem join subject style hotel. Leader share system audience production report other. Force capital nature product through nature office popular. Culture voice age artist.","estimatedTime":"cvfAYewyKBzCjmYyJSibYbflvYdWjJDVoVDNmpMggaSppMySpCB","previewFileId":"be09ff26-1d20-4c30-92f4-93a880678d44","createdByUserId":"e84bfa2f-10eb-4d75-9973-6aa6098d1cd5"}'

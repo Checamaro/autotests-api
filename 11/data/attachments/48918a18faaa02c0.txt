@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA2LjM1ODAwMSIsInVzZXJfaWQiOiJhYjUzZjc2OC0wMWJiLTQ5N2ItOGJhOC1mYzFmYzk5NzE5ODkifQ.2zeudfr2kbk3134HJDvpw-AhA6xX57rDC_ThHcznxWU' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Their for relationship heavy seven travel.","maxScore":56,"minScore":29,"description":"Arrive single guy power final. Approach morning give person special.","estimatedTime":"2 weeks","previewFileId":"5b65feff-d908-498f-aab2-18858f2b65b2","createdByUserId":"ab53f768-01bb-497b-8ba8-fc1fc9971989"}'

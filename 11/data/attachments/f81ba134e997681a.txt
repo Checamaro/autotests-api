@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/757d7b17-b6bd-44b8-8cf1-456b3461f024' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer 0e759443392eaec00c1f19cd2575f2a4d4cc328cc5e5efcdb5b39ef7e7ee17f2' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago when next case.","maxScore":88,"minScore":21,"description":"Fill few party possible expert school impact. Should event rock air can poor fact leader. Talk dark hold collection. Edge war them admit every different particularly.","estimatedTime":"5 weeks"}'

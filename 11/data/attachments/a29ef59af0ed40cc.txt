@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer 38db140126989df29e4f1f33921685136881df816d9e049f3d4c1bb31d07ef4a' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain however democratic federal sit game position significant.","maxScore":71,"minScore":10,"description":"Become inside house really so beat necessary. Individual act gas trial morning. Movie event right.","estimatedTime":"8 weeks","previewFileId":"7b5a502d-957c-4bcb-8e4b-fc70f5310a32","createdByUserId":"15959018-6c2a-48e6-901b-e5893d0b3713"}'

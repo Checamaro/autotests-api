@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ2LjM2MDM2MSIsInVzZXJfaWQiOiI4NGVhODZiNS0wY2FlLTQyMmMtYmRlMS0wNDMxMGI5ZWM4YTcifQ.aF0UkFQwbXBPhu9Yv8J0SImgk0Apb50FJqx1YaaRJwA' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return up then.","maxScore":72,"minScore":5,"description":"Similar recently month pick sport physical. Hot always degree behavior. Newspaper company sport ahead property.\nTraditional between foreign sea assume which child. Into alone hold for.","estimatedTime":"9 weeks","previewFileId":"e050c9ba-1eb6-4a80-87ab-32898d37592c","createdByUserId":"84ea86b5-0cae-422c-bde1-04310b9ec8a7"}'

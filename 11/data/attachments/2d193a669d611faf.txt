@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU5Ljc2NzM2OCIsInVzZXJfaWQiOiJiODgxMDQ0MC0xZmVkLTQ5YzgtODBmZC02OTMzOTkzN2E0Y2YifQ.HbTh9SO3_tcqi96-mRzrZs7a2glrq7Yn5odDzMMNHD0' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message shoulder capital factor check series.","maxScore":99,"minScore":23,"description":"Move bring imagine believe charge. Artist box race you wear to. Dark leave receive popular half.\nBefore book couple. Task ready difference at make require well.","estimatedTime":"9 weeks","previewFileId":"90c1653c-a4a4-469a-b1ab-91a45caf1c08","createdByUserId":"b8810440-1fed-49c8-80fd-69339937a4cf"}'

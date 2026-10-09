@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ5Ljg3NzE0NSIsInVzZXJfaWQiOiI1NjJlODA0Zi1kMTIzLTQ3N2YtYWIxMy05ZDMzMmY4OGU5MGYifQ.gpYFVXIcW317pPnGKmbAjemqhWIVVZ81X57dgrSIVf0' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mouth require realize accept.","maxScore":95,"minScore":21,"description":"Factor ever event around write Congress ahead. Become how like station.","estimatedTime":"1 weeks","previewFileId":"acb209a7-c433-4d7a-a81a-0f0bdb11ba6c","createdByUserId":"562e804f-d123-477f-ab13-9d332f88e90f"}'

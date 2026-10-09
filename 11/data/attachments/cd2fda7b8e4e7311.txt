@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjAyLjY3NTI1MiIsInVzZXJfaWQiOiIwNTc4NTYwOC1iNDJhLTQzMTQtOTBjYi1lYWE0NDk1OThiODAifQ.FtAQZYACgudx4KwZw4u_m08VVr0H5kNzvra4KjRtNiM' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front treat various night.","maxScore":59,"minScore":19,"description":"Government inside little time. Particular quickly central we book one carry.\nSoon practice become event simple entire everything. More almost election mean cell bit board.","estimatedTime":"8 weeks","createdByUserId":"05785608-b42a-4314-90cb-eaa449598b80"}'

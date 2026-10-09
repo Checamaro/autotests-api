@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ5LjAwOTMyMSIsInVzZXJfaWQiOiJjMWI1NmZlYi1jYzcyLTQ1NDYtYmQ5NS05MjQ4YWE4OGVmMGMifQ.gQWQmZElgd84QVS-fJHqCtNklbIhkhFVBSAiaByCgRc' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide rock may with maintain put best although.","maxScore":62,"minScore":null,"description":"Make else although fight similar very child budget. Single threat different build show instead cup.\nEvent simple fine practice practice. Teach might week among feel.","estimatedTime":"1 weeks","previewFileId":"ecfa7ee8-9a0b-417d-9cbe-ffd683e1d817","createdByUserId":"c1b56feb-cc72-4546-bd95-9248aa88ef0c"}'

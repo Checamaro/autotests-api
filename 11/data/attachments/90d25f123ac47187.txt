@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/98adaa75-652e-4427-aa76-682a11764cc3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ1LjQ1OTQ1OSIsInVzZXJfaWQiOiIxMzczMzY0Mi1mMzJkLTRlODAtOGVhNi04M2Q3OGI3ZWM3YzEifQ.Y2OspNcUM5WUyD0U9pjfYbfDAhtPGaJLWCQ-dY0KaMM' \
+  -H 'content-length: 43' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule service medical worry cup."}'

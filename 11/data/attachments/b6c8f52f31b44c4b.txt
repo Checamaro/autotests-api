@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ0LjU1MzA4OCIsInVzZXJfaWQiOiJmODQ1ZDQ5MS03NzM3LTQ1NTYtYTNmZS1iMzFmNjc3MjEzNzYifQ.0T00O-UnWGUQ59jMoEVSvisLy7DSPURCORGXektqCVQ' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper different yet.","maxScore":59,"minScore":6,"description":"Chair serve dream lawyer. Cold investment head direction.\nOffer energy subject how. Design network information arm but good since.","estimatedTime":"3 weeks","previewFileId":"21a63389-ad22-48cc-90fc-aa581ee8ac13","createdByUserId":"f845d491-7737-4556-a3fe-b31f67721376"}'

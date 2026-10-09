@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ4LjM0MjY5OCIsInVzZXJfaWQiOiI0NzVhYWVlNC1kMjUyLTRjYjgtYjkzMy1lZmQ1MjJlOTFjNzIifQ.4_Ohn00kUA2iasmY23cfenuSajnkTQm8mlaGrv6qDpQ' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural identify soldier yet citizen stand will guy.","maxScore":54,"minScore":12,"description":"Media throw likely maintain. Position green agree upon. Set firm industry quite field base.\nSoldier tell detail main member increase kid. Small hour discover network nor institution activity.","estimatedTime":"7 weeks","previewFileId":"dafd12af-c838-4f5c-b340-1ce109a9acc6","createdByUserId":"475aaee4-d252-4cb8-b933-efd522e91c72"}'

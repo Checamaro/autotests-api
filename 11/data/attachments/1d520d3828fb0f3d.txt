@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU4LjIwMjU4MiIsInVzZXJfaWQiOiI3MWQwN2JlZi04NDFiLTRmNjMtYjQ0NC00ZTliZGNlNDAyYzUifQ.O7Dur8HnuiQxRB7I7vq8kZ2NFbXr7sIUOZaHC6S_eWM' \
+  -H 'content-length: 225' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gas culture east century smile.","maxScore":93,"minScore":8,"description":"","estimatedTime":"2 weeks","previewFileId":"9d179d23-8a81-4265-874b-d99df66a66c7","createdByUserId":"71d07bef-841b-4f63-b444-4e9bdce402c5"}'

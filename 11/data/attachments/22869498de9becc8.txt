@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEyLjQxOTI2MSIsInVzZXJfaWQiOiJlMGYzY2EwZS0yNzAzLTRkOTAtYTFmYS1jNjMwZDlkYWMxOTQifQ.Lp7iXhOs0mOWy6sxtYsfMsJ48Ecye5evLxpa9X4uTow' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight tonight cell nice local.","maxScore":83,"minScore":20,"description":"Apply strategy note. Base ahead store. Talk poor provide might decide knowledge. Line structure official summer.","estimatedTime":"6 weeks","previewFileId":"0248ee5d-cc5d-4823-8088-5ef94f2fbe8f","createdByUserId":"e0f3ca0e-2703-4d90-a1fa-c630d9dac194"}'

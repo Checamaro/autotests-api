@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA5LjA1ODMzNCIsInVzZXJfaWQiOiJiOWQ5NmU5YS0yZjBlLTQ0YWYtYTlhMi1hMWQ2MWQzMGI2YTkifQ.N8qUd8a6x07ST-S8R-ZQgUD5CsPlEbE9E9ApT6fXP4I' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly miss pressure speech loss voice sound.","maxScore":95,"minScore":21,"description":"Arrive behavior easy onto information close listen. Treatment edge specific fire. Wrong show someone bill morning. Go star right many stand.","estimatedTime":"7 weeks","previewFileId":"9a530667-61e5-4258-b5f7-382622f53977","createdByUserId":"b9d96e9a-2f0e-44af-a9a2-a1d61d30b6a9"}'

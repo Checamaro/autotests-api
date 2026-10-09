@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4bca80e9-d41e-4987-b198-f16e25dca738' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ5LjIxMjQ4MSIsInVzZXJfaWQiOiIzYTY5MzIzZC1iNDg2LTRkODctODA3ZC03YzQxN2E1YjVlZWIifQ.wA3ffr-pPmNhw1431pOJ8B_ihyltsUWUeCVTsf4fZnk' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"dZmIkcziMucCTfCxmDSZeRStKQYhJGvVZxfjhpIGmLuqcwsqhrLZvlypxZdovPxIdBVEOsCbHfRSMHpaMRRgkccrBTalvpVSRywoKOsZKmpuCpKiXglBDIDzcfpjPTLhuThSyijvrgNGOKUvnZZoFRbLdRSeyIXFDgKeorYQdkryrkaeAyJPIzGFWnZTjuzkwwvJxcYLPYNvtwyeORscErGecZKTMmBCwTTZRhIIObVfTNgVpJlxqRmdbW"}'

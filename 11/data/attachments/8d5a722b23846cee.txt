@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ5LjIxMjQ4MSIsInVzZXJfaWQiOiIzYTY5MzIzZC1iNDg2LTRkODctODA3ZC03YzQxN2E1YjVlZWIifQ.wA3ffr-pPmNhw1431pOJ8B_ihyltsUWUeCVTsf4fZnk' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nearly history month story our.","maxScore":67,"minScore":9,"description":"Drive view today well vote article. Sense water time way fish American buy position. Discuss rest policy stand member summer. Camera teach about success best.","estimatedTime":"10 weeks","previewFileId":"965eaeca-c017-456b-83ff-0b55ae0f452e","createdByUserId":"3a69323d-b486-4d87-807d-7c417a5b5eeb"}'

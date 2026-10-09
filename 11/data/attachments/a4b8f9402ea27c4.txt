@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ1LjQ1OTQ1OSIsInVzZXJfaWQiOiIxMzczMzY0Mi1mMzJkLTRlODAtOGVhNi04M2Q3OGI3ZWM3YzEifQ.Y2OspNcUM5WUyD0U9pjfYbfDAhtPGaJLWCQ-dY0KaMM' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View both nature.","maxScore":68,"minScore":25,"description":"Huge size oil against. Court heavy staff doctor however. Ground study newspaper military painting. Make really then fine leg sea.\nInclude Mr decade range. Activity lay public boy.","estimatedTime":"4 weeks","previewFileId":"6f836f6c-2ce6-45d7-aafa-11e769cdbf93","createdByUserId":"13733642-f32d-4e80-8ea6-83d78b7ec7c1"}'

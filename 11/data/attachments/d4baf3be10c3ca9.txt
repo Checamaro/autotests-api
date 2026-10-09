@@ -1,0 +1,10 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c967c59d-1356-4008-a7d9-07198c7e1e3e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim role word a what I region.","maxScore":88,"minScore":21,"description":"Chair ago only voice generation similar believe. Like matter carry keep. Bed under far lose role ok.\nMyself feeling money view.\nItem during raise conference.","estimatedTime":"1 weeks"}'

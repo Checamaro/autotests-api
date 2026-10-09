@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQzLjYzOTM1OSIsInVzZXJfaWQiOiI4ZGI5ZDM1NS1lOTE4LTRiYTEtOGZlMy0wNTgyYmM3ZjZhZTMifQ.bp-NzQ7ROJxb14zmGY4dnEp6dCUn70xX5sUbPkw_AFo' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather article network any else agent dog movement.","maxScore":96,"minScore":3,"description":"Enough as assume wall fact say chance. Pay politics see assume south everybody fact.\nKeep maintain employee certainly hundred. Sign forget middle.","estimatedTime":"2 weeks","previewFileId":"c1e5f808-7830-4f9b-8b62-b38ea34cbe8c","createdByUserId":"8db9d355-e918-4ba1-8fe3-0582bc7f6ae3"}'

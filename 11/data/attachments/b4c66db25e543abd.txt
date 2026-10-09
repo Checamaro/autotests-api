@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjExLjUyNTA1MSIsInVzZXJfaWQiOiI3OTcyYzliNC1lMjE0LTQ1NjUtYjdjYS1kZDYyY2VmY2Q0MDgifQ.Eye_UIG1j3B4RpouSNm4uup33HCZnT3G2501viCTBpQ' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Not drop out military.","maxScore":58,"minScore":7,"description":"Expect simply edge. Economy oil push Democrat vote politics. Religious interest suggest admit deal. Far nice as company rock.","estimatedTime":"6 weeks","previewFileId":"f74caf2a-eee4-42e3-9fd4-d3d2ef7bde47","createdByUserId":"7972c9b4-e214-4565-b7ca-dd62cefcd408"}'

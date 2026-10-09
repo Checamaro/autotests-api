@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ0Ljc1NzkzMSIsInVzZXJfaWQiOiI2MDBjMDRkNC0yZWI2LTRhNjEtODRiYi1lMjZhZmRmMzM4NmMifQ.Vy28CAHio1-gHTv8T3vQDOvreBm1wq5cpNNtMRwjKRU' \
+  -H 'content-length: 615' \
+  -H 'content-type: application/json' \
+  -d '{"title":"CouqlCMgucTJaAfQvXeHrFAHJTupSosCPqhccweSoeBbINcjjixrdZRqOAuHzkgpvtmIIMEjZtAEXhJNqQDNeFnSHyTkHVncLWPVkvpmATUBDIUeUkQJBtGuPsQxVimbGiqIPYNtjIoWvfUTSJjCnGcgEVkNVmOZoyXyQDOYHWjUVAFyaVngYKGmTgaFCfyhmlLZQTPHosSfLZcDYvDMQEJGBAuNgLZgoedxhHKYEkrWgXryVMDHKZhNze","maxScore":87,"minScore":25,"description":"Not still decide letter writer. Both book beyond through thought above.\nGirl type fly include prevent wish bill whether. Lose however three protect soon sense recognize.","estimatedTime":"1 weeks","previewFileId":"c8233569-2cd5-4d24-8023-44f442af0f7c","createdByUserId":"600c04d4-2eb6-4a61-84bb-e26afdf3386c"}'

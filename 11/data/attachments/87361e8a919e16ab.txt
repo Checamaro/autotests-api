@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjUyLjMyNzgwMyIsInVzZXJfaWQiOiJmMjE2YWFhNy0yZWM3LTQ4ZTktOTRlYi0yNGJiMzdlZGQ3YzMifQ.6UsFWxNtUxsPcopZzrhv-COwM5MMk4lpvXaCk3QcBsQ' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment must north out police executive law chair.","maxScore":60,"minScore":17,"description":"Process education big box you culture south. Main building instead writer. Be what understand tend vote.","estimatedTime":"1 weeks","previewFileId":"3d6a3b42-98d5-4361-a399-26d4839503ee","createdByUserId":"dxGIEgkOhu"}'

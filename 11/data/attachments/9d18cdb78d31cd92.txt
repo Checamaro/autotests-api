@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ2LjU2NTc5MSIsInVzZXJfaWQiOiJhYmNlZTk2NS02MzBmLTRhZmYtYTViNS0yMzM3OGExZTgzOGYifQ.WXUwFj1y-0gAIV1z0EQJ8GZOIhVOhaOg04vTw7rtVz8' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Several visit another catch this.","maxScore":69,"minScore":27,"description":"Prevent mean also test. Commercial adult interview through forget fly every particularly.\nMight firm service cold size second benefit star.","estimatedTime":"m","previewFileId":"10359ac8-ce5d-4167-9a5c-049564329564","createdByUserId":"abcee965-630f-4aff-a5b5-23378a1e838f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU5Ljk3MzI2MSIsInVzZXJfaWQiOiI1ZTM1MjQ0My05MTllLTQxOTQtOGIzOC1hZDczNDI3NjkwZTMifQ.9BOuaW5CMzev-P7oSBPouShCCXfrASbWF5QvvZCatrg' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever according peace lead seat list whose.","maxScore":50,"minScore":22,"description":"View city total staff international agency bar. Child some expert wonder wide ability visit investment.","estimatedTime":"","previewFileId":"8b2d2064-b3f8-4ad8-9eb9-ac5ff4d35caf","createdByUserId":"5e352443-919e-4194-8b38-ad73427690e3"}'

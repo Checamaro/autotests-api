@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA1LjQzNzEyOCIsInVzZXJfaWQiOiI5NDQ3ODI3Ni1mYWI2LTRiZDEtYjBlZS1lZDgzYThlYmM0YzUifQ.LWXJugj3Q9DCCwZ47YmGNs6nP8Bkbs1k6FrCj-KSK2M' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Join very past rich.","maxScore":94,"minScore":18,"description":"Wear send debate buy hair think picture. Serious page they.\nName development church trial pass drug few group. Next painting very require set. Dream like candidate.","estimatedTime":"7 weeks","previewFileId":"0bd90707-e478-47c9-b51a-f72f92d9e45d","createdByUserId":"94478276-fab6-4bd1-b0ee-ed83a8ebc4c5"}'

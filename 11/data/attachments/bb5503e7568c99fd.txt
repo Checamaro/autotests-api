@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Their production teacher television huge.","maxScore":91,"minScore":19,"description":"Or water today run thousand realize. My find learn difficult. Either college would hold care control.\nCall few trade another big these care. Plant trip career month this.","estimatedTime":"2 weeks","previewFileId":"dd259003-df7c-4095-b1a7-9c665190687c","createdByUserId":"f0046ff7-72e5-44cd-a5c2-6bda20a9d6c7"}'

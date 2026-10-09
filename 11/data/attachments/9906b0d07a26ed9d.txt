@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjAyLjQ2OTcxNiIsInVzZXJfaWQiOiIwOWNmZDUxNy1kYzcwLTQzNTktOWMzZC03N2QzZjQxNmUxZWIifQ.XrmERLd26ckuYodOXUZCRogKV9fe4fp3kPdFoBXV6EA' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Condition its hotel soldier recent success peace.","maxScore":90,"minScore":20,"description":"Which question reflect building. Camera eight car exist there power easy. Material agree improve drug house ok example remember.","estimatedTime":"10 weeks","previewFileId":"5b68f586-caf7-4ee7-b467-5f2a1cb5f891","createdByUserId":"09cfd517-dc70-4359-9c3d-77d3f416e1eb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEyLjYyNTcyNCIsInVzZXJfaWQiOiJlZDkxNDM5Yi03ZTU2LTQxYmItYTU5My0xNzM4ZWFiZDkwMmUifQ.JoO2AVsMOubw_yE_fO0fQsa9DG-OGYZwodqk3l7GMKU' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor father group east responsibility why more.","maxScore":92,"minScore":28,"description":"Them now account notice meet set fire. Just success adult risk pressure human star. Relationship share week care cause.","estimatedTime":"10 weeks","previewFileId":"8a3ea6d8-e338-4dad-a9ae-7607efbe5c16","createdByUserId":"ed91439b-7e56-41bb-a593-1738eabd902e"}'

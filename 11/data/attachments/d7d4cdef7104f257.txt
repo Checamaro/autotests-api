@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjU2LjM5NjU4MyIsInVzZXJfaWQiOiI2ODFlYWM0NS05MDg4LTQzODAtOWI2ZC00ODUzNTBlYjQ1NjYifQ.JlIcjbwbEeV7nUtUJo39uIpyu0Rlz0ehCSemOewA-4I' \
+  -H 'content-length: 613' \
+  -H 'content-type: application/json' \
+  -d '{"title":"LfTVjjvfRjFYwNgophDBvqvhUXdfyjugfoiZihYTMbHDJDiwdoBSHhyGTkcZFGDwXjNOVmlXOIGjueDMQAWnLITSZgOMTlgtciDQNpuzhApPrfTlymhLrdOAYxYVcrpMufeRrMtrVHAlOXhQatlmeAwgUGVMygBdeWyqykCKffHwKWkkxPToYNYpdOfoAAZrHLjWMNuSYDDFVKaBAWOICzCgLaQsamiRhvslIYrQjxOQHbrAFADxGcNlTAj","maxScore":95,"minScore":6,"description":"Born physical follow visit six. Deep middle late democratic. Cell move person animal.\nCommercial standard campaign stuff me claim. Practice reveal name along point on.","estimatedTime":"8 weeks","previewFileId":"524e7eb6-e33b-4d81-939e-417e83818ea9","createdByUserId":"681eac45-9088-4380-9b6d-485350eb4566"}'

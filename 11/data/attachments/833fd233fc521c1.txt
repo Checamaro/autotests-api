@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ3LjI2MTU4NyIsInVzZXJfaWQiOiJjMjdkOGU1Zi01YTU2LTRhNWQtYjY3YS05ZDMwNGFmM2MyZWQifQ.p81ZsFKhvfmqtYXPYWNDeeMS5lnFkkV4IA3T56H1NlU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Popular son when then Mr include other central.","maxScore":67,"minScore":21,"description":"Reach vote hope energy impact truth number. Various process make inside deep article.","estimatedTime":"gRhFnmTkYNrCQGhPJAioQApPwMMOhflEKoZLqXqgkHiHNiGCIG","previewFileId":"3cf815df-1def-44dc-844e-582bb94a8c48","createdByUserId":"c27d8e5f-5a56-4a5d-b67a-9d304af3c2ed"}'

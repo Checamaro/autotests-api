@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA0LjMxOTcxMCIsInVzZXJfaWQiOiI1ZmE3Y2I1Yy1lNmM5LTRlZWUtOTJiNS1hMGRhN2Y3ODA1MmQifQ.6hvsxf70qOYrrzHwOfSedhxWdChzl4H9_OLDqLlOTMU' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy beautiful charge itself fall scene cut.","maxScore":56,"minScore":9,"description":"Message offer together goal. Surface field first light reflect.\nIndeed central political mother explain hit first. Know create piece set. Exist lead must civil trade yourself.\nIt resource room.","estimatedTime":"1 weeks","previewFileId":"fb1377dc-af0d-4619-a852-5709904e3c86","createdByUserId":"5fa7cb5c-e6c9-4eee-92b5-a0da7f78052d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjUwLjc1NzAzMCIsInVzZXJfaWQiOiI5MjdkZWNjYi1lOTZiLTRkMDktYjQwYi04MDM2YzQzOWRlMTgifQ.WzbskeNy13xebVbiDc2bfvYZRiPbI8t4HUDBdU7cA5Y' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test popular site eat also since provide.","maxScore":57,"minScore":6,"description":"Full everyone outside international man money page culture. Truth moment home democratic.\nWord news strong without job. Develop put huge citizen method film.\nRate plan rather commercial.","estimatedTime":"4 weeks","previewFileId":"8eb151e3-8290-49d7-8467-cd16f774eea7","createdByUserId":"927deccb-e96b-4d09-b40b-8036c439de18"}'

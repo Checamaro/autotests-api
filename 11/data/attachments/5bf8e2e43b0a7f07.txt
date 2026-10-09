@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQzLjg0Mjk2MyIsInVzZXJfaWQiOiJiOTkzODcwZi03NTQzLTQ1YTQtYWY5YS0xNDJkMTVjNWRiYzMifQ.4Ilmedhknwkk9n4IMtQ9S0EZnKnH14nX0JKgmck-INg' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"K","maxScore":92,"minScore":6,"description":"Set in consumer available address. Step what center reach catch military past. Record friend gun difference drive more father.","estimatedTime":"8 weeks","previewFileId":"b4e1bed5-87c0-4266-88a3-b59aeca9f9dc","createdByUserId":"b993870f-7543-45a4-af9a-142d15c5dbc3"}'

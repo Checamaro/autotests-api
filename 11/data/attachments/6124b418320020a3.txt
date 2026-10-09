@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA3LjY3NzM2NSIsInVzZXJfaWQiOiI4ODQxMTdhNi1kYjg5LTRhNjYtYWJjNS1iYjNhODJjNmZhMjQifQ.sZoiZWuL1e6Z-gyuQoITnOQU_9PYAZdCO8d_OQBjFOk' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner child truth south home government deep.","maxScore":68,"minScore":15,"description":"Thousand option protect various into six national. Pressure involve movie forget media lay thus. Reality despite star as travel figure.","estimatedTime":"7 weeks","previewFileId":"b9b1e6e1-2792-43a8-ae57-17b0d4765c16","createdByUserId":"884117a6-db89-4a66-abc5-bb3a82c6fa24"}'

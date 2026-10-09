@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA5LjkzMDQ4NyIsInVzZXJfaWQiOiI1NmZkN2RjZi0xYTZjLTQxMmMtYWI2Yy0wZmU4YTQ5MmFkMmQifQ.IZZzEWr8ks9anY9mf3BAoYkBQUF7acL_TuaeC5aqqd4' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official ask standard less style.","maxScore":95,"minScore":2,"description":"Interesting help sometimes interview police exist reveal. Approach prove particularly maintain spend capital indeed. Bank firm magazine good.","estimatedTime":"3 weeks","previewFileId":"f4c3bb32-158f-416c-bee4-57383a7a0349","createdByUserId":"56fd7dcf-1a6c-412c-ab6c-0fe8a492ad2d"}'

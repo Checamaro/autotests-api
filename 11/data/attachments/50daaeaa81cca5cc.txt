@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Reach short ground radio ready international one.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Ask return until cup. Help professor into organization care rich them boy. Smile realize hope level financial activity newspaper remain.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 6e070fda-fa4b-4f62-ace4-9be0656a137c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 51bed3ba-5728-4900-a72f-f1532cd96b21
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

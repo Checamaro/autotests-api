@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjAwLjY3MTYxMCIsInVzZXJfaWQiOiJhMDA0MDIyMS1hYjQwLTQ5ZmMtYTYxNS04MTc0NTdiMDA0MDkifQ.G2fEhyapnc8jgdlQZsWs7wMWFsXRZgX4vyQUz5lDHMs' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Outside without tonight number.","maxScore":74,"minScore":2,"description":"Miss owner consider spend myself actually son send. Along hour break improve individual show pick world.\nCustomer type yard simply thus available. Start well save begin benefit economy social.","estimatedTime":"8 weeks","previewFileId":"5ed03c52-6600-4abd-9944-fc40abe10a0a","createdByUserId":"a0040221-ab40-49fc-a615-817457b00409"}'

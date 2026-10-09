@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQyLjA4Mzc4OSIsInVzZXJfaWQiOiI1MWJlZDNiYS01NzI4LTQ5MDAtYTcyZi1mMTUzMmNkOTZiMjEifQ.xs0zKSNkDqybzkPJuX-h5ju-KhU6lQZQ8oBAoiADAfo' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach short ground radio ready international one.","description":"Ask return until cup. Help professor into organization care rich them boy. Smile realize hope level financial activity newspaper remain.","previewFileId":"6e070fda-fa4b-4f62-ace4-9be0656a137c","createdByUserId":"51bed3ba-5728-4900-a72f-f1532cd96b21"}'

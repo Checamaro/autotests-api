@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEzLjQ3NTgxNSIsInVzZXJfaWQiOiJmYzI3MWQ2Mi03YmI5LTQwZDMtYjYxNS1lY2M0NjJkNDdhOTQifQ.ie8dfmwrNGjzYUekCwH4iDJpsGK35QA1FuO9yApVj-E' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At election campaign situation whole front.","maxScore":58,"minScore":14,"description":"Forward question sign beat along friend. Behind himself fast finally clearly practice democratic.\nAddress movement however pretty share. Art nothing standard money side. Service pass candidate.","estimatedTime":"5 weeks","previewFileId":"07c85de7-d981-4f57-8a05-e4ce8339af84","createdByUserId":"fc271d62-7bb9-40d3-b615-ecc462d47a94"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/76cf2bc8-3a6a-463a-aa31-ea6d17211f89' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjA4LjExNTEyMCIsInVzZXJfaWQiOiIwOWRmNTlhOS1hZTBjLTRhZTktODc3OC03MjFkMWQwNmI1MDgifQ.urRuyTHGvlCObdXoZSyA5kqh1GnqbuSeQBS6k4uO9Fs' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen can investment government.","maxScore":58,"minScore":2,"description":"Public should any suffer minute. Dog stand marriage expert character specific shake. Energy notice feel rather spring.","estimatedTime":"2 weeks"}'

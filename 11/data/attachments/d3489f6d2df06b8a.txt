@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjUyLjc1NTQ5OSIsInVzZXJfaWQiOiIxZTk5N2JlNy1lMzVkLTRhNGUtYmFhYy01MjBhZTBkZjIyOTcifQ.6dAZBNUZXCMYxeP57kCWNf8X74X_PACsyeVRZfa_TmQ' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indicate music total voice among concern born.","maxScore":80,"minScore":20,"description":"Trade indeed show shoulder decade. Message major future training accept concern technology provide.","estimatedTime":"2 weeks","previewFileId":"87389116-b282-46b6-a686-fc7e14873537","createdByUserId":"1e997be7-e35d-4a4e-baac-520ae0df2297"}'

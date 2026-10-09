@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjAzLjU4MTM1MCIsInVzZXJfaWQiOiI2ODljM2Y3Yi04Yzg4LTRlOWUtYTUwOC01ZWRhZWVhOGJhZTQifQ.lCUoqhA4bippohmHroQa8z3E_LciSkAJq0MIQtUqrC4' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How determine common theory quickly whole.","maxScore":54,"minScore":18,"description":"Cut performance mission. Mother heavy participant into four cup everyone.\nSoldier very modern table success draw assume. Nearly as course where.","estimatedTime":"2 weeks","previewFileId":"0987f0e3-6d9f-472e-b0ab-619f2295f5e7"}'

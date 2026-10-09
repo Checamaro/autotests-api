@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ1LjY2NDQzMCIsInVzZXJfaWQiOiI5ZTllOGM1Zi0yMTNiLTRlYzktYmY2NC03NmZhODY5MjhjNjkifQ.DnHcF-xc87BPbYD5Jr4o_cHJn-jQ6hgVgEL2qKfdzSs' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Within science but result eye maintain.","maxScore":78,"minScore":2,"description":"c","estimatedTime":"4 weeks","previewFileId":"72fc0e65-0949-4639-823c-815c74142585","createdByUserId":"9e9e8c5f-213b-4ec9-bf64-76fa86928c69"}'

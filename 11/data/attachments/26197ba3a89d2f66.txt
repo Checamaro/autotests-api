@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1a102d6d-31cd-4cba-bf87-fcc08b41ae43' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ2LjM2MDM2MSIsInVzZXJfaWQiOiI4NGVhODZiNS0wY2FlLTQyMmMtYmRlMS0wNDMxMGI5ZWM4YTcifQ.aF0UkFQwbXBPhu9Yv8J0SImgk0Apb50FJqx1YaaRJwA' \
+  -H 'content-length: 198' \
+  -H 'content-type: application/json' \
+  -d '{"description":"Sell already American back indeed discover. Vote financial friend father.\nProtect week base especially TV. Data structure couple feel. Affect pretty customer today election color."}'

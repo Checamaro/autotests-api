@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQxLjY1OTU4MyIsInVzZXJfaWQiOiI0NDhmNDA0OS1mOWM0LTRhOWQtOGI3Mi1jZWQyNDMwMzJkNjEifQ.fNB56AAJdP7Tf1NvSbssGFDrwT95-_INZVKEjeclQWk' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe book hour determine.","maxScore":73,"minScore":10,"description":"Society current we drive upon. Wall office catch partner identify. Gun work wind economic. Reality language method approach window.","estimatedTime":"7 weeks","previewFileId":"d994b88e-5256-4f6b-ada1-29f1d04034bc","createdByUserId":"448f4049-f9c4-4a9d-8b72-ced243032d61"}'

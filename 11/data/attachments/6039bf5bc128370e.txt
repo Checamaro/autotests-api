@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ3LjQ2NDY0NCIsInVzZXJfaWQiOiI4ZmFhNDdkNi03YTBkLTQ1MzUtOWYxNS03ZmUwM2Q4MmZkYTYifQ.dntOfn6PorwTCw2WdMhSWQ9ZxzVIFfbp03h3guS45-E' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Air rule road child.","maxScore":92,"minScore":26,"description":"Begin never road tell. Campaign medical usually someone true.\nBill term together write allow security. Commercial science today tree I voice image. Us themselves upon.","estimatedTime":"8 weeks","previewFileId":"e69533b5-edc8-42b4-96df-9cede266ac3e","createdByUserId":"8faa47d6-7a0d-4535-9f15-7fe03d82fda6"}'

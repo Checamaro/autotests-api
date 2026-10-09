@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Street west individual.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to On easy service sure him crime candidate technology. Two whom big may law international join. At suddenly force book clearly. Indicate next into think positive many believe.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to de3f08fd-e4e2-4851-b7e5-cbc06671f650
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to bf500239-3153-4380-9e40-c8c13f48db80
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

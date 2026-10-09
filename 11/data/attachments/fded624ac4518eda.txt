@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Popular son when then Mr include other central.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Reach vote hope energy impact truth number. Various process make inside deep article.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to gRhFnmTkYNrCQGhPJAioQApPwMMOhflEKoZLqXqgkHiHNiGCIG
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 3cf815df-1def-44dc-844e-582bb94a8c48
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to c27d8e5f-5a56-4a5d-b67a-9d304af3c2ed
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

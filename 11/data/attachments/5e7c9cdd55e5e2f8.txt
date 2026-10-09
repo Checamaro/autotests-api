@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjE1LjA4NzQwNCIsInVzZXJfaWQiOiJiMWMwYjhkNi03YzU3LTQ3NzItOTI0Ni0zZGVkMjEyM2MzY2UifQ.8fjNBuYmF3xt0W1JegkfmVQoNtu7hELewMwRu2JlgFk' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head through organization yeah your course family.","maxScore":98,"minScore":1,"description":"Through Mr professor common piece food music. Investment final yes debate nature book above.\nWould person yeah. Service newspaper money all gun onto up husband. Card onto visit environment.","estimatedTime":"3 weeks","previewFileId":"d9c10ea4-b17a-44bb-b021-6285b1424832","createdByUserId":"b1c0b8d6-7c57-4772-9246-3ded2123c3ce"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/daefd84f-b5aa-4227-bd8a-5ef59ed68a81' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQ0LjU1MzA4OCIsInVzZXJfaWQiOiJmODQ1ZDQ5MS03NzM3LTQ1NTYtYTNmZS1iMzFmNjc3MjEzNzYifQ.0T00O-UnWGUQ59jMoEVSvisLy7DSPURCORGXektqCVQ' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would hour color land.","maxScore":79,"minScore":28,"description":"Collection everybody they most. With rather those throughout book.\nStrong game wonder listen. City source probably.\nTravel side good such. Leader home serious. Describe anything stop act.","estimatedTime":"10 weeks"}'

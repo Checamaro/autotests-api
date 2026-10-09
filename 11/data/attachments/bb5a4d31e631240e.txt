@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQyLjk2OTUwNiIsInVzZXJfaWQiOiIyY2M1NDljNC1hOWQ3LTQ4MDAtODY0MC03NzdkMjdmMTc0ZjEifQ.YDwoS-KUW59OATVmLMhhd30ZrjvMmTQTyI7o4BMmtV4' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Me offer how community story TV material.","maxScore":null,"minScore":null,"description":"Career avoid even television partner suggest. Ball network outside necessary.\nFrom recognize after wife probably only represent. Sign computer worker summer.","estimatedTime":null,"previewFileId":"03627c5d-f425-44ad-8a2a-7c0ece1b0236","createdByUserId":"2cc549c4-a9d7-4800-8640-777d27f174f1"}'

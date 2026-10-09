@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE4OjQxLjIyMDI4MyIsInVzZXJfaWQiOiJlOWEyYWFhMS02YmI3LTQ3ZGYtYWZmMC1jZWJmMTliMDJiYzkifQ.TAMuPzNi6IdmSqOEu95bx-PYD-LHMS157-bbQsnNEMc' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner former clearly including.","maxScore":50,"minScore":3,"description":"Scientist fast suffer year rise some sometimes national. Plan by personal trial arrive far try. Purpose Mrs wall ask.","estimatedTime":"2 weeks","previewFileId":"63fa6e0c-0805-46e2-9bfa-677134292f8b","createdByUserId":"e9a2aaa1-6bb7-47df-aff0-cebf19b02bc9"}'

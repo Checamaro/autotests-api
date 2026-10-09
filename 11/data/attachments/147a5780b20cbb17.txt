@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Me offer how community story TV material.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Career avoid even television partner suggest. Ball network outside necessary.
+From recognize after wife probably only represent. Sign computer worker summer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to None
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 03627c5d-f425-44ad-8a2a-7c0ece1b0236
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to 2cc549c4-a9d7-4800-8640-777d27f174f1
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

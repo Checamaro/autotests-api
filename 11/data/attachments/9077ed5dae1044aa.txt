@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Several visit another catch this.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 69
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Prevent mean also test. Commercial adult interview through forget fly every particularly.
+Might firm service cold size second benefit star.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to m
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to 10359ac8-ce5d-4167-9a5c-049564329564
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to abcee965-630f-4aff-a5b5-23378a1e838f
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

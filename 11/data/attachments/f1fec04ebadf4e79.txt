@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7dcbf418-1e31-47f0-9551-273b6582ef7c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEwLjM4NDE4MCIsInVzZXJfaWQiOiI4ZDI5NmY3YS1lOTE2LTQyZDgtYmM3ZS0yN2FjMjdlYWI2MjIifQ.vLvvXeQcRawoflhqa1PshHKW3_-kN_x7zjohv2rmOwE' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Knowledge unit rule up easy.","maxScore":97,"minScore":9,"description":"Same garden need paper information suffer training. Either front everyone oil.\nMother human baby plant receive tonight operation. Technology require by ever debate. Too number author whether.","estimatedTime":"4 weeks"}'

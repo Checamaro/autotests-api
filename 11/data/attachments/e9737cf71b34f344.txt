@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8670effb-059f-4af4-926f-f7f6151eca09' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDIwOjE5OjEzLjQ3NTgxNSIsInVzZXJfaWQiOiJmYzI3MWQ2Mi03YmI5LTQwZDMtYjYxNS1lY2M0NjJkNDdhOTQifQ.ie8dfmwrNGjzYUekCwH4iDJpsGK35QA1FuO9yApVj-E' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve here whole million.","maxScore":91,"minScore":22,"orderIndex":47,"description":"Describe pretty suddenly.\nEvery from most tax sure yes win carry. Owner the now thousand improve research. Either once guess write not pick fund.","estimatedTime":"10 weeks"}'
